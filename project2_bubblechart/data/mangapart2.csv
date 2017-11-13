@@ -1,0 +1,123 @@
+id,Title,Author,Genre,Length,Published_Year,Revenue_in_million
+0,One Piece,Eiichiro Oda,Shōnen,84,1997,406.0
+1,Golgo 13,Takao Saito,Seinen,182,1968,280.0
+2,Dragon Ball,Akira Toriyama,Shōnen,42,1984,240.0
+3,Naruto,Masashi Kishimoto,Shōnen,72,1999,220.0
+4,Kochira Katsushika-ku Kameari Kōen-mae Hashutsujo,Osamu Akimoto,Shōnen,200,1976,156.0
+5,Case Closed,Gosho Aoyama,Shōnen,91,1994,150.0
+6,Pokémon Adventures,Hidenori Kusaka,Shōnen,52,1997,150.0
+7,Oishinbo,Tetsu Kariya,Seinen,111,1983,130.0
+8,Slam Dunk,Takehiko Inoue,Shōnen,31,1990,120.0
+9,Astro Boy,Osamu Tezuka,Shōnen,23,1952,100.0
+11,Fist of the North Star,Buronson,Shōnen,27,1983,100.0
+13,Touch,Mitsuru Adachi,Shōnen,26,1981,100.0
+14,Hajime no Ippo,George Morikawa,Shōnen,116,1989,94.0
+15,Kindaichi Case Files,Yōzaburō Kanari,Shōnen,70,1992,90.0
+16,Bleach,Tite Kubo,Shōnen,74,2001,87.0
+17,Sazae-san,Machiko Hasegawa,Josei,45,1946,86.0
+18,Captain Tsubasa,Yōichi Takahashi,Shōnen,92,1981,82.0
+19,Vagabond,Takehiko Inoue,Seinen,37,1998,82.0
+21,Rurouni Kenshin,Nobuhiro Watsuki,Shōnen,28,1994,70.0
+22,Sangokushi,Mitsuteru Yokoyama,Shōnen,60,1971,70.0
+23,Hunter × Hunter,Yoshihiro Togashi,Shōnen,33,1998,66.0
+24,Fullmetal Alchemist,Hiromu Arakawa,Shōnen,27,2001,65.0
+25,Baki the Grappler,Keisuke Itagaki,Shōnen,123,1991,63.0
+26,Boys Over Flowers,Yoko Kamio,Shōjo,37,1992,61.0
+27,Attack on Titan,Hajime Isayama,Shōnen,21,2009,60.0
+28,Rokudenashi Blues,Masanori Morita,Shōnen,42,1988,60.0
+29,Shoot!,Tsukasa Ooshima,Shōnen,33,1990,60.0
+30,Bad Boys,Hiroshi Tanaka,Shōnen,22,1988,55.0
+31,H2,Mitsuru Adachi,Shōnen,34,1992,55.0
+32,Major,Takuya Mitsuda,Shōnen,78,1994,53.0
+33,Minami no Teiō,Dai Tennōji,Shōnen,130,1992,53.0
+34,Ranma ½,Rumiko Takahashi,Shōnen,38,1987,53.0
+35,The Prince of Tennis,Takeshi Konomi,Shōnen,42,1999,51.0
+36,Dragon Quest: Dai no Daibōken,Riku Sanjo,Shōnen,37,1989,50.0
+37,Gin Tama,Hideaki Sorachi,Shōnen,67,2003,50.0
+38,Glass Mask,Suzue Miuchi,Shōjo,49,1976,50.0
+39,Great Teacher Onizuka,Tooru Fujisawa,Shōnen,25,1997,50.0
+40,Rookies,Masanori Morita,Shōnen,24,1998,50.0
+41,YuYu Hakusho,Yoshihiro Togashi,Shōnen,19,1990,50.0
+42,Dokaben,Shinji Mizushima,Shōnen,48,1972,48.0
+43,Initial D,Shuichi Shigeno,Seinen,48,1995,48.0
+44,Crows,Hiroshi Takahashi,Shōnen,26,1990,46.0
+45,Black Jack,Osamu Tezuka,Shōnen,17,1973,45.0
+46,Inuyasha,Rumiko Takahashi,Shōnen,56,1998,45.0
+47,Shizukanaru Don – Yakuza Side Story,Tatsuo Nitta,Seinen,108,1988,44.0
+48,Crayon Shin-chan,Yoshito Usui,Seinen,50,1990,43.0
+49,Nana,Ai Yazawa,Shōjo,21,2000,43.0
+50,Be-Bop High School,Kazuhiro Kiuchi,Seinen,48,1983,40.0
+51,Berserk,Kentaro Miura,Seinen,38,1990,40.0
+52,City Hunter,Tsukasa Hojo,Shōnen,35,1985,40.0
+53,Cobra,Buichi Terasawa,Shōnen,18,1978,40.0
+54,Kachō Kōsaku Shima,Kenshi Hirokane,Seinen,83,1983,40.0
+55,Kyō Kara Ore Wa!!,Hiroyuki Nishimori,Shōnen,38,1988,40.0
+56,Tsurikichi Sanpei,Takao Yaguchi,Shōnen,65,1973,40.0
+57,Yu-Gi-Oh!,Kazuki Takahashi,Shōnen,38,1996,40.0
+58,Nodame Cantabile,Tomoko Ninomiya,Josei,23,2001,37.0
+59,20th Century Boys,Naoki Urasawa,Seinen,22,1999,36.0
+60,Cooking Papa,Tochi Ueyama,Seinen,132,1985,36.0
+61,Crest of the Royal Family,Chieko Hosokawa,Shōjo,59,1976,36.0
+62,Dr. Slump,Akira Toriyama,Shōnen,18,1980,35.0
+63,Fairy Tail,Hiro Mashima,Shōnen,59,2006,35.0
+64,Sailor Moon,Naoko Takeuchi,Shōjo,18,1991,35.0
+65,Saint Seiya,Masami Kurumada,Shōnen,28,1986,34.0
+66,3×3 Eyes,Yuzo Takada,Seinen,40,1987,33.0
+67,Chibi Maruko-chan,Momoko Sakura,Shōjo,16,1986,32.0
+69,Chameleon,Atsushi Kase,Shōnen,47,1990,30.0
+70,Death Note,Tsugumi Ohba,Shōnen,12,2003,30.0
+71,Gaki Deka,Tatsuhiko Yamagami,Shōnen,26,1974,30.0
+72,Jarinko Chie,Etsumi Haruki,Seinen,67,1978,30.0
+73,Kuroko's Basketball,Tadatoshi Fujimaki,Shōnen,30,2008,30.0
+74,Salaryman Kintarō,Hiroshi Motomiya,Seinen,30,1994,30.0
+75,Shura no Mon,Masatoshi Kawahara,Shōnen,31,1987,30.0
+76,Urusei Yatsura,Rumiko Takahashi,Shōnen,34,1978,30.0
+77,Ushio and Tora,Kazuhiro Fujita,Shōnen,33,1990,30.0
+78,Hayate Densetsu Tokkō no Taku,Hiroto Saki,Shōnen,27,1991,29.0
+79,Kingdom,Yasuhisa Hara,Seinen,45,2006,28.0
+80,Tokimeki Tonight,Koi Ikeno,Shōjo,30,1982,28.0
+81,Worst,Hiroshi Takahashi,Shōnen,31,2002,28.0
+82,Itazura na Kiss,Kaoru Tada,Shōjo,23,1990,27.0
+83,Yūkan Club,Yukari Ichijo,Shōjo,19,1982,27.0
+84,Asari-chan,Mayumi Muroyama,Shōjo,100,1978,26.5
+85,Reborn!,Akira Amano,Shōnen,42,2004,26.5
+86,Baribari Legend,Shuichi Shigeno,Shōnen,38,1983,26.0
+87,Futari Ecchi,Katsu Aki,Seinen,69,1997,26.0
+88,Sakigake!! Otokojuku,Akira Miyashita,Shōnen,34,1985,26.0
+89,Shaman King,Hiroyuki Takei,Shōnen,32,1998,26.0
+90,Angel Heart,Tsukasa Hojo,Seinen,47,2001,25.0
+91,Boys Be...,Masahiro Itabashi,Shōnen,32,1991,25.0
+92,Hikaru no Go,Yumi Hotta,Shōnen,23,1998,25.0
+93,Maison Ikkoku,Rumiko Takahashi,Seinen,15,1980,25.0
+94,Miyuki,Mitsuru Adachi,Shōnen,12,1980,25.0
+95,Seito Shokun!,Yoko Shoji,Shōjo,65,1977,25.0
+96,Tsuribaka Nisshi,Jūzō Yamasaki,Seinen,91,1979,25.0
+97,Ace of Diamond,Yuji Terajima,Shōnen,47,2006,23.0
+98,Haikyū!!,Haruichi Furudate,Shōnen,24,2012,23.0
+100,D.Gray-man,Katsura Hoshino,Shōnen,25,2004,22.5
+101,Abu-san,Shinji Mizushima,Seinen,107,1973,22.0
+102,Black Butler,Yana Toboso,Shōnen,24,2006,22.0
+103,Patalliro!,Mineo Maya,Shōjo,94,1979,22.0
+104,Zatch Bell!,Makoto Raiku,Shōnen,33,2001,22.0
+105,Dōbutsu no Oisha-san,Noriko Sasaki,Shōnen,12,1987,21.6
+106,Eyeshield 21,Riichiro Inagaki,Shōnen,37,2002,21.6
+107,Ashita no Joe,Ikki Kajiwara,Shōnen,20,1968,20.0
+108,Assassination Classroom,Yūsei Matsui,Shōnen,21,2012,20.0
+109,Gantz,Hiroya Oku,Seinen,37,2000,20.0
+110,Ginga Legend Weed,Yoshihiro Takahashi,Seinen,90,1999,20.0
+111,Hell Teacher Nūbē,Shō Makura,Shōnen,31,1993,20.0
+112,Kaiji,Nobuyuki Fukumoto,Seinen,49,1996,20.0
+113,Kimagure Orange Road,Izumi Matsumoto,Shōnen,18,1984,20.0
+114,Kimi ni Todoke,Karuho Shiina,Shōjo,23,2005,20.0
+115,Magi: The Labyrinth of Magic,Shinobu Ohtaka,Shōnen,32,2009,20.0
+116,Monster,Naoki Urasawa,Seinen,18,1994,20.0
+117,Negima! Magister Negi Magi,Ken Akamatsu,Shōnen,38,2003,20.0
+118,Oh My Goddess!,Kōsuke Fujishima,Seinen,48,1988,20.0
+119,Shounen Ashibe,Hiromi Morishita,Seinen,8,1988,20.0
+120,The Rose of Versailles,Riyoko Ikeda,Shōjo,10,1972,20.0
+121,The Seven Deadly Sins,Nakaba Suzuki,Shōnen,24,2012,20.0
+122,Sukeban Deka,Shinji Wada,Shōjo,22,1976,20.0
+123,Tokyo Daigaku Monogatari,Tatsuya Egawa,Seinen,34,1992,20.0
+124,Tokyo Ghoul,Sui Ishida,Seinen,23,2011,20.0
+125,Toriko,Mitsutoshi Shimabukuro,Shōnen,43,2008,20.0
+126,Tsubasa: Reservoir Chronicle,Clamp,Shōnen,28,2003,20.0

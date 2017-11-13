@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Bubble Chart</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <link rel="stylesheet" href="project2_bubblechart/css/reset.css">
+  <link rel="stylesheet" href="project2_bubblechart/css/bubble_chart.css">
+</head>
+<body>
+    <h1 style="padding: 0px 0px 0px 20px">Best Selling Mangas Revenue in Millions</h1>
+    <p style="padding: 0px 0px 0px 20px">A bubble chart for Best Selling mangas inspired by <a href="vallandigha.me"></a>Jim Vallandigha</p>
+    <div style="padding: 0px 0px 0px 20px" id="toolbar">
+      <a href="#" id="all" class="button active">All Mangas</a>
+      <a href="#" id="type" class="button">Mangas By Genre</a>
+      <a href="#" id="size" class="button">Mangas By Revenue</a>
+      <!-- <a href="#" id="year" class="button">Number of Series by Year</a> -->
+    </div>
+    <div id="vis" style="width: 75%; margin: 0 auto"></div>
+    <!-- <div id="bar"></div> -->
+  <script src="//d3js.org/d3.v4.min.js"></script>
+  <script src="project2_bubblechart/src/tooltip.js"></script>
+  <script src="project2_bubblechart/src/bubble_chart.js"></script>
+  <!-- <script src="src/year_bar_chart.js"></script> -->
+</body>
+</html>
