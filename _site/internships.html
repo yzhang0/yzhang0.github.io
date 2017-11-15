@@ -1,12 +1,162 @@
-<!doctype html>
-<html>
+<!DOCTYPE html>
+<html lang="en-ca">
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-  <meta charset="utf-8">
-  <title>Interactive Chart of Coops at UW</title>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Yuan Zhang</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom Fonts -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Merriweather:400,300,300italic,400italic,700,700italic,900,900italic' rel='stylesheet' type='text/css'>
+
+    <!-- Plugin CSS -->
+    <link href="vendor/magnific-popup/magnific-popup.css" rel="stylesheet">
+
+    <!-- Theme CSS -->
+    <link href="css/creative.min.css" rel="stylesheet">
+
+
 </head>
-<body>
-    <h1 style="padding: 0px 0px 0px 20px">Interactive Network of Internship Progress at UW</h1>
-    <p style="padding: 0px 0px 0px 20px">Work in progress.</p>
-  <script src="//d3js.org/d3.v4.min.js"></script>
+
+<body id="page-top">
+   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lobster+Two">
+   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Chivo">
+   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Caveat+Brush">
+   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Kaushan+Script">
+   <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Pacifico">
+
+      <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+        <div class="container-fluid pull-right">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
+                </button>
+            </div>
+
+            <div id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="index.html">Home</a>
+                    </li>
+                    <li>
+                        <a href="aboutme.html">About Me</a>
+                    </li>
+                    <li>
+                        <a href="projects.html">Portfolio</a>
+                    </li>
+                    <li>
+                        <a href="blog.html">Blog</a>
+                    </li>
+                    <li>
+                        <a href="/resume.pdf">Resume</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+
+
+    <section id="internships">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2 class="section-heading">Interactive Network of Internship Progress at UW</h2>
+                    <hr class="light">
+                    <p>
+                        [Work in progress]
+                        <br>
+                        <ul>
+                            <li>Data scraping: <a href="http://vlyubin.pythonanywhere.com/co-op" style="color:#ff5500;">work</a> done by Vlyubin using the LinkedIn API.</li>
+                            <li>Data preparation: Done in R.</li>
+                            <li>Data exploration: Quick and dirty visualization of the data by hand and in R.</li>
+                            <li>Data visualization: Coding in D3! Got inspired by <a href="http://www.datasketch.es/october/code/nadieh/" style="color:#ff5500;">Nadiah Bremer</a>.</li>
+                        </ul>
+                    </p>
+                    <h4 class="section_title">Data Scraping</h4>
+                    <p style="text-align: left;">
+                        I always wanted to use an API for my data visualization projects. After talking to a few people,
+                        it seems like Python libraries such as Beautiful Soup and the Postman application are the most common
+                        ways to call an API and build a dataset. I really like this <a href="http://vlyubin.pythonanywhere.com/waterloo_raw" style="color:#ff5500;">
+                        dataset</a> by Vlyubin which is why I decided
+                        to skip the data scraping step. However, if time allows, I plan to create a more recent dataset or
+                        in a different field (data science? financial jobs? actuarial sciences?) to learn the Linkedin API.
+                    </p>
+                    <br>
+                    <p style="text-align: left;">
+                        First, some information about the dataset. In Vlyubin's own words, "Only students who started in 2010 to
+                        2013 (inclusive) and did at least 2 internships with industry being Computer Software or Internet are considered.
+                        This data was collected in August 2015 and contains 2392 students."
+                    </p>
+                    <h4 class="section_title">Data Preparation</h4>
+                    <p style="text-align: left;">
+                        The dataset was saved in a text file. I used readLines() in R to parse it into a dataframe and
+                        gsub() to remove random whitespace and confusing substrings. Then, I looked at what the dataset contains.
+                    </p>
+                    <script src="https://gist.github.com/yzhang0/4e613e01da50400f447d4de0bd287962.js"></script>
+                    <h4 class="section_title">Data Exploration</h4>
+                    <p style="text-align: left;">
+                        First, we need to understand our data. Based on the code snippet above, it seems a lot of students have not
+                        graduated yet. Out of 2392 students, 934 haven't even completed their fourth coop! For the goal of this simple
+                        data visualization, it is not a big deal. However, I would be more restrictive in my next data collecting.
+                        Let's see which companies hire the most students!
+                    </p>
+                    <script src="https://gist.github.com/yzhang0/08ecb9ac7fb19d206c775cbba452fe97.js"></script>
+                    <img src="../img/graph3.jpeg">
+                    <p style="text-align: left;">
+                        Awesome! Now, let's do one more quick visualization before turning to D3! Let's see which are the most popular
+                        five companies for each term. It seems like Blackberry hires a lot of sophomores and freshmen whereas Facebook
+                        hires a lot of Senior students.
+                    </p>
+                    <script src="https://gist.github.com/yzhang0/5e14ca47cbf9218dd9d8b7091d551160.js"></script>
+                    <img src="../img/graph2.jpeg">
+                    <h4 class="section_title">Data Visualization</h4>
+                    <p style="text-align: left;">
+                        Next: D3! Since this post is getting quite long, I created a <a href="internships2.html" style="color:#ff5500;">part two</a>.
+                    </p>
+                </div>
+            </div>
+
+        </div>
+
+
+    </section>
+
+
+        <div class="footer" id="contact">
+            <ul class="container">
+                <li>
+                    <p><a href="mailto:yzhang.8519@gmail.com"><i class="fa fa-envelope fa-2x" aria-hidden="true"></i></a></p>
+                </li>
+                <li>
+                    <p><a href="https://ca.linkedin.com/in/yuan-zhang-1a8977108"><i class="fa fa-linkedin-square fa-2x" aria-hidden="true"></i></a></p>
+                </li>
+                <li>
+                    <p><a href="https://github.com/yuaz"><i class="fa fa-2x fa-github" aria-hidden="true"></i></a></p>
+                </li>
+                <li>
+                    <p><a href="https://twitter.com/8519Loukyo"><i class="fa fa-2x fa-twitter" aria-hidden="true"></i></a></p>
+                </li>
+            </ul>
+            <p class="footer_text">&copy; 2017 <a href="http://yuanz.me">Yuan Zhang</a></p>
+        </div>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="vendor/jquery/jquery.min.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+
 </body>
 </html>

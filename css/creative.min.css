@@ -102,6 +102,12 @@ p {
   color: black;
 }
 
+.image-added {
+    background: url('../img/example-plot.jpg') no-repeat center center;
+    position: relative;
+    height: 73vh;
+}
+
 .text-faded {
     color: rgba(255, 255, 255, .7)
 }
@@ -264,8 +270,14 @@ header .header-content .header-content-inner p {
   margin: 0px
 }
 
-.container li {
-  display: inline-block;
+.container ul {
+    text-align: center;
+    list-style-position: inside;
+}
+
+.section_title {
+    text-align: left;
+    font-weight: bold;
 }
 
 .footer_text {

@@ -1,0 +1,86 @@
+node,freq,group
+BlackBerry,296,group1
+IBM,178,group2
+Google,158,group2
+Microsoft,149,group2
+Amazon,131,group2
+Facebook,128,group2
+SAP,114,group2
+Desire2Learn,109,group2
+Pivotal Labs,104,group2
+NexJ Systems,70,group2
+TD,61,group2
+LinkedIn,56,group2
+Autodesk,55,group2
+Zynga,50,group3
+Genesys,49,group3
+Apple,47,group3
+OANDA,45,group3
+Yelp,43,group3
+OpenText,42,group3
+CIBC,39,group3
+Bloomberg,38,group3
+AMD,37,group3
+Blue Coat Systems,36,group3
+Sybase,36,group3
+Ontario Teachers' Pension Plan,35,group3
+"Kik Interactive, Inc.",32,group3
+Sun Life Financial,32,group3
+Agriculture and Agri-Food Canada,29,group3
+Sunnybrook Health Sciences Centre,29,group3
+BMO,28,group3
+Lookout,28,group3
+Scotiabank,28,group3
+Xtreme Labs,28,group3
+Christie Digital Systems,27,group3
+DBRS,27,group3
+Fixmo,27,group3
+Minted,27,group3
+PointClickCare,27,group3
+Rogers Communications,27,group3
+Kobo Inc.,26,group3
+Wattpad,26,group3
+Citi,25,group3
+Manulife Financial,25,group3
+NVIDIA,25,group3
+Oracle,25,group3
+Evertz,24,group3
+NCR Corporation,24,group3
+RBC,24,group3
+Sony,24,group3
+Twitter,24,group3
+Electronic Arts,23,group3
+A9.com,22,group3
+Coursera,22,group3
+Palantir Technologies,22,group3
+SMART Technologies,22,group3
+TD Securities,22,group3
+Trapeze Group,22,group3
+Alcatel-Lucent,21,group3
+Bazaarvoice,21,group3
+Ultimate Software,21,group3
+Altera,20,group4
+Environment Canada,20,group4
+Inkling,20,group4
+A Thinking Ape,19,group4
+"Enflick, Inc.",19,group4
+Morgan Stanley,19,group4
+JSI Telecom,18,group4
+Snapchat,18,group4
+Achievers,17,group4
+CGI,17,group4
+Cisco Systems,17,group4
+Ericsson,17,group4
+Kaleidescape,17,group4
+Tagged,17,group4
+TTC,17,group4
+EMC,16,group4
+Symcor,16,group4
+Arista Networks,15,group4
+Digiflare,15,group4
+FreshBooks,15,group4
+Hearsay Social,15,group4
+Kumon,15,group4
+Pinterest,15,group4
+SugarCRM,15,group4
+Thalmic Labs,15,group4
