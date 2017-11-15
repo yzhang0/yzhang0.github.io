@@ -11,7 +11,7 @@
 
 .node text {
   pointer-events: none;
-  font: 11px sans-serif;
+  font: 13px sans-serif;
   fill: #000;
   font-weight: bolder;
 }
