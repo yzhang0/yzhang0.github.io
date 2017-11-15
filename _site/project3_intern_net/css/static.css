@@ -1,17 +1,17 @@
 .link {
-  stroke: #e2ff91;
-  stroke-opacity: .4;
+  stroke: #000;
+  stroke-opacity: .05;
 }
 
 .node {
-  fill: #ABE700;
+  fill: #000;
   stroke: #fff;
   stroke-width: .2px;
 }
 
 .node text {
   pointer-events: none;
-  font: 10px sans-serif;
+  font: 11px sans-serif;
   fill: #000;
   font-weight: bolder;
 }

@@ -20,7 +20,7 @@ var svg = d3.select("body").append("svg")
     // how far between nodes
     .linkDistance(260)
     // changes how close nodes will get to each other. Neg is farther apart.
-    .charge(-200);
+    .charge(-100);
 
 
 d3.csv(nodepath, function(nodes) {
@@ -72,7 +72,7 @@ var links = d3.values(linkcollector);
 
  //put in little circles to drag
   node.append("circle")
-      .attr("r", function(d) { return Math.round(parseInt(d.freq/10));})
+      .attr("r", function(d) { return (5-parseInt(d.group.replace ( /[^\d.]/g, '' )))*3;})
     .attr("class", function(d) { return "node " + d.group; })
     .call(force.drag);
 
