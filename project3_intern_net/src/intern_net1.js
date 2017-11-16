@@ -12,7 +12,7 @@ var svg = d3.select("#force_chart").append("svg")
 
 var force = d3.layout.force()
     .size([width, height])
-    .linkDistance(400)
+    .linkDistance(350)
     .charge(-200);
 
 
@@ -78,6 +78,7 @@ d3.csv(nodepath, function(nodes) {
               }
             }
             changeColor(d.name, dict_node, list_node);
+            d3.select(this).style("fill", "#f3f427");
             tabulate(d.name, data_table, ["company", "rate"])
               .selectAll("tbody tr")
               .selectAll("thead th")
@@ -127,26 +128,30 @@ d3.csv(nodepath, function(nodes) {
       }
 
       function getColor(type) {
-            if (type == "type4") {
-              return '#009900';
+            if (type == "type5") {
+              return '#33910e';
             } else if (type == "type4") {
-              return '#00b200';
+              return '#3ca910';
+            } else if (type == "type4") {
+              return '#44c113';
             } else if (type == "type3") {
-              return '#00cc00';
+              return '#4dd915';
             } else if (type == "type2") {
-              return '#00e500';
+              return '#56f218';
             } else if (type == "type1") {
               return '#00ff00';
             } else if (type == "type0") {
-              return '#00ABFF';
+              return '#3dece7';
             } else if (type == "type1s") {
               return '#e500b9';
             } else if (type == "type2s") {
-              return '#cc00a4';
+              return '#ce00a6';
             } else if (type == "type3s") {
-              return '#b20090';
+              return '#b70094';
             } else if (type == "type4s") {
-              return '#99007b';
+              return '#a00081';
+            } else if (type == "type5s") {
+              return '#89006f';
             }
       }
 

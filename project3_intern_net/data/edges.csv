@@ -1,1059 +1,1059 @@
 target,source,value,type
 BlackBerry,IBM,-14,type3s
-BlackBerry,Google,-44,type4s
-BlackBerry,Microsoft,-70,type4s
-BlackBerry,Amazon,-49,type4s
-BlackBerry,Facebook,-42,type4s
+BlackBerry,Google,-44,type5s
+BlackBerry,Microsoft,-70,type5s
+BlackBerry,Amazon,-49,type5s
+BlackBerry,Facebook,-42,type5s
 BlackBerry,SAP,-2,type1s
 BlackBerry,Desire2Learn,-8,type2s
-BlackBerry,Pivotal Labs,4,type0
+BlackBerry,Pivotal Labs,4,type2
 BlackBerry,NexJ Systems,1,type0
 BlackBerry,TD,-2,type1s
 BlackBerry,LinkedIn,-19,type4s
 BlackBerry,Autodesk,-2,type1s
 BlackBerry,Zynga,-2,type1s
-BlackBerry,Genesys,-4,type1s
-BlackBerry,Apple,-10,type2s
-BlackBerry,OANDA,-4,type1s
-BlackBerry,Yelp,-4,type1s
-BlackBerry,OpenText,-23,type4s
+BlackBerry,Genesys,-4,type2s
+BlackBerry,Apple,-10,type3s
+BlackBerry,OANDA,-4,type2s
+BlackBerry,Yelp,-4,type2s
+BlackBerry,OpenText,-23,type5s
 BlackBerry,CIBC,-3,type1s
-BlackBerry,Bloomberg,-4,type1s
-BlackBerry,Sybase,-4,type1s
-BlackBerry,Ontario Teachers' Pension Plan,5,type1
-BlackBerry,"Kik Interactive, Inc.",3,type0
-BlackBerry,Sun Life Financial,2,type0
+BlackBerry,Bloomberg,-4,type2s
+BlackBerry,Sybase,-4,type2s
+BlackBerry,Ontario Teachers' Pension Plan,5,type2
+BlackBerry,"Kik Interactive, Inc.",3,type1
+BlackBerry,Sun Life Financial,2,type1
 BlackBerry,Agriculture and Agri-Food Canada,1,type0
 BlackBerry,Sunnybrook Health Sciences Centre,1,type0
-BlackBerry,BMO,4,type0
+BlackBerry,BMO,4,type2
 BlackBerry,Lookout,-7,type2s
-BlackBerry,Scotiabank,7,type1
+BlackBerry,Scotiabank,7,type2
 BlackBerry,Christie Digital Systems,-8,type2s
 BlackBerry,Fixmo,1,type0
-BlackBerry,Minted,-1,type1s
-BlackBerry,PointClickCare,-1,type1s
+BlackBerry,Minted,-1,type0
+BlackBerry,PointClickCare,-1,type0
 BlackBerry,Rogers Communications,1,type0
-BlackBerry,Kobo Inc.,14,type2
-BlackBerry,Wattpad,2,type0
-BlackBerry,Citi,3,type0
-BlackBerry,Manulife Financial,8,type1
+BlackBerry,Kobo Inc.,14,type3
+BlackBerry,Wattpad,2,type1
+BlackBerry,Citi,3,type1
+BlackBerry,Manulife Financial,8,type2
 BlackBerry,NVIDIA,-16,type4s
 BlackBerry,Oracle,-2,type1s
-BlackBerry,Evertz,-4,type1s
-BlackBerry,NCR Corporation,3,type0
+BlackBerry,Evertz,-4,type2s
+BlackBerry,NCR Corporation,3,type1
 BlackBerry,Sony,-3,type1s
 BlackBerry,Twitter,-3,type1s
-BlackBerry,Electronic Arts,-9,type2s
+BlackBerry,Electronic Arts,-9,type3s
 BlackBerry,Coursera,-2,type1s
 BlackBerry,Palantir Technologies,-2,type1s
 BlackBerry,SMART Technologies,-6,type2s
-BlackBerry,TD Securities,-1,type1s
-BlackBerry,Trapeze Group,2,type0
-BlackBerry,Alcatel-Lucent,-1,type1s
-BlackBerry,Ultimate Software,-4,type1s
-BlackBerry,Altera,2,type0
-BlackBerry,Environment Canada,5,type1
-BlackBerry,"Enflick, Inc.",-4,type1s
+BlackBerry,TD Securities,-1,type0
+BlackBerry,Trapeze Group,2,type1
+BlackBerry,Alcatel-Lucent,-1,type0
+BlackBerry,Ultimate Software,-4,type2s
+BlackBerry,Altera,2,type1
+BlackBerry,Environment Canada,5,type2
+BlackBerry,"Enflick, Inc.",-4,type2s
 BlackBerry,Morgan Stanley,-2,type1s
-BlackBerry,JSI Telecom,-1,type1s
+BlackBerry,JSI Telecom,-1,type0
 BlackBerry,Achievers,-15,type3s
-BlackBerry,CGI,2,type0
+BlackBerry,CGI,2,type1
 BlackBerry,Cisco Systems,-2,type1s
-BlackBerry,Ericsson,-1,type1s
+BlackBerry,Ericsson,-1,type0
 BlackBerry,Kaleidescape,-11,type3s
 BlackBerry,Tagged,-2,type1s
-BlackBerry,TTC,2,type0
+BlackBerry,TTC,2,type1
 BlackBerry,Symcor,-3,type1s
 BlackBerry,Arista Networks,-3,type1s
-BlackBerry,Digiflare,-1,type1s
-BlackBerry,FreshBooks,-1,type1s
+BlackBerry,Digiflare,-1,type0
+BlackBerry,FreshBooks,-1,type0
 BlackBerry,Kumon,1,type0
 BlackBerry,Pinterest,-2,type1s
-BlackBerry,SugarCRM,2,type0
+BlackBerry,SugarCRM,2,type1
 BlackBerry,Thalmic Labs,-12,type3s
-IBM,BlackBerry,14,type2
-IBM,Google,-26,type4s
-IBM,Microsoft,-25,type4s
-IBM,Amazon,-30,type4s
-IBM,Facebook,-30,type4s
-IBM,SAP,13,type2
-IBM,Desire2Learn,6,type1
+IBM,BlackBerry,14,type3
+IBM,Google,-26,type5s
+IBM,Microsoft,-25,type5s
+IBM,Amazon,-30,type5s
+IBM,Facebook,-30,type5s
+IBM,SAP,13,type3
+IBM,Desire2Learn,6,type2
 IBM,LinkedIn,-2,type1s
-IBM,Autodesk,3,type0
-IBM,Zynga,6,type1
-IBM,Genesys,3,type0
-IBM,Apple,-5,type1s
+IBM,Autodesk,3,type1
+IBM,Zynga,6,type2
+IBM,Genesys,3,type1
+IBM,Apple,-5,type2s
 IBM,OANDA,-2,type1s
 IBM,Yelp,-3,type1s
-IBM,OpenText,8,type1
-IBM,CIBC,-1,type1s
+IBM,OpenText,8,type2
+IBM,CIBC,-1,type0
 IBM,Bloomberg,-7,type2s
-IBM,Blue Coat Systems,3,type0
-IBM,Sybase,26,type4
-IBM,Ontario Teachers' Pension Plan,3,type0
-IBM,"Kik Interactive, Inc.",3,type0
-IBM,Sun Life Financial,4,type0
+IBM,Blue Coat Systems,3,type1
+IBM,Sybase,26,type5
+IBM,Ontario Teachers' Pension Plan,3,type1
+IBM,"Kik Interactive, Inc.",3,type1
+IBM,Sun Life Financial,4,type2
 IBM,Agriculture and Agri-Food Canada,1,type0
 IBM,Sunnybrook Health Sciences Centre,1,type0
-IBM,BMO,6,type1
+IBM,BMO,6,type2
 IBM,Lookout,-13,type3s
-IBM,Xtreme Labs,2,type0
+IBM,Xtreme Labs,2,type1
 IBM,Christie Digital Systems,-3,type1s
 IBM,DBRS,1,type0
-IBM,Fixmo,5,type1
-IBM,Minted,-1,type1s
-IBM,Rogers Communications,3,type0
+IBM,Fixmo,5,type2
+IBM,Minted,-1,type0
+IBM,Rogers Communications,3,type1
 IBM,Manulife Financial,-2,type1s
 IBM,NVIDIA,-3,type1s
-IBM,Oracle,8,type1
-IBM,RBC,8,type1
+IBM,Oracle,8,type2
+IBM,RBC,8,type2
 IBM,Twitter,1,type0
 IBM,A9.com,-2,type1s
-IBM,Coursera,-4,type1s
+IBM,Coursera,-4,type2s
 IBM,SMART Technologies,1,type0
-IBM,TD Securities,2,type0
-IBM,Trapeze Group,8,type1
+IBM,TD Securities,2,type1
+IBM,Trapeze Group,8,type2
 IBM,Alcatel-Lucent,1,type0
-IBM,Bazaarvoice,-1,type1s
-IBM,Ultimate Software,-1,type1s
+IBM,Bazaarvoice,-1,type0
+IBM,Ultimate Software,-1,type0
 IBM,Environment Canada,-3,type1s
-IBM,Inkling,-1,type1s
+IBM,Inkling,-1,type0
 IBM,A Thinking Ape,-3,type1s
-IBM,Morgan Stanley,6,type1
+IBM,Morgan Stanley,6,type2
 IBM,Snapchat,-18,type4s
-IBM,Achievers,4,type0
-IBM,CGI,5,type1
-IBM,Tagged,-1,type1s
+IBM,Achievers,4,type2
+IBM,CGI,5,type2
+IBM,Tagged,-1,type0
 IBM,TTC,1,type0
-IBM,EMC,-5,type1s
-IBM,Symcor,9,type1
+IBM,EMC,-5,type2s
+IBM,Symcor,9,type3
 IBM,FreshBooks,-2,type1s
-IBM,Kumon,9,type1
+IBM,Kumon,9,type3
 IBM,Pinterest,-2,type1s
-IBM,SugarCRM,-5,type1s
-Google,BlackBerry,44,type4
-Google,IBM,26,type4
-Google,Microsoft,6,type1
-Google,Amazon,19,type3
+IBM,SugarCRM,-5,type2s
+Google,BlackBerry,44,type5
+Google,IBM,26,type5
+Google,Microsoft,6,type2
+Google,Amazon,19,type4
 Google,Facebook,1,type0
-Google,SAP,14,type2
-Google,Desire2Learn,5,type1
-Google,Pivotal Labs,4,type0
-Google,NexJ Systems,7,type1
-Google,TD,5,type1
+Google,SAP,14,type3
+Google,Desire2Learn,5,type2
+Google,Pivotal Labs,4,type2
+Google,NexJ Systems,7,type2
+Google,TD,5,type2
 Google,LinkedIn,-3,type1s
-Google,Zynga,2,type0
-Google,Genesys,2,type0
-Google,Apple,2,type0
+Google,Zynga,2,type1
+Google,Genesys,2,type1
+Google,Apple,2,type1
 Google,OANDA,1,type0
-Google,Yelp,-1,type1s
-Google,OpenText,3,type0
-Google,Bloomberg,5,type1
-Google,AMD,3,type0
-Google,Blue Coat Systems,5,type1
-Google,Sybase,10,type2
-Google,Agriculture and Agri-Food Canada,12,type2
-Google,Xtreme Labs,10,type2
-Google,Christie Digital Systems,9,type1
-Google,Rogers Communications,5,type1
-Google,Kobo Inc.,5,type1
-Google,Wattpad,21,type4
+Google,Yelp,-1,type0
+Google,OpenText,3,type1
+Google,Bloomberg,5,type2
+Google,AMD,3,type1
+Google,Blue Coat Systems,5,type2
+Google,Sybase,10,type3
+Google,Agriculture and Agri-Food Canada,12,type3
+Google,Xtreme Labs,10,type3
+Google,Christie Digital Systems,9,type3
+Google,Rogers Communications,5,type2
+Google,Kobo Inc.,5,type2
+Google,Wattpad,21,type5
 Google,Oracle,1,type0
-Google,NCR Corporation,3,type0
+Google,NCR Corporation,3,type1
 Google,Twitter,-3,type1s
-Google,Electronic Arts,2,type0
+Google,Electronic Arts,2,type1
 Google,A9.com,1,type0
 Google,Coursera,-2,type1s
 Google,Palantir Technologies,-15,type3s
-Google,TD Securities,-1,type1s
-Google,Altera,3,type0
-Google,Environment Canada,2,type0
+Google,TD Securities,-1,type0
+Google,Altera,3,type1
+Google,Environment Canada,2,type1
 Google,Inkling,1,type0
-Google,A Thinking Ape,7,type1
-Google,"Enflick, Inc.",2,type0
-Google,Morgan Stanley,3,type0
-Google,Snapchat,-1,type1s
-Google,Cisco Systems,2,type0
-Google,Tagged,3,type0
+Google,A Thinking Ape,7,type2
+Google,"Enflick, Inc.",2,type1
+Google,Morgan Stanley,3,type1
+Google,Snapchat,-1,type0
+Google,Cisco Systems,2,type1
+Google,Tagged,3,type1
 Google,Hearsay Social,1,type0
-Google,Kumon,9,type1
-Google,Pinterest,-4,type1s
-Google,SugarCRM,3,type0
-Google,Thalmic Labs,-1,type1s
-Microsoft,BlackBerry,70,type4
-Microsoft,IBM,25,type4
+Google,Kumon,9,type3
+Google,Pinterest,-4,type2s
+Google,SugarCRM,3,type1
+Google,Thalmic Labs,-1,type0
+Microsoft,BlackBerry,70,type5
+Microsoft,IBM,25,type5
 Microsoft,Google,-6,type2s
-Microsoft,Amazon,-1,type1s
+Microsoft,Amazon,-1,type0
 Microsoft,Facebook,-15,type3s
-Microsoft,SAP,11,type2
-Microsoft,Desire2Learn,17,type3
-Microsoft,Pivotal Labs,16,type3
-Microsoft,NexJ Systems,11,type2
-Microsoft,LinkedIn,4,type0
-Microsoft,Autodesk,6,type1
-Microsoft,Zynga,8,type1
-Microsoft,OANDA,5,type1
-Microsoft,Yelp,4,type0
-Microsoft,CIBC,-1,type1s
-Microsoft,Bloomberg,7,type1
-Microsoft,AMD,5,type1
-Microsoft,Blue Coat Systems,2,type0
-Microsoft,Sybase,8,type1
-Microsoft,"Kik Interactive, Inc.",7,type1
-Microsoft,BMO,3,type0
-Microsoft,Lookout,7,type1
-Microsoft,Scotiabank,8,type1
-Microsoft,Xtreme Labs,11,type2
-Microsoft,Fixmo,5,type1
-Microsoft,PointClickCare,6,type1
-Microsoft,Citi,7,type1
-Microsoft,Manulife Financial,3,type0
-Microsoft,NVIDIA,9,type1
-Microsoft,Oracle,4,type0
+Microsoft,SAP,11,type3
+Microsoft,Desire2Learn,17,type4
+Microsoft,Pivotal Labs,16,type4
+Microsoft,NexJ Systems,11,type3
+Microsoft,LinkedIn,4,type2
+Microsoft,Autodesk,6,type2
+Microsoft,Zynga,8,type2
+Microsoft,OANDA,5,type2
+Microsoft,Yelp,4,type2
+Microsoft,CIBC,-1,type0
+Microsoft,Bloomberg,7,type2
+Microsoft,AMD,5,type2
+Microsoft,Blue Coat Systems,2,type1
+Microsoft,Sybase,8,type2
+Microsoft,"Kik Interactive, Inc.",7,type2
+Microsoft,BMO,3,type1
+Microsoft,Lookout,7,type2
+Microsoft,Scotiabank,8,type2
+Microsoft,Xtreme Labs,11,type3
+Microsoft,Fixmo,5,type2
+Microsoft,PointClickCare,6,type2
+Microsoft,Citi,7,type2
+Microsoft,Manulife Financial,3,type1
+Microsoft,NVIDIA,9,type3
+Microsoft,Oracle,4,type2
 Microsoft,Sony,1,type0
-Microsoft,Twitter,5,type1
+Microsoft,Twitter,5,type2
 Microsoft,Electronic Arts,-2,type1s
-Microsoft,A9.com,8,type1
+Microsoft,A9.com,8,type2
 Microsoft,Coursera,1,type0
-Microsoft,Palantir Technologies,-1,type1s
+Microsoft,Palantir Technologies,-1,type0
 Microsoft,TD Securities,1,type0
-Microsoft,Trapeze Group,7,type1
-Microsoft,Alcatel-Lucent,2,type0
-Microsoft,Altera,12,type2
+Microsoft,Trapeze Group,7,type2
+Microsoft,Alcatel-Lucent,2,type1
+Microsoft,Altera,12,type3
 Microsoft,Environment Canada,1,type0
-Microsoft,A Thinking Ape,7,type1
-Microsoft,"Enflick, Inc.",5,type1
-Microsoft,Achievers,2,type0
-Microsoft,Cisco Systems,4,type0
-Microsoft,Kaleidescape,5,type1
-Microsoft,Tagged,2,type0
-Microsoft,TTC,2,type0
+Microsoft,A Thinking Ape,7,type2
+Microsoft,"Enflick, Inc.",5,type2
+Microsoft,Achievers,2,type1
+Microsoft,Cisco Systems,4,type2
+Microsoft,Kaleidescape,5,type2
+Microsoft,Tagged,2,type1
+Microsoft,TTC,2,type1
 Microsoft,FreshBooks,1,type0
 Microsoft,Hearsay Social,1,type0
-Microsoft,Kumon,4,type0
-Microsoft,Pinterest,-4,type1s
-Microsoft,SugarCRM,5,type1
-Amazon,BlackBerry,49,type4
-Amazon,IBM,30,type4
+Microsoft,Kumon,4,type2
+Microsoft,Pinterest,-4,type2s
+Microsoft,SugarCRM,5,type2
+Amazon,BlackBerry,49,type5
+Amazon,IBM,30,type5
 Amazon,Google,-19,type4s
 Amazon,Microsoft,1,type0
 Amazon,Facebook,-6,type2s
-Amazon,SAP,7,type1
-Amazon,Desire2Learn,5,type1
-Amazon,Pivotal Labs,11,type2
-Amazon,NexJ Systems,26,type4
-Amazon,TD,3,type0
+Amazon,SAP,7,type2
+Amazon,Desire2Learn,5,type2
+Amazon,Pivotal Labs,11,type3
+Amazon,NexJ Systems,26,type5
+Amazon,TD,3,type1
 Amazon,LinkedIn,-6,type2s
-Amazon,Autodesk,6,type1
-Amazon,Genesys,5,type1
-Amazon,OANDA,12,type2
-Amazon,OpenText,5,type1
-Amazon,CIBC,8,type1
-Amazon,Bloomberg,2,type0
-Amazon,AMD,2,type0
+Amazon,Autodesk,6,type2
+Amazon,Genesys,5,type2
+Amazon,OANDA,12,type3
+Amazon,OpenText,5,type2
+Amazon,CIBC,8,type2
+Amazon,Bloomberg,2,type1
+Amazon,AMD,2,type1
 Amazon,Blue Coat Systems,1,type0
-Amazon,Sybase,24,type4
+Amazon,Sybase,24,type5
 Amazon,Ontario Teachers' Pension Plan,1,type0
-Amazon,Sun Life Financial,3,type0
-Amazon,Agriculture and Agri-Food Canada,11,type2
-Amazon,BMO,4,type0
-Amazon,Lookout,7,type1
-Amazon,Scotiabank,5,type1
-Amazon,Xtreme Labs,7,type1
-Amazon,Christie Digital Systems,7,type1
+Amazon,Sun Life Financial,3,type1
+Amazon,Agriculture and Agri-Food Canada,11,type3
+Amazon,BMO,4,type2
+Amazon,Lookout,7,type2
+Amazon,Scotiabank,5,type2
+Amazon,Xtreme Labs,7,type2
+Amazon,Christie Digital Systems,7,type2
 Amazon,DBRS,1,type0
-Amazon,Fixmo,7,type1
-Amazon,Citi,4,type0
-Amazon,Manulife Financial,5,type1
+Amazon,Fixmo,7,type2
+Amazon,Citi,4,type2
+Amazon,Manulife Financial,5,type2
 Amazon,NVIDIA,1,type0
-Amazon,Oracle,5,type1
+Amazon,Oracle,5,type2
 Amazon,Evertz,1,type0
 Amazon,Sony,1,type0
 Amazon,Twitter,-2,type1s
-Amazon,SMART Technologies,3,type0
+Amazon,SMART Technologies,3,type1
 Amazon,TD Securities,1,type0
-Amazon,Trapeze Group,3,type0
-Amazon,Alcatel-Lucent,10,type2
-Amazon,A Thinking Ape,3,type0
+Amazon,Trapeze Group,3,type1
+Amazon,Alcatel-Lucent,10,type3
+Amazon,A Thinking Ape,3,type1
 Amazon,"Enflick, Inc.",1,type0
-Amazon,Snapchat,-5,type1s
-Amazon,CGI,6,type1
-Amazon,Cisco Systems,6,type1
-Amazon,Ericsson,3,type0
-Amazon,Tagged,3,type0
+Amazon,Snapchat,-5,type2s
+Amazon,CGI,6,type2
+Amazon,Cisco Systems,6,type2
+Amazon,Ericsson,3,type1
+Amazon,Tagged,3,type1
 Amazon,Arista Networks,1,type0
-Amazon,FreshBooks,3,type0
-Amazon,Hearsay Social,3,type0
+Amazon,FreshBooks,3,type1
+Amazon,Hearsay Social,3,type1
 Amazon,Pinterest,-3,type1s
-Amazon,SugarCRM,12,type2
+Amazon,SugarCRM,12,type3
 Amazon,Thalmic Labs,1,type0
-Facebook,BlackBerry,42,type4
-Facebook,IBM,30,type4
-Facebook,Google,-1,type1s
+Facebook,BlackBerry,42,type5
+Facebook,IBM,30,type5
+Facebook,Google,-1,type0
 Facebook,Microsoft,15,type3
-Facebook,Amazon,6,type1
-Facebook,SAP,14,type2
-Facebook,Desire2Learn,11,type2
-Facebook,Pivotal Labs,35,type4
-Facebook,NexJ Systems,36,type4
-Facebook,LinkedIn,19,type3
+Facebook,Amazon,6,type2
+Facebook,SAP,14,type3
+Facebook,Desire2Learn,11,type3
+Facebook,Pivotal Labs,35,type5
+Facebook,NexJ Systems,36,type5
+Facebook,LinkedIn,19,type4
 Facebook,Autodesk,1,type0
-Facebook,Zynga,8,type1
-Facebook,Genesys,11,type2
-Facebook,Apple,5,type1
+Facebook,Zynga,8,type2
+Facebook,Genesys,11,type3
+Facebook,Apple,5,type2
 Facebook,OANDA,15,type3
-Facebook,Yelp,7,type1
-Facebook,CIBC,3,type0
-Facebook,Bloomberg,6,type1
-Facebook,AMD,4,type0
+Facebook,Yelp,7,type2
+Facebook,CIBC,3,type1
+Facebook,Bloomberg,6,type2
+Facebook,AMD,4,type2
 Facebook,Blue Coat Systems,1,type0
-Facebook,Sybase,7,type1
-Facebook,Ontario Teachers' Pension Plan,2,type0
-Facebook,"Kik Interactive, Inc.",8,type1
+Facebook,Sybase,7,type2
+Facebook,Ontario Teachers' Pension Plan,2,type1
+Facebook,"Kik Interactive, Inc.",8,type2
 Facebook,BMO,20,type4
-Facebook,Lookout,5,type1
-Facebook,Scotiabank,5,type1
-Facebook,Xtreme Labs,16,type3
+Facebook,Lookout,5,type2
+Facebook,Scotiabank,5,type2
+Facebook,Xtreme Labs,16,type4
 Facebook,Christie Digital Systems,1,type0
-Facebook,DBRS,3,type0
-Facebook,Fixmo,17,type3
-Facebook,Minted,4,type0
-Facebook,Rogers Communications,3,type0
+Facebook,DBRS,3,type1
+Facebook,Fixmo,17,type4
+Facebook,Minted,4,type2
+Facebook,Rogers Communications,3,type1
 Facebook,Kobo Inc.,1,type0
-Facebook,Citi,3,type0
-Facebook,NVIDIA,11,type2
-Facebook,Oracle,3,type0
-Facebook,Sony,3,type0
-Facebook,Twitter,7,type1
-Facebook,Electronic Arts,4,type0
-Facebook,A9.com,4,type0
-Facebook,Coursera,4,type0
+Facebook,Citi,3,type1
+Facebook,NVIDIA,11,type3
+Facebook,Oracle,3,type1
+Facebook,Sony,3,type1
+Facebook,Twitter,7,type2
+Facebook,Electronic Arts,4,type2
+Facebook,A9.com,4,type2
+Facebook,Coursera,4,type2
 Facebook,Palantir Technologies,-3,type1s
 Facebook,TD Securities,1,type0
-Facebook,Trapeze Group,5,type1
+Facebook,Trapeze Group,5,type2
 Facebook,Bazaarvoice,1,type0
-Facebook,Altera,17,type3
-Facebook,Inkling,3,type0
-Facebook,A Thinking Ape,4,type0
+Facebook,Altera,17,type4
+Facebook,Inkling,3,type1
+Facebook,A Thinking Ape,4,type2
 Facebook,Morgan Stanley,1,type0
 Facebook,Snapchat,-6,type2s
-Facebook,Achievers,4,type0
-Facebook,Cisco Systems,3,type0
-Facebook,EMC,11,type2
-Facebook,Symcor,2,type0
+Facebook,Achievers,4,type2
+Facebook,Cisco Systems,3,type1
+Facebook,EMC,11,type3
+Facebook,Symcor,2,type1
 Facebook,Arista Networks,1,type0
-Facebook,Kumon,5,type1
-Facebook,Pinterest,5,type1
-Facebook,SugarCRM,5,type1
+Facebook,Kumon,5,type2
+Facebook,Pinterest,5,type2
+Facebook,SugarCRM,5,type2
 Facebook,Thalmic Labs,-3,type1s
-SAP,BlackBerry,2,type0
+SAP,BlackBerry,2,type1
 SAP,IBM,-13,type3s
 SAP,Google,-14,type3s
 SAP,Microsoft,-11,type3s
 SAP,Amazon,-7,type2s
 SAP,Facebook,-14,type3s
-SAP,Desire2Learn,8,type1
+SAP,Desire2Learn,8,type2
 SAP,Pivotal Labs,-3,type1s
-SAP,NexJ Systems,3,type0
-SAP,TD,2,type0
+SAP,NexJ Systems,3,type1
+SAP,TD,2,type1
 SAP,LinkedIn,-3,type1s
 SAP,Autodesk,-3,type1s
-SAP,Zynga,-1,type1s
-SAP,Genesys,3,type0
-SAP,Apple,-9,type2s
-SAP,OANDA,2,type0
+SAP,Zynga,-1,type0
+SAP,Genesys,3,type1
+SAP,Apple,-9,type3s
+SAP,OANDA,2,type1
 SAP,OpenText,1,type0
-SAP,CIBC,5,type1
-SAP,Bloomberg,-4,type1s
-SAP,AMD,3,type0
-SAP,Blue Coat Systems,5,type1
-SAP,Sybase,13,type2
-SAP,"Kik Interactive, Inc.",-1,type1s
-SAP,Sun Life Financial,2,type0
+SAP,CIBC,5,type2
+SAP,Bloomberg,-4,type2s
+SAP,AMD,3,type1
+SAP,Blue Coat Systems,5,type2
+SAP,Sybase,13,type3
+SAP,"Kik Interactive, Inc.",-1,type0
+SAP,Sun Life Financial,2,type1
 SAP,Sunnybrook Health Sciences Centre,1,type0
 SAP,DBRS,-3,type1s
-SAP,Fixmo,4,type0
-SAP,Minted,-5,type1s
-SAP,PointClickCare,5,type1
-SAP,Wattpad,3,type0
-SAP,NVIDIA,-4,type1s
+SAP,Fixmo,4,type2
+SAP,Minted,-5,type2s
+SAP,PointClickCare,5,type2
+SAP,Wattpad,3,type1
+SAP,NVIDIA,-4,type2s
 SAP,Evertz,1,type0
-SAP,NCR Corporation,4,type0
-SAP,Sony,-1,type1s
+SAP,NCR Corporation,4,type2
+SAP,Sony,-1,type0
 SAP,A9.com,-3,type1s
-SAP,Ultimate Software,-1,type1s
-SAP,Environment Canada,3,type0
+SAP,Ultimate Software,-1,type0
+SAP,Environment Canada,3,type1
 SAP,Inkling,-3,type1s
 SAP,A Thinking Ape,-2,type1s
-SAP,"Enflick, Inc.",-5,type1s
+SAP,"Enflick, Inc.",-5,type2s
 SAP,Morgan Stanley,-2,type1s
-SAP,CGI,6,type1
-SAP,Kaleidescape,2,type0
+SAP,CGI,6,type2
+SAP,Kaleidescape,2,type1
 SAP,TTC,1,type0
 SAP,Digiflare,-2,type1s
 SAP,FreshBooks,-2,type1s
-SAP,Pinterest,-1,type1s
-Desire2Learn,BlackBerry,8,type1
+SAP,Pinterest,-1,type0
+Desire2Learn,BlackBerry,8,type2
 Desire2Learn,IBM,-6,type2s
-Desire2Learn,Google,-5,type1s
+Desire2Learn,Google,-5,type2s
 Desire2Learn,Microsoft,-17,type4s
-Desire2Learn,Amazon,-5,type1s
+Desire2Learn,Amazon,-5,type2s
 Desire2Learn,Facebook,-11,type3s
 Desire2Learn,SAP,-8,type2s
-Desire2Learn,Pivotal Labs,-1,type1s
-Desire2Learn,NexJ Systems,6,type1
-Desire2Learn,LinkedIn,-9,type2s
-Desire2Learn,Zynga,-9,type2s
-Desire2Learn,Genesys,-4,type1s
-Desire2Learn,Apple,-5,type1s
+Desire2Learn,Pivotal Labs,-1,type0
+Desire2Learn,NexJ Systems,6,type2
+Desire2Learn,LinkedIn,-9,type3s
+Desire2Learn,Zynga,-9,type3s
+Desire2Learn,Genesys,-4,type2s
+Desire2Learn,Apple,-5,type2s
 Desire2Learn,OANDA,1,type0
-Desire2Learn,Yelp,-4,type1s
-Desire2Learn,CIBC,-4,type1s
+Desire2Learn,Yelp,-4,type2s
+Desire2Learn,CIBC,-4,type2s
 Desire2Learn,Bloomberg,-2,type1s
-Desire2Learn,AMD,9,type1
-Desire2Learn,Blue Coat Systems,3,type0
-Desire2Learn,Sybase,4,type0
-Desire2Learn,Sun Life Financial,16,type3
+Desire2Learn,AMD,9,type3
+Desire2Learn,Blue Coat Systems,3,type1
+Desire2Learn,Sybase,4,type2
+Desire2Learn,Sun Life Financial,16,type4
 Desire2Learn,Christie Digital Systems,1,type0
 Desire2Learn,Rogers Communications,1,type0
-Desire2Learn,Kobo Inc.,4,type0
-Desire2Learn,Manulife Financial,5,type1
+Desire2Learn,Kobo Inc.,4,type2
+Desire2Learn,Manulife Financial,5,type2
 Desire2Learn,Oracle,-2,type1s
 Desire2Learn,Electronic Arts,-7,type2s
 Desire2Learn,Coursera,-3,type1s
 Desire2Learn,Palantir Technologies,-3,type1s
-Desire2Learn,SMART Technologies,-4,type1s
-Desire2Learn,TD Securities,3,type0
-Desire2Learn,Alcatel-Lucent,3,type0
-Desire2Learn,Bazaarvoice,-4,type1s
-Desire2Learn,JSI Telecom,2,type0
-Desire2Learn,Ericsson,6,type1
-Desire2Learn,Tagged,-1,type1s
+Desire2Learn,SMART Technologies,-4,type2s
+Desire2Learn,TD Securities,3,type1
+Desire2Learn,Alcatel-Lucent,3,type1
+Desire2Learn,Bazaarvoice,-4,type2s
+Desire2Learn,JSI Telecom,2,type1
+Desire2Learn,Ericsson,6,type2
+Desire2Learn,Tagged,-1,type0
 Desire2Learn,TTC,1,type0
-Desire2Learn,SugarCRM,-1,type1s
-Pivotal Labs,BlackBerry,-4,type1s
-Pivotal Labs,Google,-4,type1s
+Desire2Learn,SugarCRM,-1,type0
+Pivotal Labs,BlackBerry,-4,type2s
+Pivotal Labs,Google,-4,type2s
 Pivotal Labs,Microsoft,-16,type4s
 Pivotal Labs,Amazon,-11,type3s
-Pivotal Labs,Facebook,-35,type4s
-Pivotal Labs,SAP,3,type0
+Pivotal Labs,Facebook,-35,type5s
+Pivotal Labs,SAP,3,type1
 Pivotal Labs,Desire2Learn,1,type0
-Pivotal Labs,NexJ Systems,4,type0
-Pivotal Labs,TD,2,type0
-Pivotal Labs,LinkedIn,-4,type1s
-Pivotal Labs,Zynga,-5,type1s
-Pivotal Labs,Genesys,2,type0
+Pivotal Labs,NexJ Systems,4,type2
+Pivotal Labs,TD,2,type1
+Pivotal Labs,LinkedIn,-4,type2s
+Pivotal Labs,Zynga,-5,type2s
+Pivotal Labs,Genesys,2,type1
 Pivotal Labs,OANDA,-6,type2s
 Pivotal Labs,Yelp,-2,type1s
-Pivotal Labs,CIBC,4,type0
-Pivotal Labs,Bloomberg,-1,type1s
+Pivotal Labs,CIBC,4,type2
+Pivotal Labs,Bloomberg,-1,type0
 Pivotal Labs,"Kik Interactive, Inc.",-11,type3s
 Pivotal Labs,Sun Life Financial,1,type0
-Pivotal Labs,Agriculture and Agri-Food Canada,3,type0
-Pivotal Labs,Sunnybrook Health Sciences Centre,2,type0
+Pivotal Labs,Agriculture and Agri-Food Canada,3,type1
+Pivotal Labs,Sunnybrook Health Sciences Centre,2,type1
 Pivotal Labs,BMO,1,type0
-Pivotal Labs,Xtreme Labs,8,type1
+Pivotal Labs,Xtreme Labs,8,type2
 Pivotal Labs,Christie Digital Systems,1,type0
-Pivotal Labs,DBRS,-1,type1s
+Pivotal Labs,DBRS,-1,type0
 Pivotal Labs,Fixmo,1,type0
 Pivotal Labs,Kobo Inc.,1,type0
 Pivotal Labs,Wattpad,-3,type1s
-Pivotal Labs,Citi,3,type0
-Pivotal Labs,Sony,-1,type1s
+Pivotal Labs,Citi,3,type1
+Pivotal Labs,Sony,-1,type0
 Pivotal Labs,Electronic Arts,-6,type2s
-Pivotal Labs,A9.com,-5,type1s
-Pivotal Labs,Coursera,-1,type1s
-Pivotal Labs,TD Securities,-1,type1s
-Pivotal Labs,Trapeze Group,2,type0
-Pivotal Labs,Bazaarvoice,2,type0
+Pivotal Labs,A9.com,-5,type2s
+Pivotal Labs,Coursera,-1,type0
+Pivotal Labs,TD Securities,-1,type0
+Pivotal Labs,Trapeze Group,2,type1
+Pivotal Labs,Bazaarvoice,2,type1
 Pivotal Labs,Ultimate Software,-3,type1s
 Pivotal Labs,Inkling,-2,type1s
 Pivotal Labs,A Thinking Ape,-2,type1s
-Pivotal Labs,"Enflick, Inc.",-1,type1s
-Pivotal Labs,Tagged,-1,type1s
+Pivotal Labs,"Enflick, Inc.",-1,type0
+Pivotal Labs,Tagged,-1,type0
 Pivotal Labs,Symcor,1,type0
 Pivotal Labs,Arista Networks,-3,type1s
 Pivotal Labs,Digiflare,-6,type2s
 Pivotal Labs,Hearsay Social,-3,type1s
-Pivotal Labs,Kumon,8,type1
+Pivotal Labs,Kumon,8,type2
 Pivotal Labs,Pinterest,-8,type2s
 Pivotal Labs,Thalmic Labs,-2,type1s
-NexJ Systems,BlackBerry,-1,type1s
+NexJ Systems,BlackBerry,-1,type0
 NexJ Systems,Google,-7,type2s
 NexJ Systems,Microsoft,-11,type3s
-NexJ Systems,Amazon,-26,type4s
-NexJ Systems,Facebook,-36,type4s
+NexJ Systems,Amazon,-26,type5s
+NexJ Systems,Facebook,-36,type5s
 NexJ Systems,SAP,-3,type1s
 NexJ Systems,Desire2Learn,-6,type2s
-NexJ Systems,Pivotal Labs,-4,type1s
+NexJ Systems,Pivotal Labs,-4,type2s
 NexJ Systems,TD,-2,type1s
 NexJ Systems,LinkedIn,-6,type2s
 NexJ Systems,Autodesk,-7,type2s
-NexJ Systems,Zynga,-5,type1s
+NexJ Systems,Zynga,-5,type2s
 NexJ Systems,Apple,-7,type2s
 NexJ Systems,OANDA,-2,type1s
 NexJ Systems,Yelp,-12,type3s
 NexJ Systems,CIBC,-3,type1s
 NexJ Systems,Bloomberg,-3,type1s
 NexJ Systems,AMD,-8,type2s
-NexJ Systems,Blue Coat Systems,-1,type1s
-NexJ Systems,Sybase,2,type0
+NexJ Systems,Blue Coat Systems,-1,type0
+NexJ Systems,Sybase,2,type1
 NexJ Systems,Ontario Teachers' Pension Plan,-2,type1s
 NexJ Systems,"Kik Interactive, Inc.",-2,type1s
-NexJ Systems,Agriculture and Agri-Food Canada,-1,type1s
+NexJ Systems,Agriculture and Agri-Food Canada,-1,type0
 NexJ Systems,BMO,-2,type1s
 NexJ Systems,Lookout,-2,type1s
 NexJ Systems,DBRS,-6,type2s
-NexJ Systems,Minted,-5,type1s
-NexJ Systems,Kobo Inc.,2,type0
+NexJ Systems,Minted,-5,type2s
+NexJ Systems,Kobo Inc.,2,type1
 NexJ Systems,Wattpad,-3,type1s
-NexJ Systems,Citi,-1,type1s
-NexJ Systems,NCR Corporation,3,type0
-NexJ Systems,Electronic Arts,-4,type1s
+NexJ Systems,Citi,-1,type0
+NexJ Systems,NCR Corporation,3,type1
+NexJ Systems,Electronic Arts,-4,type2s
 NexJ Systems,SMART Technologies,-2,type1s
 NexJ Systems,Trapeze Group,1,type0
 NexJ Systems,Bazaarvoice,-2,type1s
 NexJ Systems,Altera,-2,type1s
 NexJ Systems,Snapchat,-7,type2s
-NexJ Systems,TTC,-1,type1s
+NexJ Systems,TTC,-1,type0
 NexJ Systems,Symcor,-2,type1s
-NexJ Systems,Digiflare,-1,type1s
-NexJ Systems,Kumon,4,type0
-NexJ Systems,Pinterest,-4,type1s
-TD,BlackBerry,2,type0
-TD,Google,-5,type1s
+NexJ Systems,Digiflare,-1,type0
+NexJ Systems,Kumon,4,type2
+NexJ Systems,Pinterest,-4,type2s
+TD,BlackBerry,2,type1
+TD,Google,-5,type2s
 TD,Amazon,-3,type1s
 TD,SAP,-2,type1s
 TD,Pivotal Labs,-2,type1s
-TD,NexJ Systems,2,type0
-TD,Autodesk,2,type0
+TD,NexJ Systems,2,type1
+TD,Autodesk,2,type1
 TD,Zynga,-3,type1s
 TD,OANDA,1,type0
 TD,CIBC,1,type0
-TD,Bloomberg,-5,type1s
-TD,Sybase,-9,type2s
+TD,Bloomberg,-5,type2s
+TD,Sybase,-9,type3s
 TD,"Kik Interactive, Inc.",1,type0
-TD,Agriculture and Agri-Food Canada,8,type1
-TD,Sunnybrook Health Sciences Centre,2,type0
+TD,Agriculture and Agri-Food Canada,8,type2
+TD,Sunnybrook Health Sciences Centre,2,type1
 TD,PointClickCare,-2,type1s
-TD,Kobo Inc.,2,type0
-TD,Wattpad,2,type0
-TD,Citi,2,type0
-TD,Oracle,-1,type1s
-TD,Twitter,-1,type1s
+TD,Kobo Inc.,2,type1
+TD,Wattpad,2,type1
+TD,Citi,2,type1
+TD,Oracle,-1,type0
+TD,Twitter,-1,type0
 TD,A9.com,-2,type1s
 TD,Environment Canada,1,type0
 TD,JSI Telecom,1,type0
-TD,CGI,3,type0
-TD,Symcor,2,type0
+TD,CGI,3,type1
+TD,Symcor,2,type1
 TD,Digiflare,1,type0
-TD,Hearsay Social,-10,type2s
-LinkedIn,BlackBerry,19,type3
-LinkedIn,IBM,2,type0
-LinkedIn,Google,3,type0
-LinkedIn,Microsoft,-4,type1s
-LinkedIn,Amazon,6,type1
+TD,Hearsay Social,-10,type3s
+LinkedIn,BlackBerry,19,type4
+LinkedIn,IBM,2,type1
+LinkedIn,Google,3,type1
+LinkedIn,Microsoft,-4,type2s
+LinkedIn,Amazon,6,type2
 LinkedIn,Facebook,-19,type4s
-LinkedIn,SAP,3,type0
-LinkedIn,Desire2Learn,9,type1
-LinkedIn,Pivotal Labs,4,type0
-LinkedIn,NexJ Systems,6,type1
-LinkedIn,Autodesk,5,type1
-LinkedIn,Genesys,2,type0
-LinkedIn,Yelp,-1,type1s
-LinkedIn,Scotiabank,2,type0
-LinkedIn,Xtreme Labs,3,type0
-LinkedIn,Christie Digital Systems,4,type0
-LinkedIn,Fixmo,2,type0
-LinkedIn,Minted,2,type0
-LinkedIn,Kobo Inc.,3,type0
-LinkedIn,Wattpad,2,type0
-LinkedIn,Oracle,2,type0
-LinkedIn,Sony,3,type0
+LinkedIn,SAP,3,type1
+LinkedIn,Desire2Learn,9,type3
+LinkedIn,Pivotal Labs,4,type2
+LinkedIn,NexJ Systems,6,type2
+LinkedIn,Autodesk,5,type2
+LinkedIn,Genesys,2,type1
+LinkedIn,Yelp,-1,type0
+LinkedIn,Scotiabank,2,type1
+LinkedIn,Xtreme Labs,3,type1
+LinkedIn,Christie Digital Systems,4,type2
+LinkedIn,Fixmo,2,type1
+LinkedIn,Minted,2,type1
+LinkedIn,Kobo Inc.,3,type1
+LinkedIn,Wattpad,2,type1
+LinkedIn,Oracle,2,type1
+LinkedIn,Sony,3,type1
 LinkedIn,Twitter,-6,type2s
-LinkedIn,Coursera,-4,type1s
-LinkedIn,Palantir Technologies,-1,type1s
+LinkedIn,Coursera,-4,type2s
+LinkedIn,Palantir Technologies,-1,type0
 LinkedIn,SMART Technologies,1,type0
-LinkedIn,Trapeze Group,6,type1
-LinkedIn,Alcatel-Lucent,21,type4
-LinkedIn,Altera,8,type1
-LinkedIn,A Thinking Ape,5,type1
-LinkedIn,Morgan Stanley,3,type0
-LinkedIn,Cisco Systems,4,type0
-LinkedIn,Kaleidescape,3,type0
-LinkedIn,Tagged,4,type0
+LinkedIn,Trapeze Group,6,type2
+LinkedIn,Alcatel-Lucent,21,type5
+LinkedIn,Altera,8,type2
+LinkedIn,A Thinking Ape,5,type2
+LinkedIn,Morgan Stanley,3,type1
+LinkedIn,Cisco Systems,4,type2
+LinkedIn,Kaleidescape,3,type1
+LinkedIn,Tagged,4,type2
 LinkedIn,Arista Networks,1,type0
-LinkedIn,Kumon,7,type1
-LinkedIn,SugarCRM,3,type0
-Autodesk,BlackBerry,2,type0
+LinkedIn,Kumon,7,type2
+LinkedIn,SugarCRM,3,type1
+Autodesk,BlackBerry,2,type1
 Autodesk,IBM,-3,type1s
 Autodesk,Microsoft,-6,type2s
 Autodesk,Amazon,-6,type2s
-Autodesk,Facebook,-1,type1s
-Autodesk,SAP,3,type0
-Autodesk,NexJ Systems,7,type1
+Autodesk,Facebook,-1,type0
+Autodesk,SAP,3,type1
+Autodesk,NexJ Systems,7,type2
 Autodesk,TD,-2,type1s
-Autodesk,LinkedIn,-5,type1s
-Autodesk,Genesys,8,type1
+Autodesk,LinkedIn,-5,type2s
+Autodesk,Genesys,8,type2
 Autodesk,Apple,-17,type4s
 Autodesk,OANDA,1,type0
 Autodesk,CIBC,1,type0
-Autodesk,Lookout,-1,type1s
-Autodesk,Scotiabank,7,type1
-Autodesk,Xtreme Labs,2,type0
+Autodesk,Lookout,-1,type0
+Autodesk,Scotiabank,7,type2
+Autodesk,Xtreme Labs,2,type1
 Autodesk,DBRS,-2,type1s
 Autodesk,Minted,-3,type1s
-Autodesk,Rogers Communications,4,type0
-Autodesk,NVIDIA,5,type1
-Autodesk,Oracle,2,type0
-Autodesk,NCR Corporation,5,type1
-Autodesk,RBC,5,type1
+Autodesk,Rogers Communications,4,type2
+Autodesk,NVIDIA,5,type2
+Autodesk,Oracle,2,type1
+Autodesk,NCR Corporation,5,type2
+Autodesk,RBC,5,type2
 Autodesk,Twitter,-2,type1s
-Autodesk,Coursera,-4,type1s
+Autodesk,Coursera,-4,type2s
 Autodesk,SMART Technologies,-3,type1s
-Autodesk,JSI Telecom,5,type1
+Autodesk,JSI Telecom,5,type2
 Autodesk,Cisco Systems,1,type0
-Autodesk,Ericsson,-1,type1s
+Autodesk,Ericsson,-1,type0
 Autodesk,EMC,1,type0
-Zynga,BlackBerry,2,type0
+Zynga,BlackBerry,2,type1
 Zynga,IBM,-6,type2s
 Zynga,Google,-2,type1s
 Zynga,Microsoft,-8,type2s
 Zynga,Facebook,-8,type2s
 Zynga,SAP,1,type0
-Zynga,Desire2Learn,9,type1
-Zynga,Pivotal Labs,5,type1
-Zynga,NexJ Systems,5,type1
-Zynga,TD,3,type0
-Zynga,Apple,-1,type1s
-Zynga,OANDA,11,type2
-Zynga,Yelp,-1,type1s
-Zynga,OpenText,2,type0
+Zynga,Desire2Learn,9,type3
+Zynga,Pivotal Labs,5,type2
+Zynga,NexJ Systems,5,type2
+Zynga,TD,3,type1
+Zynga,Apple,-1,type0
+Zynga,OANDA,11,type3
+Zynga,Yelp,-1,type0
+Zynga,OpenText,2,type1
 Zynga,Blue Coat Systems,1,type0
 Zynga,"Kik Interactive, Inc.",-2,type1s
-Zynga,BMO,2,type0
-Zynga,Xtreme Labs,13,type2
-Zynga,Fixmo,18,type3
-Zynga,Wattpad,2,type0
-Zynga,Manulife Financial,7,type1
-Zynga,Twitter,-1,type1s
-Zynga,A9.com,-4,type1s
+Zynga,BMO,2,type1
+Zynga,Xtreme Labs,13,type3
+Zynga,Fixmo,18,type4
+Zynga,Wattpad,2,type1
+Zynga,Manulife Financial,7,type2
+Zynga,Twitter,-1,type0
+Zynga,A9.com,-4,type2s
 Zynga,Coursera,-8,type2s
-Zynga,TD Securities,3,type0
+Zynga,TD Securities,3,type1
 Zynga,"Enflick, Inc.",1,type0
-Zynga,CGI,-5,type1s
-Zynga,Tagged,2,type0
-Zynga,Hearsay Social,-5,type1s
-Zynga,Kumon,4,type0
-Zynga,Thalmic Labs,-1,type1s
-Genesys,BlackBerry,4,type0
+Zynga,CGI,-5,type2s
+Zynga,Tagged,2,type1
+Zynga,Hearsay Social,-5,type2s
+Zynga,Kumon,4,type2
+Zynga,Thalmic Labs,-1,type0
+Genesys,BlackBerry,4,type2
 Genesys,IBM,-3,type1s
 Genesys,Google,-2,type1s
-Genesys,Amazon,-5,type1s
+Genesys,Amazon,-5,type2s
 Genesys,Facebook,-11,type3s
 Genesys,SAP,-3,type1s
-Genesys,Desire2Learn,4,type0
+Genesys,Desire2Learn,4,type2
 Genesys,Pivotal Labs,-2,type1s
 Genesys,LinkedIn,-2,type1s
 Genesys,Autodesk,-8,type2s
-Genesys,Yelp,-4,type1s
-Genesys,Bloomberg,-1,type1s
-Genesys,AMD,10,type2
+Genesys,Yelp,-4,type2s
+Genesys,Bloomberg,-1,type0
+Genesys,AMD,10,type3
 Genesys,Ontario Teachers' Pension Plan,1,type0
 Genesys,BMO,1,type0
-Genesys,Xtreme Labs,-1,type1s
-Genesys,Minted,-4,type1s
+Genesys,Xtreme Labs,-1,type0
+Genesys,Minted,-4,type2s
 Genesys,Rogers Communications,1,type0
 Genesys,NCR Corporation,1,type0
-Genesys,Twitter,-5,type1s
-Genesys,Palantir Technologies,-1,type1s
-Genesys,TD Securities,2,type0
-Genesys,Trapeze Group,2,type0
-Genesys,Inkling,-5,type1s
-Genesys,A Thinking Ape,-1,type1s
+Genesys,Twitter,-5,type2s
+Genesys,Palantir Technologies,-1,type0
+Genesys,TD Securities,2,type1
+Genesys,Trapeze Group,2,type1
+Genesys,Inkling,-5,type2s
+Genesys,A Thinking Ape,-1,type0
 Genesys,Snapchat,-3,type1s
 Genesys,Symcor,1,type0
-Apple,BlackBerry,10,type2
-Apple,IBM,5,type1
+Apple,BlackBerry,10,type3
+Apple,IBM,5,type2
 Apple,Google,-2,type1s
-Apple,Facebook,-5,type1s
-Apple,SAP,9,type1
-Apple,Desire2Learn,5,type1
-Apple,NexJ Systems,7,type1
-Apple,Autodesk,17,type3
+Apple,Facebook,-5,type2s
+Apple,SAP,9,type3
+Apple,Desire2Learn,5,type2
+Apple,NexJ Systems,7,type2
+Apple,Autodesk,17,type4
 Apple,Zynga,1,type0
-Apple,CIBC,2,type0
+Apple,CIBC,2,type1
 Apple,Bloomberg,-2,type1s
-Apple,AMD,6,type1
-Apple,Blue Coat Systems,4,type0
-Apple,Sybase,2,type0
-Apple,Ontario Teachers' Pension Plan,7,type1
-Apple,Sun Life Financial,3,type0
-Apple,Lookout,-4,type1s
-Apple,Scotiabank,2,type0
-Apple,Rogers Communications,10,type2
-Apple,Wattpad,5,type1
-Apple,Evertz,2,type0
-Apple,NCR Corporation,4,type0
+Apple,AMD,6,type2
+Apple,Blue Coat Systems,4,type2
+Apple,Sybase,2,type1
+Apple,Ontario Teachers' Pension Plan,7,type2
+Apple,Sun Life Financial,3,type1
+Apple,Lookout,-4,type2s
+Apple,Scotiabank,2,type1
+Apple,Rogers Communications,10,type3
+Apple,Wattpad,5,type2
+Apple,Evertz,2,type1
+Apple,NCR Corporation,4,type2
 Apple,A9.com,-3,type1s
-Apple,Altera,2,type0
-Apple,Ericsson,2,type0
+Apple,Altera,2,type1
+Apple,Ericsson,2,type1
 Apple,Kaleidescape,1,type0
 Apple,Thalmic Labs,1,type0
-OANDA,BlackBerry,4,type0
-OANDA,IBM,2,type0
-OANDA,Google,-1,type1s
-OANDA,Microsoft,-5,type1s
+OANDA,BlackBerry,4,type2
+OANDA,IBM,2,type1
+OANDA,Google,-1,type0
+OANDA,Microsoft,-5,type2s
 OANDA,Amazon,-12,type3s
 OANDA,Facebook,-15,type3s
 OANDA,SAP,-2,type1s
-OANDA,Desire2Learn,-1,type1s
-OANDA,Pivotal Labs,6,type1
-OANDA,NexJ Systems,2,type0
-OANDA,TD,-1,type1s
-OANDA,Autodesk,-1,type1s
+OANDA,Desire2Learn,-1,type0
+OANDA,Pivotal Labs,6,type2
+OANDA,NexJ Systems,2,type1
+OANDA,TD,-1,type0
+OANDA,Autodesk,-1,type0
 OANDA,Zynga,-11,type3s
 OANDA,Yelp,-3,type1s
-OANDA,Bloomberg,-4,type1s
-OANDA,AMD,2,type0
-OANDA,Sybase,2,type0
+OANDA,Bloomberg,-4,type2s
+OANDA,AMD,2,type1
+OANDA,Sybase,2,type1
 OANDA,Ontario Teachers' Pension Plan,1,type0
 OANDA,"Kik Interactive, Inc.",-2,type1s
-OANDA,PointClickCare,-1,type1s
-OANDA,Rogers Communications,3,type0
-OANDA,Kobo Inc.,5,type1
-OANDA,Citi,4,type0
-OANDA,Evertz,-1,type1s
+OANDA,PointClickCare,-1,type0
+OANDA,Rogers Communications,3,type1
+OANDA,Kobo Inc.,5,type2
+OANDA,Citi,4,type2
+OANDA,Evertz,-1,type0
 OANDA,Coursera,-6,type2s
 OANDA,Trapeze Group,1,type0
 OANDA,Inkling,-3,type1s
-OANDA,Tagged,-1,type1s
-OANDA,Digiflare,-1,type1s
-OANDA,FreshBooks,-1,type1s
-OANDA,Thalmic Labs,-1,type1s
-Yelp,BlackBerry,4,type0
-Yelp,IBM,3,type0
+OANDA,Tagged,-1,type0
+OANDA,Digiflare,-1,type0
+OANDA,FreshBooks,-1,type0
+OANDA,Thalmic Labs,-1,type0
+Yelp,BlackBerry,4,type2
+Yelp,IBM,3,type1
 Yelp,Google,1,type0
-Yelp,Microsoft,-4,type1s
+Yelp,Microsoft,-4,type2s
 Yelp,Facebook,-7,type2s
-Yelp,Desire2Learn,4,type0
-Yelp,Pivotal Labs,2,type0
-Yelp,NexJ Systems,12,type2
+Yelp,Desire2Learn,4,type2
+Yelp,Pivotal Labs,2,type1
+Yelp,NexJ Systems,12,type3
 Yelp,LinkedIn,1,type0
 Yelp,Zynga,1,type0
-Yelp,Genesys,4,type0
-Yelp,OANDA,3,type0
-Yelp,Bloomberg,2,type0
-Yelp,AMD,4,type0
-Yelp,Sybase,7,type1
-Yelp,BMO,2,type0
+Yelp,Genesys,4,type2
+Yelp,OANDA,3,type1
+Yelp,Bloomberg,2,type1
+Yelp,AMD,4,type2
+Yelp,Sybase,7,type2
+Yelp,BMO,2,type1
 Yelp,Lookout,1,type0
-Yelp,Xtreme Labs,4,type0
-Yelp,DBRS,2,type0
-Yelp,Fixmo,6,type1
-Yelp,Minted,3,type0
-Yelp,Kobo Inc.,10,type2
-Yelp,A9.com,-1,type1s
+Yelp,Xtreme Labs,4,type2
+Yelp,DBRS,2,type1
+Yelp,Fixmo,6,type2
+Yelp,Minted,3,type1
+Yelp,Kobo Inc.,10,type3
+Yelp,A9.com,-1,type0
 Yelp,Ultimate Software,1,type0
-Yelp,Inkling,7,type1
+Yelp,Inkling,7,type2
 Yelp,A Thinking Ape,1,type0
-Yelp,Snapchat,-1,type1s
-Yelp,Tagged,4,type0
-OpenText,BlackBerry,23,type4
+Yelp,Snapchat,-1,type0
+Yelp,Tagged,4,type2
+OpenText,BlackBerry,23,type5
 OpenText,IBM,-8,type2s
 OpenText,Google,-3,type1s
-OpenText,Amazon,-5,type1s
-OpenText,SAP,-1,type1s
+OpenText,Amazon,-5,type2s
+OpenText,SAP,-1,type0
 OpenText,Zynga,-2,type1s
-OpenText,Blue Coat Systems,-4,type1s
-OpenText,Sun Life Financial,-5,type1s
+OpenText,Blue Coat Systems,-4,type2s
+OpenText,Sun Life Financial,-5,type2s
 OpenText,Agriculture and Agri-Food Canada,-3,type1s
 OpenText,Manulife Financial,1,type0
 OpenText,Alcatel-Lucent,-2,type1s
-OpenText,A Thinking Ape,-1,type1s
+OpenText,A Thinking Ape,-1,type0
 OpenText,Ericsson,-3,type1s
-CIBC,BlackBerry,3,type0
+CIBC,BlackBerry,3,type1
 CIBC,IBM,1,type0
 CIBC,Microsoft,1,type0
 CIBC,Amazon,-8,type2s
 CIBC,Facebook,-3,type1s
-CIBC,SAP,-5,type1s
-CIBC,Desire2Learn,4,type0
-CIBC,Pivotal Labs,-4,type1s
-CIBC,NexJ Systems,3,type0
-CIBC,TD,-1,type1s
-CIBC,Autodesk,-1,type1s
+CIBC,SAP,-5,type2s
+CIBC,Desire2Learn,4,type2
+CIBC,Pivotal Labs,-4,type2s
+CIBC,NexJ Systems,3,type1
+CIBC,TD,-1,type0
+CIBC,Autodesk,-1,type0
 CIBC,Apple,-2,type1s
 CIBC,Ontario Teachers' Pension Plan,-2,type1s
 CIBC,DBRS,-3,type1s
-CIBC,Rogers Communications,3,type0
-CIBC,Kobo Inc.,3,type0
+CIBC,Rogers Communications,3,type1
+CIBC,Kobo Inc.,3,type1
 CIBC,Manulife Financial,1,type0
-CIBC,NCR Corporation,-1,type1s
+CIBC,NCR Corporation,-1,type0
 CIBC,A9.com,-3,type1s
 CIBC,Palantir Technologies,-2,type1s
 CIBC,Inkling,-3,type1s
 CIBC,Tagged,-2,type1s
-CIBC,Arista Networks,-4,type1s
+CIBC,Arista Networks,-4,type2s
 CIBC,Digiflare,-2,type1s
-CIBC,SugarCRM,-1,type1s
-Bloomberg,BlackBerry,4,type0
-Bloomberg,IBM,7,type1
-Bloomberg,Google,-5,type1s
+CIBC,SugarCRM,-1,type0
+Bloomberg,BlackBerry,4,type2
+Bloomberg,IBM,7,type2
+Bloomberg,Google,-5,type2s
 Bloomberg,Microsoft,-7,type2s
 Bloomberg,Amazon,-2,type1s
 Bloomberg,Facebook,-6,type2s
-Bloomberg,SAP,4,type0
-Bloomberg,Desire2Learn,2,type0
+Bloomberg,SAP,4,type2
+Bloomberg,Desire2Learn,2,type1
 Bloomberg,Pivotal Labs,1,type0
-Bloomberg,NexJ Systems,3,type0
-Bloomberg,TD,5,type1
+Bloomberg,NexJ Systems,3,type1
+Bloomberg,TD,5,type2
 Bloomberg,Genesys,1,type0
-Bloomberg,Apple,2,type0
-Bloomberg,OANDA,4,type0
+Bloomberg,Apple,2,type1
+Bloomberg,OANDA,4,type2
 Bloomberg,Yelp,-2,type1s
 Bloomberg,Blue Coat Systems,1,type0
-Bloomberg,Sybase,2,type0
-Bloomberg,"Kik Interactive, Inc.",3,type0
-Bloomberg,Sun Life Financial,4,type0
-Bloomberg,BMO,3,type0
+Bloomberg,Sybase,2,type1
+Bloomberg,"Kik Interactive, Inc.",3,type1
+Bloomberg,Sun Life Financial,4,type2
+Bloomberg,BMO,3,type1
 Bloomberg,Scotiabank,1,type0
-Bloomberg,Xtreme Labs,2,type0
-Bloomberg,DBRS,3,type0
+Bloomberg,Xtreme Labs,2,type1
+Bloomberg,DBRS,3,type1
 Bloomberg,Oracle,1,type0
 Bloomberg,Twitter,-2,type1s
 Bloomberg,Electronic Arts,1,type0
 Bloomberg,Palantir Technologies,-2,type1s
-Bloomberg,Inkling,-1,type1s
-Bloomberg,"Enflick, Inc.",2,type0
+Bloomberg,Inkling,-1,type0
+Bloomberg,"Enflick, Inc.",2,type1
 Bloomberg,Snapchat,-2,type1s
 Bloomberg,Kaleidescape,1,type0
 Bloomberg,Arista Networks,1,type0
 Bloomberg,Hearsay Social,1,type0
-Bloomberg,Pinterest,-1,type1s
+Bloomberg,Pinterest,-1,type0
 AMD,Google,-3,type1s
-AMD,Microsoft,-5,type1s
+AMD,Microsoft,-5,type2s
 AMD,Amazon,-2,type1s
-AMD,Facebook,-4,type1s
+AMD,Facebook,-4,type2s
 AMD,SAP,-3,type1s
-AMD,Desire2Learn,-9,type2s
-AMD,NexJ Systems,8,type1
-AMD,Genesys,-10,type2s
+AMD,Desire2Learn,-9,type3s
+AMD,NexJ Systems,8,type2
+AMD,Genesys,-10,type3s
 AMD,Apple,-6,type2s
 AMD,OANDA,-2,type1s
-AMD,Yelp,-4,type1s
+AMD,Yelp,-4,type2s
 AMD,Blue Coat Systems,1,type0
-AMD,Ontario Teachers' Pension Plan,-9,type2s
-AMD,Sun Life Financial,5,type1
+AMD,Ontario Teachers' Pension Plan,-9,type3s
+AMD,Sun Life Financial,5,type2
 AMD,Sunnybrook Health Sciences Centre,-3,type1s
-AMD,BMO,3,type0
+AMD,BMO,3,type1
 AMD,Citi,-2,type1s
 AMD,Manulife Financial,-3,type1s
-AMD,NVIDIA,-4,type1s
+AMD,NVIDIA,-4,type2s
 AMD,Evertz,-2,type1s
 AMD,Electronic Arts,1,type0
 AMD,SMART Technologies,1,type0
-AMD,TD Securities,-4,type1s
+AMD,TD Securities,-4,type2s
 AMD,Bazaarvoice,-3,type1s
 AMD,Morgan Stanley,-2,type1s
 AMD,TTC,-3,type1s
 AMD,Arista Networks,-2,type1s
 AMD,Thalmic Labs,-3,type1s
 Blue Coat Systems,IBM,-3,type1s
-Blue Coat Systems,Google,-5,type1s
+Blue Coat Systems,Google,-5,type2s
 Blue Coat Systems,Microsoft,-2,type1s
-Blue Coat Systems,Amazon,-1,type1s
-Blue Coat Systems,Facebook,-1,type1s
-Blue Coat Systems,SAP,-5,type1s
+Blue Coat Systems,Amazon,-1,type0
+Blue Coat Systems,Facebook,-1,type0
+Blue Coat Systems,SAP,-5,type2s
 Blue Coat Systems,Desire2Learn,-3,type1s
 Blue Coat Systems,NexJ Systems,1,type0
-Blue Coat Systems,Zynga,-1,type1s
-Blue Coat Systems,Apple,-4,type1s
-Blue Coat Systems,OpenText,4,type0
-Blue Coat Systems,Bloomberg,-1,type1s
-Blue Coat Systems,AMD,-1,type1s
-Blue Coat Systems,Sybase,3,type0
+Blue Coat Systems,Zynga,-1,type0
+Blue Coat Systems,Apple,-4,type2s
+Blue Coat Systems,OpenText,4,type2
+Blue Coat Systems,Bloomberg,-1,type0
+Blue Coat Systems,AMD,-1,type0
+Blue Coat Systems,Sybase,3,type1
 Blue Coat Systems,Sunnybrook Health Sciences Centre,1,type0
-Blue Coat Systems,PointClickCare,2,type0
-Blue Coat Systems,Kobo Inc.,2,type0
-Blue Coat Systems,Manulife Financial,2,type0
-Blue Coat Systems,NCR Corporation,-1,type1s
+Blue Coat Systems,PointClickCare,2,type1
+Blue Coat Systems,Kobo Inc.,2,type1
+Blue Coat Systems,Manulife Financial,2,type1
+Blue Coat Systems,NCR Corporation,-1,type0
 Blue Coat Systems,A9.com,-3,type1s
 Blue Coat Systems,Coursera,-3,type1s
-Blue Coat Systems,Bazaarvoice,-1,type1s
-Blue Coat Systems,Ultimate Software,-5,type1s
-Blue Coat Systems,Snapchat,-1,type1s
+Blue Coat Systems,Bazaarvoice,-1,type0
+Blue Coat Systems,Ultimate Software,-5,type2s
+Blue Coat Systems,Snapchat,-1,type0
 Blue Coat Systems,Kaleidescape,-6,type2s
-Sybase,BlackBerry,4,type0
-Sybase,IBM,-26,type4s
-Sybase,Google,-10,type2s
+Sybase,BlackBerry,4,type2
+Sybase,IBM,-26,type5s
+Sybase,Google,-10,type3s
 Sybase,Microsoft,-8,type2s
-Sybase,Amazon,-24,type4s
+Sybase,Amazon,-24,type5s
 Sybase,Facebook,-7,type2s
 Sybase,SAP,-13,type3s
-Sybase,Desire2Learn,-4,type1s
+Sybase,Desire2Learn,-4,type2s
 Sybase,NexJ Systems,-2,type1s
-Sybase,TD,9,type1
+Sybase,TD,9,type3
 Sybase,Apple,-2,type1s
 Sybase,OANDA,-2,type1s
 Sybase,Yelp,-7,type2s
 Sybase,Bloomberg,-2,type1s
 Sybase,Blue Coat Systems,-3,type1s
-Sybase,BMO,3,type0
+Sybase,BMO,3,type1
 Sybase,Evertz,-2,type1s
 Sybase,NCR Corporation,-2,type1s
 Sybase,Electronic Arts,-8,type2s
 Sybase,Coursera,-3,type1s
-Sybase,Inkling,-5,type1s
+Sybase,Inkling,-5,type2s
 Sybase,A Thinking Ape,-3,type1s
 Sybase,Morgan Stanley,-2,type1s
-Sybase,Snapchat,-4,type1s
-Sybase,Ericsson,-1,type1s
+Sybase,Snapchat,-4,type2s
+Sybase,Ericsson,-1,type0
 Sybase,FreshBooks,-3,type1s
-Ontario Teachers' Pension Plan,BlackBerry,-5,type1s
+Ontario Teachers' Pension Plan,BlackBerry,-5,type2s
 Ontario Teachers' Pension Plan,IBM,-3,type1s
-Ontario Teachers' Pension Plan,Amazon,-1,type1s
+Ontario Teachers' Pension Plan,Amazon,-1,type0
 Ontario Teachers' Pension Plan,Facebook,-2,type1s
-Ontario Teachers' Pension Plan,NexJ Systems,2,type0
-Ontario Teachers' Pension Plan,Genesys,-1,type1s
+Ontario Teachers' Pension Plan,NexJ Systems,2,type1
+Ontario Teachers' Pension Plan,Genesys,-1,type0
 Ontario Teachers' Pension Plan,Apple,-7,type2s
-Ontario Teachers' Pension Plan,OANDA,-1,type1s
-Ontario Teachers' Pension Plan,CIBC,2,type0
-Ontario Teachers' Pension Plan,AMD,9,type1
+Ontario Teachers' Pension Plan,OANDA,-1,type0
+Ontario Teachers' Pension Plan,CIBC,2,type1
+Ontario Teachers' Pension Plan,AMD,9,type3
 Ontario Teachers' Pension Plan,Xtreme Labs,1,type0
 Ontario Teachers' Pension Plan,PointClickCare,1,type0
-Ontario Teachers' Pension Plan,SMART Technologies,-9,type2s
-Ontario Teachers' Pension Plan,TD Securities,2,type0
-Ontario Teachers' Pension Plan,Alcatel-Lucent,-1,type1s
+Ontario Teachers' Pension Plan,SMART Technologies,-9,type3s
+Ontario Teachers' Pension Plan,TD Securities,2,type1
+Ontario Teachers' Pension Plan,Alcatel-Lucent,-1,type0
 Ontario Teachers' Pension Plan,Inkling,-2,type1s
-Ontario Teachers' Pension Plan,TTC,-1,type1s
+Ontario Teachers' Pension Plan,TTC,-1,type0
 "Kik Interactive, Inc.",BlackBerry,-3,type1s
 "Kik Interactive, Inc.",IBM,-3,type1s
 "Kik Interactive, Inc.",Microsoft,-7,type2s
 "Kik Interactive, Inc.",Facebook,-8,type2s
 "Kik Interactive, Inc.",SAP,1,type0
-"Kik Interactive, Inc.",Pivotal Labs,11,type2
-"Kik Interactive, Inc.",NexJ Systems,2,type0
-"Kik Interactive, Inc.",TD,-1,type1s
-"Kik Interactive, Inc.",Zynga,2,type0
-"Kik Interactive, Inc.",OANDA,2,type0
+"Kik Interactive, Inc.",Pivotal Labs,11,type3
+"Kik Interactive, Inc.",NexJ Systems,2,type1
+"Kik Interactive, Inc.",TD,-1,type0
+"Kik Interactive, Inc.",Zynga,2,type1
+"Kik Interactive, Inc.",OANDA,2,type1
 "Kik Interactive, Inc.",Bloomberg,-3,type1s
-"Kik Interactive, Inc.",Sun Life Financial,2,type0
-"Kik Interactive, Inc.",Lookout,-1,type1s
+"Kik Interactive, Inc.",Sun Life Financial,2,type1
+"Kik Interactive, Inc.",Lookout,-1,type0
 "Kik Interactive, Inc.",Christie Digital Systems,-2,type1s
 "Kik Interactive, Inc.",Sony,-3,type1s
-"Kik Interactive, Inc.",Coursera,-1,type1s
+"Kik Interactive, Inc.",Coursera,-1,type0
 "Kik Interactive, Inc.",Ultimate Software,1,type0
 Sun Life Financial,BlackBerry,-2,type1s
-Sun Life Financial,IBM,-4,type1s
+Sun Life Financial,IBM,-4,type2s
 Sun Life Financial,Amazon,-3,type1s
 Sun Life Financial,SAP,-2,type1s
 Sun Life Financial,Desire2Learn,-16,type4s
-Sun Life Financial,Pivotal Labs,-1,type1s
+Sun Life Financial,Pivotal Labs,-1,type0
 Sun Life Financial,Apple,-3,type1s
-Sun Life Financial,OpenText,5,type1
-Sun Life Financial,Bloomberg,-4,type1s
-Sun Life Financial,AMD,-5,type1s
+Sun Life Financial,OpenText,5,type2
+Sun Life Financial,Bloomberg,-4,type2s
+Sun Life Financial,AMD,-5,type2s
 Sun Life Financial,"Kik Interactive, Inc.",-2,type1s
-Sun Life Financial,Agriculture and Agri-Food Canada,2,type0
-Sun Life Financial,DBRS,-1,type1s
-Sun Life Financial,NCR Corporation,2,type0
+Sun Life Financial,Agriculture and Agri-Food Canada,2,type1
+Sun Life Financial,DBRS,-1,type0
+Sun Life Financial,NCR Corporation,2,type1
 Sun Life Financial,Electronic Arts,-3,type1s
 Sun Life Financial,Trapeze Group,-2,type1s
-Sun Life Financial,Environment Canada,2,type0
-Sun Life Financial,Morgan Stanley,-1,type1s
-Sun Life Financial,JSI Telecom,2,type0
-Sun Life Financial,Ericsson,-1,type1s
+Sun Life Financial,Environment Canada,2,type1
+Sun Life Financial,Morgan Stanley,-1,type0
+Sun Life Financial,JSI Telecom,2,type1
+Sun Life Financial,Ericsson,-1,type0
 Sun Life Financial,Symcor,1,type0
 Sun Life Financial,Digiflare,-3,type1s
-Agriculture and Agri-Food Canada,BlackBerry,-1,type1s
-Agriculture and Agri-Food Canada,IBM,-1,type1s
+Agriculture and Agri-Food Canada,BlackBerry,-1,type0
+Agriculture and Agri-Food Canada,IBM,-1,type0
 Agriculture and Agri-Food Canada,Google,-12,type3s
 Agriculture and Agri-Food Canada,Amazon,-11,type3s
 Agriculture and Agri-Food Canada,Pivotal Labs,-3,type1s
 Agriculture and Agri-Food Canada,NexJ Systems,1,type0
 Agriculture and Agri-Food Canada,TD,-8,type2s
-Agriculture and Agri-Food Canada,OpenText,3,type0
+Agriculture and Agri-Food Canada,OpenText,3,type1
 Agriculture and Agri-Food Canada,Sun Life Financial,-2,type1s
 Agriculture and Agri-Food Canada,NCR Corporation,-3,type1s
 Agriculture and Agri-Food Canada,Alcatel-Lucent,1,type0
-Agriculture and Agri-Food Canada,Environment Canada,-1,type1s
-Agriculture and Agri-Food Canada,Achievers,-5,type1s
-Agriculture and Agri-Food Canada,Symcor,-1,type1s
-Sunnybrook Health Sciences Centre,BlackBerry,-1,type1s
-Sunnybrook Health Sciences Centre,IBM,-1,type1s
-Sunnybrook Health Sciences Centre,SAP,-1,type1s
+Agriculture and Agri-Food Canada,Environment Canada,-1,type0
+Agriculture and Agri-Food Canada,Achievers,-5,type2s
+Agriculture and Agri-Food Canada,Symcor,-1,type0
+Sunnybrook Health Sciences Centre,BlackBerry,-1,type0
+Sunnybrook Health Sciences Centre,IBM,-1,type0
+Sunnybrook Health Sciences Centre,SAP,-1,type0
 Sunnybrook Health Sciences Centre,Pivotal Labs,-2,type1s
 Sunnybrook Health Sciences Centre,TD,-2,type1s
-Sunnybrook Health Sciences Centre,AMD,3,type0
-Sunnybrook Health Sciences Centre,Blue Coat Systems,-1,type1s
+Sunnybrook Health Sciences Centre,AMD,3,type1
+Sunnybrook Health Sciences Centre,Blue Coat Systems,-1,type0
 Sunnybrook Health Sciences Centre,Minted,-7,type2s
-Sunnybrook Health Sciences Centre,Kobo Inc.,2,type0
+Sunnybrook Health Sciences Centre,Kobo Inc.,2,type1
 Sunnybrook Health Sciences Centre,Citi,1,type0
 Sunnybrook Health Sciences Centre,Sony,-2,type1s
 Sunnybrook Health Sciences Centre,Coursera,-3,type1s
-Sunnybrook Health Sciences Centre,TD Securities,2,type0
+Sunnybrook Health Sciences Centre,TD Securities,2,type1
 Sunnybrook Health Sciences Centre,Inkling,-2,type1s
 Sunnybrook Health Sciences Centre,Morgan Stanley,-2,type1s
-BMO,BlackBerry,-4,type1s
+BMO,BlackBerry,-4,type2s
 BMO,IBM,-6,type2s
 BMO,Microsoft,-3,type1s
-BMO,Amazon,-4,type1s
+BMO,Amazon,-4,type2s
 BMO,Facebook,-20,type4s
-BMO,Pivotal Labs,-1,type1s
-BMO,NexJ Systems,2,type0
+BMO,Pivotal Labs,-1,type0
+BMO,NexJ Systems,2,type1
 BMO,Zynga,-2,type1s
-BMO,Genesys,-1,type1s
+BMO,Genesys,-1,type0
 BMO,Yelp,-2,type1s
 BMO,Bloomberg,-3,type1s
 BMO,AMD,-3,type1s
 BMO,Sybase,-3,type1s
 BMO,Christie Digital Systems,-2,type1s
-BMO,Fixmo,5,type1
-BMO,Oracle,-1,type1s
+BMO,Fixmo,5,type2
+BMO,Oracle,-1,type0
 BMO,Electronic Arts,-2,type1s
 BMO,A9.com,-6,type2s
 BMO,TD Securities,-2,type1s
-Lookout,BlackBerry,7,type1
-Lookout,IBM,13,type2
+Lookout,BlackBerry,7,type2
+Lookout,IBM,13,type3
 Lookout,Microsoft,-7,type2s
 Lookout,Amazon,-7,type2s
-Lookout,Facebook,-5,type1s
-Lookout,NexJ Systems,2,type0
+Lookout,Facebook,-5,type2s
+Lookout,NexJ Systems,2,type1
 Lookout,Autodesk,1,type0
-Lookout,Apple,4,type0
-Lookout,Yelp,-1,type1s
+Lookout,Apple,4,type2
+Lookout,Yelp,-1,type0
 Lookout,"Kik Interactive, Inc.",1,type0
-Lookout,Wattpad,3,type0
-Lookout,Inkling,-1,type1s
+Lookout,Wattpad,3,type1
+Lookout,Inkling,-1,type0
 Lookout,"Enflick, Inc.",1,type0
 Lookout,Kaleidescape,1,type0
-Lookout,EMC,2,type0
-Lookout,FreshBooks,-1,type1s
+Lookout,EMC,2,type1
+Lookout,FreshBooks,-1,type0
 Scotiabank,BlackBerry,-7,type2s
 Scotiabank,Microsoft,-8,type2s
-Scotiabank,Amazon,-5,type1s
-Scotiabank,Facebook,-5,type1s
+Scotiabank,Amazon,-5,type2s
+Scotiabank,Facebook,-5,type2s
 Scotiabank,LinkedIn,-2,type1s
 Scotiabank,Autodesk,-7,type2s
 Scotiabank,Apple,-2,type1s
-Scotiabank,Bloomberg,-1,type1s
+Scotiabank,Bloomberg,-1,type0
 Scotiabank,Christie Digital Systems,-3,type1s
-Scotiabank,DBRS,4,type0
-Scotiabank,Fixmo,-1,type1s
+Scotiabank,DBRS,4,type2
+Scotiabank,Fixmo,-1,type0
 Scotiabank,Minted,-3,type1s
 Scotiabank,Manulife Financial,1,type0
-Scotiabank,NVIDIA,-4,type1s
+Scotiabank,NVIDIA,-4,type2s
 Scotiabank,Oracle,-2,type1s
-Scotiabank,Sony,-5,type1s
-Scotiabank,Electronic Arts,-4,type1s
+Scotiabank,Sony,-5,type2s
+Scotiabank,Electronic Arts,-4,type2s
 Scotiabank,Palantir Technologies,-2,type1s
-Scotiabank,A Thinking Ape,-5,type1s
+Scotiabank,A Thinking Ape,-5,type2s
 Scotiabank,JSI Telecom,-3,type1s
-Scotiabank,CGI,-1,type1s
-Scotiabank,TTC,9,type1
+Scotiabank,CGI,-1,type0
+Scotiabank,TTC,9,type3
 Xtreme Labs,IBM,-2,type1s
-Xtreme Labs,Google,-10,type2s
+Xtreme Labs,Google,-10,type3s
 Xtreme Labs,Microsoft,-11,type3s
 Xtreme Labs,Amazon,-7,type2s
 Xtreme Labs,Facebook,-16,type4s
@@ -1062,12 +1062,12 @@ Xtreme Labs,LinkedIn,-3,type1s
 Xtreme Labs,Autodesk,-2,type1s
 Xtreme Labs,Zynga,-13,type3s
 Xtreme Labs,Genesys,1,type0
-Xtreme Labs,Yelp,-4,type1s
+Xtreme Labs,Yelp,-4,type2s
 Xtreme Labs,Bloomberg,-2,type1s
-Xtreme Labs,Ontario Teachers' Pension Plan,-1,type1s
+Xtreme Labs,Ontario Teachers' Pension Plan,-1,type0
 Xtreme Labs,PointClickCare,-2,type1s
 Xtreme Labs,Rogers Communications,1,type0
-Xtreme Labs,NVIDIA,-4,type1s
+Xtreme Labs,NVIDIA,-4,type2s
 Xtreme Labs,A9.com,-3,type1s
 Xtreme Labs,Trapeze Group,1,type0
 Xtreme Labs,Alcatel-Lucent,1,type0
@@ -1076,266 +1076,266 @@ Xtreme Labs,Altera,-2,type1s
 Xtreme Labs,Inkling,-3,type1s
 Xtreme Labs,"Enflick, Inc.",-2,type1s
 Xtreme Labs,Hearsay Social,-7,type2s
-Christie Digital Systems,BlackBerry,8,type1
-Christie Digital Systems,IBM,3,type0
-Christie Digital Systems,Google,-9,type2s
+Christie Digital Systems,BlackBerry,8,type2
+Christie Digital Systems,IBM,3,type1
+Christie Digital Systems,Google,-9,type3s
 Christie Digital Systems,Amazon,-7,type2s
-Christie Digital Systems,Facebook,-1,type1s
-Christie Digital Systems,Desire2Learn,-1,type1s
-Christie Digital Systems,Pivotal Labs,-1,type1s
-Christie Digital Systems,LinkedIn,-4,type1s
-Christie Digital Systems,"Kik Interactive, Inc.",2,type0
-Christie Digital Systems,BMO,2,type0
-Christie Digital Systems,Scotiabank,3,type0
+Christie Digital Systems,Facebook,-1,type0
+Christie Digital Systems,Desire2Learn,-1,type0
+Christie Digital Systems,Pivotal Labs,-1,type0
+Christie Digital Systems,LinkedIn,-4,type2s
+Christie Digital Systems,"Kik Interactive, Inc.",2,type1
+Christie Digital Systems,BMO,2,type1
+Christie Digital Systems,Scotiabank,3,type1
 Christie Digital Systems,DBRS,-2,type1s
 Christie Digital Systems,Evertz,-3,type1s
-Christie Digital Systems,NCR Corporation,3,type0
+Christie Digital Systems,NCR Corporation,3,type1
 Christie Digital Systems,Coursera,-14,type3s
 Christie Digital Systems,A Thinking Ape,-3,type1s
-Christie Digital Systems,Kaleidescape,2,type0
-Christie Digital Systems,Thalmic Labs,-1,type1s
-DBRS,IBM,-1,type1s
-DBRS,Amazon,-1,type1s
+Christie Digital Systems,Kaleidescape,2,type1
+Christie Digital Systems,Thalmic Labs,-1,type0
+DBRS,IBM,-1,type0
+DBRS,Amazon,-1,type0
 DBRS,Facebook,-3,type1s
-DBRS,SAP,3,type0
+DBRS,SAP,3,type1
 DBRS,Pivotal Labs,1,type0
-DBRS,NexJ Systems,6,type1
-DBRS,Autodesk,2,type0
+DBRS,NexJ Systems,6,type2
+DBRS,Autodesk,2,type1
 DBRS,Yelp,-2,type1s
-DBRS,CIBC,3,type0
+DBRS,CIBC,3,type1
 DBRS,Bloomberg,-3,type1s
 DBRS,Sun Life Financial,1,type0
-DBRS,Scotiabank,-4,type1s
-DBRS,Christie Digital Systems,2,type0
+DBRS,Scotiabank,-4,type2s
+DBRS,Christie Digital Systems,2,type1
 DBRS,Wattpad,1,type0
-DBRS,RBC,5,type1
+DBRS,RBC,5,type2
 DBRS,Ultimate Software,-3,type1s
 DBRS,Altera,1,type0
 DBRS,Tagged,-2,type1s
-DBRS,EMC,-1,type1s
+DBRS,EMC,-1,type0
 DBRS,FreshBooks,-3,type1s
 DBRS,Thalmic Labs,1,type0
-Fixmo,BlackBerry,-1,type1s
-Fixmo,IBM,-5,type1s
-Fixmo,Microsoft,-5,type1s
+Fixmo,BlackBerry,-1,type0
+Fixmo,IBM,-5,type2s
+Fixmo,Microsoft,-5,type2s
 Fixmo,Amazon,-7,type2s
 Fixmo,Facebook,-17,type4s
-Fixmo,SAP,-4,type1s
-Fixmo,Pivotal Labs,-1,type1s
+Fixmo,SAP,-4,type2s
+Fixmo,Pivotal Labs,-1,type0
 Fixmo,LinkedIn,-2,type1s
 Fixmo,Zynga,-18,type4s
 Fixmo,Yelp,-6,type2s
-Fixmo,BMO,-5,type1s
+Fixmo,BMO,-5,type2s
 Fixmo,Scotiabank,1,type0
 Fixmo,Wattpad,-2,type1s
-Fixmo,Palantir Technologies,-1,type1s
+Fixmo,Palantir Technologies,-1,type0
 Fixmo,A Thinking Ape,-8,type2s
-Fixmo,Digiflare,-5,type1s
+Fixmo,Digiflare,-5,type2s
 Minted,BlackBerry,1,type0
 Minted,IBM,1,type0
-Minted,Facebook,-4,type1s
-Minted,SAP,5,type1
-Minted,NexJ Systems,5,type1
+Minted,Facebook,-4,type2s
+Minted,SAP,5,type2
+Minted,NexJ Systems,5,type2
 Minted,LinkedIn,-2,type1s
-Minted,Autodesk,3,type0
-Minted,Genesys,4,type0
+Minted,Autodesk,3,type1
+Minted,Genesys,4,type2
 Minted,Yelp,-3,type1s
-Minted,Sunnybrook Health Sciences Centre,7,type1
-Minted,Scotiabank,3,type0
-Minted,PointClickCare,2,type0
-Minted,Rogers Communications,3,type0
-Minted,Kobo Inc.,3,type0
+Minted,Sunnybrook Health Sciences Centre,7,type2
+Minted,Scotiabank,3,type1
+Minted,PointClickCare,2,type1
+Minted,Rogers Communications,3,type1
+Minted,Kobo Inc.,3,type1
 Minted,Oracle,1,type0
-Minted,Coursera,-1,type1s
+Minted,Coursera,-1,type0
 Minted,Bazaarvoice,1,type0
 Minted,Inkling,1,type0
 Minted,A Thinking Ape,1,type0
-Minted,Morgan Stanley,2,type0
-Minted,Tagged,2,type0
-Minted,TTC,2,type0
+Minted,Morgan Stanley,2,type1
+Minted,Tagged,2,type1
+Minted,TTC,2,type1
 PointClickCare,BlackBerry,1,type0
 PointClickCare,Microsoft,-6,type2s
-PointClickCare,SAP,-5,type1s
-PointClickCare,TD,2,type0
+PointClickCare,SAP,-5,type2s
+PointClickCare,TD,2,type1
 PointClickCare,OANDA,1,type0
 PointClickCare,Blue Coat Systems,-2,type1s
-PointClickCare,Ontario Teachers' Pension Plan,-1,type1s
-PointClickCare,Xtreme Labs,2,type0
+PointClickCare,Ontario Teachers' Pension Plan,-1,type0
+PointClickCare,Xtreme Labs,2,type1
 PointClickCare,Minted,-2,type1s
-PointClickCare,Rogers Communications,2,type0
+PointClickCare,Rogers Communications,2,type1
 PointClickCare,Kobo Inc.,1,type0
 PointClickCare,Wattpad,1,type0
 PointClickCare,Citi,1,type0
-PointClickCare,Manulife Financial,-1,type1s
-PointClickCare,NCR Corporation,-1,type1s
+PointClickCare,Manulife Financial,-1,type0
+PointClickCare,NCR Corporation,-1,type0
 PointClickCare,Electronic Arts,-6,type2s
 PointClickCare,Alcatel-Lucent,-2,type1s
-PointClickCare,Bazaarvoice,-4,type1s
-PointClickCare,Altera,-1,type1s
-PointClickCare,Environment Canada,2,type0
-PointClickCare,JSI Telecom,-1,type1s
-PointClickCare,Symcor,-1,type1s
-Rogers Communications,BlackBerry,-1,type1s
+PointClickCare,Bazaarvoice,-4,type2s
+PointClickCare,Altera,-1,type0
+PointClickCare,Environment Canada,2,type1
+PointClickCare,JSI Telecom,-1,type0
+PointClickCare,Symcor,-1,type0
+Rogers Communications,BlackBerry,-1,type0
 Rogers Communications,IBM,-3,type1s
-Rogers Communications,Google,-5,type1s
+Rogers Communications,Google,-5,type2s
 Rogers Communications,Facebook,-3,type1s
-Rogers Communications,Desire2Learn,-1,type1s
-Rogers Communications,Autodesk,-4,type1s
-Rogers Communications,Genesys,-1,type1s
-Rogers Communications,Apple,-10,type2s
+Rogers Communications,Desire2Learn,-1,type0
+Rogers Communications,Autodesk,-4,type2s
+Rogers Communications,Genesys,-1,type0
+Rogers Communications,Apple,-10,type3s
 Rogers Communications,OANDA,-3,type1s
 Rogers Communications,CIBC,-3,type1s
-Rogers Communications,Xtreme Labs,-1,type1s
+Rogers Communications,Xtreme Labs,-1,type0
 Rogers Communications,Minted,-3,type1s
 Rogers Communications,PointClickCare,-2,type1s
 Rogers Communications,Oracle,-2,type1s
 Rogers Communications,Evertz,-3,type1s
 Rogers Communications,Bazaarvoice,-2,type1s
-Rogers Communications,Environment Canada,3,type0
+Rogers Communications,Environment Canada,3,type1
 Rogers Communications,Ericsson,-3,type1s
-Rogers Communications,Kumon,2,type0
-Rogers Communications,Thalmic Labs,-1,type1s
+Rogers Communications,Kumon,2,type1
+Rogers Communications,Thalmic Labs,-1,type0
 Kobo Inc.,BlackBerry,-14,type3s
-Kobo Inc.,Google,-5,type1s
-Kobo Inc.,Facebook,-1,type1s
-Kobo Inc.,Desire2Learn,-4,type1s
-Kobo Inc.,Pivotal Labs,-1,type1s
+Kobo Inc.,Google,-5,type2s
+Kobo Inc.,Facebook,-1,type0
+Kobo Inc.,Desire2Learn,-4,type2s
+Kobo Inc.,Pivotal Labs,-1,type0
 Kobo Inc.,NexJ Systems,-2,type1s
 Kobo Inc.,TD,-2,type1s
 Kobo Inc.,LinkedIn,-3,type1s
-Kobo Inc.,OANDA,-5,type1s
-Kobo Inc.,Yelp,-10,type2s
+Kobo Inc.,OANDA,-5,type2s
+Kobo Inc.,Yelp,-10,type3s
 Kobo Inc.,CIBC,-3,type1s
 Kobo Inc.,Blue Coat Systems,-2,type1s
 Kobo Inc.,Sunnybrook Health Sciences Centre,-2,type1s
 Kobo Inc.,Minted,-3,type1s
-Kobo Inc.,PointClickCare,-1,type1s
-Kobo Inc.,Manulife Financial,-1,type1s
+Kobo Inc.,PointClickCare,-1,type0
+Kobo Inc.,Manulife Financial,-1,type0
 Kobo Inc.,Morgan Stanley,-7,type2s
-Kobo Inc.,Achievers,-1,type1s
-Kobo Inc.,Kaleidescape,-1,type1s
+Kobo Inc.,Achievers,-1,type0
+Kobo Inc.,Kaleidescape,-1,type0
 Kobo Inc.,Arista Networks,-7,type2s
 Kobo Inc.,Digiflare,-3,type1s
 Wattpad,BlackBerry,-2,type1s
-Wattpad,Google,-21,type4s
+Wattpad,Google,-21,type5s
 Wattpad,SAP,-3,type1s
-Wattpad,Pivotal Labs,3,type0
-Wattpad,NexJ Systems,3,type0
+Wattpad,Pivotal Labs,3,type1
+Wattpad,NexJ Systems,3,type1
 Wattpad,TD,-2,type1s
 Wattpad,LinkedIn,-2,type1s
 Wattpad,Zynga,-2,type1s
-Wattpad,Apple,-5,type1s
+Wattpad,Apple,-5,type2s
 Wattpad,Lookout,-3,type1s
-Wattpad,DBRS,-1,type1s
-Wattpad,Fixmo,2,type0
-Wattpad,PointClickCare,-1,type1s
-Wattpad,Evertz,2,type0
-Wattpad,A Thinking Ape,-1,type1s
+Wattpad,DBRS,-1,type0
+Wattpad,Fixmo,2,type1
+Wattpad,PointClickCare,-1,type0
+Wattpad,Evertz,2,type1
+Wattpad,A Thinking Ape,-1,type0
 Wattpad,Arista Networks,-3,type1s
-Wattpad,Digiflare,-1,type1s
-Wattpad,FreshBooks,-1,type1s
-Wattpad,Kumon,2,type0
+Wattpad,Digiflare,-1,type0
+Wattpad,FreshBooks,-1,type0
+Wattpad,Kumon,2,type1
 Citi,BlackBerry,-3,type1s
 Citi,Microsoft,-7,type2s
-Citi,Amazon,-4,type1s
+Citi,Amazon,-4,type2s
 Citi,Facebook,-3,type1s
 Citi,Pivotal Labs,-3,type1s
 Citi,NexJ Systems,1,type0
 Citi,TD,-2,type1s
-Citi,OANDA,-4,type1s
-Citi,AMD,2,type0
-Citi,Sunnybrook Health Sciences Centre,-1,type1s
-Citi,PointClickCare,-1,type1s
+Citi,OANDA,-4,type2s
+Citi,AMD,2,type1
+Citi,Sunnybrook Health Sciences Centre,-1,type0
+Citi,PointClickCare,-1,type0
 Citi,Evertz,-3,type1s
 Citi,RBC,-2,type1s
-Citi,Ericsson,3,type0
+Citi,Ericsson,3,type1
 Citi,EMC,-2,type1s
 Citi,Symcor,-3,type1s
 Citi,SugarCRM,-2,type1s
 Manulife Financial,BlackBerry,-8,type2s
-Manulife Financial,IBM,2,type0
+Manulife Financial,IBM,2,type1
 Manulife Financial,Microsoft,-3,type1s
-Manulife Financial,Amazon,-5,type1s
-Manulife Financial,Desire2Learn,-5,type1s
+Manulife Financial,Amazon,-5,type2s
+Manulife Financial,Desire2Learn,-5,type2s
 Manulife Financial,Zynga,-7,type2s
-Manulife Financial,OpenText,-1,type1s
-Manulife Financial,CIBC,-1,type1s
-Manulife Financial,AMD,3,type0
+Manulife Financial,OpenText,-1,type0
+Manulife Financial,CIBC,-1,type0
+Manulife Financial,AMD,3,type1
 Manulife Financial,Blue Coat Systems,-2,type1s
-Manulife Financial,Scotiabank,-1,type1s
+Manulife Financial,Scotiabank,-1,type0
 Manulife Financial,PointClickCare,1,type0
 Manulife Financial,Kobo Inc.,1,type0
-Manulife Financial,Kaleidescape,6,type1
-Manulife Financial,TTC,7,type1
+Manulife Financial,Kaleidescape,6,type2
+Manulife Financial,TTC,7,type2
 Manulife Financial,SugarCRM,-2,type1s
-NVIDIA,BlackBerry,16,type3
-NVIDIA,IBM,3,type0
-NVIDIA,Microsoft,-9,type2s
-NVIDIA,Amazon,-1,type1s
+NVIDIA,BlackBerry,16,type4
+NVIDIA,IBM,3,type1
+NVIDIA,Microsoft,-9,type3s
+NVIDIA,Amazon,-1,type0
 NVIDIA,Facebook,-11,type3s
-NVIDIA,SAP,4,type0
-NVIDIA,Autodesk,-5,type1s
-NVIDIA,AMD,4,type0
-NVIDIA,Scotiabank,4,type0
-NVIDIA,Xtreme Labs,4,type0
-NVIDIA,Evertz,3,type0
-NVIDIA,A9.com,-1,type1s
-NVIDIA,Trapeze Group,7,type1
-NVIDIA,Snapchat,-1,type1s
-NVIDIA,CGI,3,type0
-NVIDIA,EMC,5,type1
+NVIDIA,SAP,4,type2
+NVIDIA,Autodesk,-5,type2s
+NVIDIA,AMD,4,type2
+NVIDIA,Scotiabank,4,type2
+NVIDIA,Xtreme Labs,4,type2
+NVIDIA,Evertz,3,type1
+NVIDIA,A9.com,-1,type0
+NVIDIA,Trapeze Group,7,type2
+NVIDIA,Snapchat,-1,type0
+NVIDIA,CGI,3,type1
+NVIDIA,EMC,5,type2
 NVIDIA,Thalmic Labs,1,type0
-Oracle,BlackBerry,2,type0
+Oracle,BlackBerry,2,type1
 Oracle,IBM,-8,type2s
-Oracle,Google,-1,type1s
-Oracle,Microsoft,-4,type1s
-Oracle,Amazon,-5,type1s
+Oracle,Google,-1,type0
+Oracle,Microsoft,-4,type2s
+Oracle,Amazon,-5,type2s
 Oracle,Facebook,-3,type1s
-Oracle,Desire2Learn,2,type0
+Oracle,Desire2Learn,2,type1
 Oracle,TD,1,type0
 Oracle,LinkedIn,-2,type1s
 Oracle,Autodesk,-2,type1s
-Oracle,Bloomberg,-1,type1s
+Oracle,Bloomberg,-1,type0
 Oracle,BMO,1,type0
-Oracle,Scotiabank,2,type0
-Oracle,Minted,-1,type1s
-Oracle,Rogers Communications,2,type0
-Oracle,A9.com,-4,type1s
+Oracle,Scotiabank,2,type1
+Oracle,Minted,-1,type0
+Oracle,Rogers Communications,2,type1
+Oracle,A9.com,-4,type2s
 Oracle,Palantir Technologies,-3,type1s
-Oracle,TD Securities,-1,type1s
-Oracle,Trapeze Group,2,type0
+Oracle,TD Securities,-1,type0
+Oracle,Trapeze Group,2,type1
 Oracle,"Enflick, Inc.",-2,type1s
 Oracle,Cisco Systems,-2,type1s
-Oracle,EMC,2,type0
-Oracle,SugarCRM,-1,type1s
-Evertz,BlackBerry,4,type0
-Evertz,Amazon,-1,type1s
-Evertz,SAP,-1,type1s
+Oracle,EMC,2,type1
+Oracle,SugarCRM,-1,type0
+Evertz,BlackBerry,4,type2
+Evertz,Amazon,-1,type0
+Evertz,SAP,-1,type0
 Evertz,Apple,-2,type1s
 Evertz,OANDA,1,type0
-Evertz,AMD,2,type0
-Evertz,Sybase,2,type0
-Evertz,Christie Digital Systems,3,type0
-Evertz,Rogers Communications,3,type0
+Evertz,AMD,2,type1
+Evertz,Sybase,2,type1
+Evertz,Christie Digital Systems,3,type1
+Evertz,Rogers Communications,3,type1
 Evertz,Wattpad,-2,type1s
-Evertz,Citi,3,type0
+Evertz,Citi,3,type1
 Evertz,NVIDIA,-3,type1s
-Evertz,NCR Corporation,2,type0
-Evertz,Trapeze Group,2,type0
+Evertz,NCR Corporation,2,type1
+Evertz,Trapeze Group,2,type1
 Evertz,Altera,1,type0
-Evertz,TTC,7,type1
+Evertz,TTC,7,type2
 NCR Corporation,BlackBerry,-3,type1s
 NCR Corporation,Google,-3,type1s
-NCR Corporation,SAP,-4,type1s
+NCR Corporation,SAP,-4,type2s
 NCR Corporation,NexJ Systems,-3,type1s
-NCR Corporation,Autodesk,-5,type1s
-NCR Corporation,Genesys,-1,type1s
-NCR Corporation,Apple,-4,type1s
+NCR Corporation,Autodesk,-5,type2s
+NCR Corporation,Genesys,-1,type0
+NCR Corporation,Apple,-4,type2s
 NCR Corporation,CIBC,1,type0
 NCR Corporation,Blue Coat Systems,1,type0
-NCR Corporation,Sybase,2,type0
+NCR Corporation,Sybase,2,type1
 NCR Corporation,Sun Life Financial,-2,type1s
-NCR Corporation,Agriculture and Agri-Food Canada,3,type0
+NCR Corporation,Agriculture and Agri-Food Canada,3,type1
 NCR Corporation,Christie Digital Systems,-3,type1s
 NCR Corporation,PointClickCare,1,type0
 NCR Corporation,Evertz,-2,type1s
@@ -1344,562 +1344,562 @@ NCR Corporation,Trapeze Group,-3,type1s
 NCR Corporation,Ultimate Software,-3,type1s
 NCR Corporation,Environment Canada,1,type0
 NCR Corporation,JSI Telecom,1,type0
-NCR Corporation,Achievers,-1,type1s
+NCR Corporation,Achievers,-1,type0
 NCR Corporation,Tagged,-3,type1s
 NCR Corporation,Symcor,1,type0
 RBC,IBM,-8,type2s
-RBC,Autodesk,-5,type1s
-RBC,DBRS,-5,type1s
-RBC,Citi,2,type0
-RBC,NCR Corporation,-1,type1s
+RBC,Autodesk,-5,type2s
+RBC,DBRS,-5,type2s
+RBC,Citi,2,type1
+RBC,NCR Corporation,-1,type0
 RBC,Environment Canada,1,type0
-RBC,Achievers,-1,type1s
-RBC,Symcor,-1,type1s
-RBC,FreshBooks,-4,type1s
-Sony,BlackBerry,3,type0
-Sony,Microsoft,-1,type1s
-Sony,Amazon,-1,type1s
+RBC,Achievers,-1,type0
+RBC,Symcor,-1,type0
+RBC,FreshBooks,-4,type2s
+Sony,BlackBerry,3,type1
+Sony,Microsoft,-1,type0
+Sony,Amazon,-1,type0
 Sony,Facebook,-3,type1s
 Sony,SAP,1,type0
 Sony,Pivotal Labs,1,type0
 Sony,LinkedIn,-3,type1s
-Sony,"Kik Interactive, Inc.",3,type0
-Sony,Sunnybrook Health Sciences Centre,2,type0
-Sony,Scotiabank,5,type1
+Sony,"Kik Interactive, Inc.",3,type1
+Sony,Sunnybrook Health Sciences Centre,2,type1
+Sony,Scotiabank,5,type2
 Sony,Ultimate Software,-2,type1s
 Sony,Inkling,-3,type1s
-Sony,Kaleidescape,2,type0
-Twitter,BlackBerry,3,type0
-Twitter,IBM,-1,type1s
-Twitter,Google,3,type0
-Twitter,Microsoft,-5,type1s
-Twitter,Amazon,2,type0
+Sony,Kaleidescape,2,type1
+Twitter,BlackBerry,3,type1
+Twitter,IBM,-1,type0
+Twitter,Google,3,type1
+Twitter,Microsoft,-5,type2s
+Twitter,Amazon,2,type1
 Twitter,Facebook,-7,type2s
 Twitter,TD,1,type0
-Twitter,LinkedIn,6,type1
-Twitter,Autodesk,2,type0
+Twitter,LinkedIn,6,type2
+Twitter,Autodesk,2,type1
 Twitter,Zynga,1,type0
-Twitter,Genesys,5,type1
-Twitter,Bloomberg,2,type0
-Twitter,Trapeze Group,24,type4
-Twitter,Environment Canada,7,type1
+Twitter,Genesys,5,type2
+Twitter,Bloomberg,2,type1
+Twitter,Trapeze Group,24,type5
+Twitter,Environment Canada,7,type2
 Twitter,Inkling,1,type0
 Twitter,Pinterest,1,type0
-Electronic Arts,BlackBerry,9,type1
+Electronic Arts,BlackBerry,9,type3
 Electronic Arts,Google,-2,type1s
-Electronic Arts,Microsoft,2,type0
-Electronic Arts,Facebook,-4,type1s
-Electronic Arts,Desire2Learn,7,type1
-Electronic Arts,Pivotal Labs,6,type1
-Electronic Arts,NexJ Systems,4,type0
-Electronic Arts,Bloomberg,-1,type1s
-Electronic Arts,AMD,-1,type1s
-Electronic Arts,Sybase,8,type1
-Electronic Arts,Sun Life Financial,3,type0
-Electronic Arts,BMO,2,type0
-Electronic Arts,Scotiabank,4,type0
-Electronic Arts,PointClickCare,6,type1
-Electronic Arts,Trapeze Group,2,type0
-A9.com,IBM,2,type0
-A9.com,Google,-1,type1s
+Electronic Arts,Microsoft,2,type1
+Electronic Arts,Facebook,-4,type2s
+Electronic Arts,Desire2Learn,7,type2
+Electronic Arts,Pivotal Labs,6,type2
+Electronic Arts,NexJ Systems,4,type2
+Electronic Arts,Bloomberg,-1,type0
+Electronic Arts,AMD,-1,type0
+Electronic Arts,Sybase,8,type2
+Electronic Arts,Sun Life Financial,3,type1
+Electronic Arts,BMO,2,type1
+Electronic Arts,Scotiabank,4,type2
+Electronic Arts,PointClickCare,6,type2
+Electronic Arts,Trapeze Group,2,type1
+A9.com,IBM,2,type1
+A9.com,Google,-1,type0
 A9.com,Microsoft,-8,type2s
-A9.com,Facebook,-4,type1s
-A9.com,SAP,3,type0
-A9.com,Pivotal Labs,5,type1
-A9.com,TD,2,type0
-A9.com,Zynga,4,type0
-A9.com,Apple,3,type0
+A9.com,Facebook,-4,type2s
+A9.com,SAP,3,type1
+A9.com,Pivotal Labs,5,type2
+A9.com,TD,2,type1
+A9.com,Zynga,4,type2
+A9.com,Apple,3,type1
 A9.com,Yelp,1,type0
-A9.com,CIBC,3,type0
-A9.com,Blue Coat Systems,3,type0
-A9.com,BMO,6,type1
-A9.com,Xtreme Labs,3,type0
+A9.com,CIBC,3,type1
+A9.com,Blue Coat Systems,3,type1
+A9.com,BMO,6,type2
+A9.com,Xtreme Labs,3,type1
 A9.com,NVIDIA,1,type0
-A9.com,Oracle,4,type0
+A9.com,Oracle,4,type2
 A9.com,Bazaarvoice,1,type0
 A9.com,A Thinking Ape,1,type0
-A9.com,Kaleidescape,2,type0
-A9.com,Arista Networks,3,type0
-Coursera,BlackBerry,2,type0
-Coursera,IBM,4,type0
-Coursera,Google,2,type0
-Coursera,Microsoft,-1,type1s
-Coursera,Facebook,-4,type1s
-Coursera,Desire2Learn,3,type0
+A9.com,Kaleidescape,2,type1
+A9.com,Arista Networks,3,type1
+Coursera,BlackBerry,2,type1
+Coursera,IBM,4,type2
+Coursera,Google,2,type1
+Coursera,Microsoft,-1,type0
+Coursera,Facebook,-4,type2s
+Coursera,Desire2Learn,3,type1
 Coursera,Pivotal Labs,1,type0
-Coursera,LinkedIn,4,type0
-Coursera,Autodesk,4,type0
-Coursera,Zynga,8,type1
-Coursera,OANDA,6,type1
-Coursera,Blue Coat Systems,3,type0
-Coursera,Sybase,3,type0
+Coursera,LinkedIn,4,type2
+Coursera,Autodesk,4,type2
+Coursera,Zynga,8,type2
+Coursera,OANDA,6,type2
+Coursera,Blue Coat Systems,3,type1
+Coursera,Sybase,3,type1
 Coursera,"Kik Interactive, Inc.",1,type0
-Coursera,Sunnybrook Health Sciences Centre,3,type0
-Coursera,Christie Digital Systems,14,type2
+Coursera,Sunnybrook Health Sciences Centre,3,type1
+Coursera,Christie Digital Systems,14,type3
 Coursera,Minted,1,type0
 Coursera,Palantir Technologies,-2,type1s
-Coursera,Trapeze Group,8,type1
-Coursera,Snapchat,-1,type1s
-Coursera,Kumon,4,type0
-Palantir Technologies,BlackBerry,2,type0
+Coursera,Trapeze Group,8,type2
+Coursera,Snapchat,-1,type0
+Coursera,Kumon,4,type2
+Palantir Technologies,BlackBerry,2,type1
 Palantir Technologies,Google,15,type3
 Palantir Technologies,Microsoft,1,type0
-Palantir Technologies,Facebook,3,type0
-Palantir Technologies,Desire2Learn,3,type0
+Palantir Technologies,Facebook,3,type1
+Palantir Technologies,Desire2Learn,3,type1
 Palantir Technologies,LinkedIn,1,type0
 Palantir Technologies,Genesys,1,type0
-Palantir Technologies,CIBC,2,type0
-Palantir Technologies,Bloomberg,2,type0
-Palantir Technologies,Scotiabank,2,type0
+Palantir Technologies,CIBC,2,type1
+Palantir Technologies,Bloomberg,2,type1
+Palantir Technologies,Scotiabank,2,type1
 Palantir Technologies,Fixmo,1,type0
-Palantir Technologies,Oracle,3,type0
-Palantir Technologies,Coursera,2,type0
-Palantir Technologies,TD Securities,6,type1
-Palantir Technologies,JSI Telecom,16,type3
+Palantir Technologies,Oracle,3,type1
+Palantir Technologies,Coursera,2,type1
+Palantir Technologies,TD Securities,6,type2
+Palantir Technologies,JSI Telecom,16,type4
 Palantir Technologies,Snapchat,1,type0
 Palantir Technologies,Tagged,1,type0
-SMART Technologies,BlackBerry,6,type1
-SMART Technologies,IBM,-1,type1s
+SMART Technologies,BlackBerry,6,type2
+SMART Technologies,IBM,-1,type0
 SMART Technologies,Amazon,-3,type1s
-SMART Technologies,Desire2Learn,4,type0
-SMART Technologies,NexJ Systems,2,type0
-SMART Technologies,LinkedIn,-1,type1s
-SMART Technologies,Autodesk,3,type0
-SMART Technologies,AMD,-1,type1s
-SMART Technologies,Ontario Teachers' Pension Plan,9,type1
-SMART Technologies,Kumon,5,type1
+SMART Technologies,Desire2Learn,4,type2
+SMART Technologies,NexJ Systems,2,type1
+SMART Technologies,LinkedIn,-1,type0
+SMART Technologies,Autodesk,3,type1
+SMART Technologies,AMD,-1,type0
+SMART Technologies,Ontario Teachers' Pension Plan,9,type3
+SMART Technologies,Kumon,5,type2
 TD Securities,BlackBerry,1,type0
 TD Securities,IBM,-2,type1s
 TD Securities,Google,1,type0
-TD Securities,Microsoft,-1,type1s
-TD Securities,Amazon,-1,type1s
-TD Securities,Facebook,-1,type1s
+TD Securities,Microsoft,-1,type0
+TD Securities,Amazon,-1,type0
+TD Securities,Facebook,-1,type0
 TD Securities,Desire2Learn,-3,type1s
 TD Securities,Pivotal Labs,1,type0
 TD Securities,Zynga,-3,type1s
 TD Securities,Genesys,-2,type1s
-TD Securities,AMD,4,type0
+TD Securities,AMD,4,type2
 TD Securities,Ontario Teachers' Pension Plan,-2,type1s
 TD Securities,Sunnybrook Health Sciences Centre,-2,type1s
-TD Securities,BMO,2,type0
+TD Securities,BMO,2,type1
 TD Securities,Oracle,1,type0
 TD Securities,Palantir Technologies,-6,type2s
-TD Securities,Environment Canada,2,type0
-TD Securities,JSI Telecom,2,type0
+TD Securities,Environment Canada,2,type1
+TD Securities,JSI Telecom,2,type1
 Trapeze Group,BlackBerry,-2,type1s
 Trapeze Group,IBM,-8,type2s
 Trapeze Group,Microsoft,-7,type2s
 Trapeze Group,Amazon,-3,type1s
-Trapeze Group,Facebook,-5,type1s
+Trapeze Group,Facebook,-5,type2s
 Trapeze Group,Pivotal Labs,-2,type1s
-Trapeze Group,NexJ Systems,-1,type1s
+Trapeze Group,NexJ Systems,-1,type0
 Trapeze Group,LinkedIn,-6,type2s
 Trapeze Group,Genesys,-2,type1s
-Trapeze Group,OANDA,-1,type1s
-Trapeze Group,Sun Life Financial,2,type0
-Trapeze Group,Xtreme Labs,-1,type1s
+Trapeze Group,OANDA,-1,type0
+Trapeze Group,Sun Life Financial,2,type1
+Trapeze Group,Xtreme Labs,-1,type0
 Trapeze Group,NVIDIA,-7,type2s
 Trapeze Group,Oracle,-2,type1s
 Trapeze Group,Evertz,-2,type1s
-Trapeze Group,NCR Corporation,3,type0
-Trapeze Group,Twitter,-24,type4s
+Trapeze Group,NCR Corporation,3,type1
+Trapeze Group,Twitter,-24,type5s
 Trapeze Group,Electronic Arts,-2,type1s
 Trapeze Group,Coursera,-8,type2s
 Trapeze Group,Ultimate Software,-7,type2s
-Trapeze Group,Inkling,-4,type1s
-Trapeze Group,JSI Telecom,4,type0
-Trapeze Group,Snapchat,-9,type2s
-Trapeze Group,Pinterest,-4,type1s
+Trapeze Group,Inkling,-4,type2s
+Trapeze Group,JSI Telecom,4,type2
+Trapeze Group,Snapchat,-9,type3s
+Trapeze Group,Pinterest,-4,type2s
 Alcatel-Lucent,BlackBerry,1,type0
-Alcatel-Lucent,IBM,-1,type1s
+Alcatel-Lucent,IBM,-1,type0
 Alcatel-Lucent,Microsoft,-2,type1s
-Alcatel-Lucent,Amazon,-10,type2s
+Alcatel-Lucent,Amazon,-10,type3s
 Alcatel-Lucent,Desire2Learn,-3,type1s
-Alcatel-Lucent,LinkedIn,-21,type4s
-Alcatel-Lucent,OpenText,2,type0
+Alcatel-Lucent,LinkedIn,-21,type5s
+Alcatel-Lucent,OpenText,2,type1
 Alcatel-Lucent,Ontario Teachers' Pension Plan,1,type0
-Alcatel-Lucent,Agriculture and Agri-Food Canada,-1,type1s
-Alcatel-Lucent,Xtreme Labs,-1,type1s
-Alcatel-Lucent,PointClickCare,2,type0
-Alcatel-Lucent,Bazaarvoice,-1,type1s
+Alcatel-Lucent,Agriculture and Agri-Food Canada,-1,type0
+Alcatel-Lucent,Xtreme Labs,-1,type0
+Alcatel-Lucent,PointClickCare,2,type1
+Alcatel-Lucent,Bazaarvoice,-1,type0
 Alcatel-Lucent,Altera,-6,type2s
 Alcatel-Lucent,JSI Telecom,1,type0
 Alcatel-Lucent,Ericsson,-2,type1s
-Alcatel-Lucent,Kumon,3,type0
+Alcatel-Lucent,Kumon,3,type1
 Bazaarvoice,IBM,1,type0
-Bazaarvoice,Facebook,-1,type1s
-Bazaarvoice,Desire2Learn,4,type0
+Bazaarvoice,Facebook,-1,type0
+Bazaarvoice,Desire2Learn,4,type2
 Bazaarvoice,Pivotal Labs,-2,type1s
-Bazaarvoice,NexJ Systems,2,type0
-Bazaarvoice,AMD,3,type0
+Bazaarvoice,NexJ Systems,2,type1
+Bazaarvoice,AMD,3,type1
 Bazaarvoice,Blue Coat Systems,1,type0
-Bazaarvoice,Xtreme Labs,3,type0
-Bazaarvoice,Minted,-1,type1s
-Bazaarvoice,PointClickCare,4,type0
-Bazaarvoice,Rogers Communications,2,type0
-Bazaarvoice,A9.com,-1,type1s
+Bazaarvoice,Xtreme Labs,3,type1
+Bazaarvoice,Minted,-1,type0
+Bazaarvoice,PointClickCare,4,type2
+Bazaarvoice,Rogers Communications,2,type1
+Bazaarvoice,A9.com,-1,type0
 Bazaarvoice,Alcatel-Lucent,1,type0
-Bazaarvoice,Altera,10,type2
+Bazaarvoice,Altera,10,type3
 Bazaarvoice,Morgan Stanley,1,type0
-Bazaarvoice,JSI Telecom,2,type0
+Bazaarvoice,JSI Telecom,2,type1
 Bazaarvoice,Hearsay Social,-2,type1s
 Bazaarvoice,SugarCRM,-3,type1s
-Ultimate Software,BlackBerry,4,type0
+Ultimate Software,BlackBerry,4,type2
 Ultimate Software,IBM,1,type0
 Ultimate Software,SAP,1,type0
-Ultimate Software,Pivotal Labs,3,type0
-Ultimate Software,Yelp,-1,type1s
-Ultimate Software,Blue Coat Systems,5,type1
-Ultimate Software,"Kik Interactive, Inc.",-1,type1s
-Ultimate Software,DBRS,3,type0
-Ultimate Software,NCR Corporation,3,type0
-Ultimate Software,Sony,2,type0
-Ultimate Software,Trapeze Group,7,type1
-Ultimate Software,JSI Telecom,3,type0
-Ultimate Software,Kumon,4,type0
+Ultimate Software,Pivotal Labs,3,type1
+Ultimate Software,Yelp,-1,type0
+Ultimate Software,Blue Coat Systems,5,type2
+Ultimate Software,"Kik Interactive, Inc.",-1,type0
+Ultimate Software,DBRS,3,type1
+Ultimate Software,NCR Corporation,3,type1
+Ultimate Software,Sony,2,type1
+Ultimate Software,Trapeze Group,7,type2
+Ultimate Software,JSI Telecom,3,type1
+Ultimate Software,Kumon,4,type2
 Altera,BlackBerry,-2,type1s
 Altera,Google,-3,type1s
 Altera,Microsoft,-12,type3s
 Altera,Facebook,-17,type4s
-Altera,NexJ Systems,2,type0
+Altera,NexJ Systems,2,type1
 Altera,LinkedIn,-8,type2s
 Altera,Apple,-2,type1s
-Altera,Xtreme Labs,2,type0
-Altera,DBRS,-1,type1s
+Altera,Xtreme Labs,2,type1
+Altera,DBRS,-1,type0
 Altera,PointClickCare,1,type0
-Altera,Evertz,-1,type1s
-Altera,Alcatel-Lucent,6,type1
-Altera,Bazaarvoice,-10,type2s
-Altera,FreshBooks,-4,type1s
-Altera,Kumon,2,type0
-Environment Canada,BlackBerry,-5,type1s
-Environment Canada,IBM,3,type0
+Altera,Evertz,-1,type0
+Altera,Alcatel-Lucent,6,type2
+Altera,Bazaarvoice,-10,type3s
+Altera,FreshBooks,-4,type2s
+Altera,Kumon,2,type1
+Environment Canada,BlackBerry,-5,type2s
+Environment Canada,IBM,3,type1
 Environment Canada,Google,-2,type1s
-Environment Canada,Microsoft,-1,type1s
+Environment Canada,Microsoft,-1,type0
 Environment Canada,SAP,-3,type1s
-Environment Canada,TD,-1,type1s
+Environment Canada,TD,-1,type0
 Environment Canada,Sun Life Financial,-2,type1s
 Environment Canada,Agriculture and Agri-Food Canada,1,type0
 Environment Canada,PointClickCare,-2,type1s
 Environment Canada,Rogers Communications,-3,type1s
-Environment Canada,NCR Corporation,-1,type1s
-Environment Canada,RBC,-1,type1s
+Environment Canada,NCR Corporation,-1,type0
+Environment Canada,RBC,-1,type0
 Environment Canada,Twitter,-7,type2s
 Environment Canada,TD Securities,-2,type1s
-Environment Canada,Kaleidescape,-1,type1s
-Environment Canada,Symcor,-1,type1s
+Environment Canada,Kaleidescape,-1,type0
+Environment Canada,Symcor,-1,type0
 Inkling,IBM,1,type0
-Inkling,Google,-1,type1s
+Inkling,Google,-1,type0
 Inkling,Facebook,-3,type1s
-Inkling,SAP,3,type0
-Inkling,Pivotal Labs,2,type0
-Inkling,Genesys,5,type1
-Inkling,OANDA,3,type0
+Inkling,SAP,3,type1
+Inkling,Pivotal Labs,2,type1
+Inkling,Genesys,5,type2
+Inkling,OANDA,3,type1
 Inkling,Yelp,-7,type2s
-Inkling,CIBC,3,type0
+Inkling,CIBC,3,type1
 Inkling,Bloomberg,1,type0
-Inkling,Sybase,5,type1
-Inkling,Ontario Teachers' Pension Plan,2,type0
-Inkling,Sunnybrook Health Sciences Centre,2,type0
+Inkling,Sybase,5,type2
+Inkling,Ontario Teachers' Pension Plan,2,type1
+Inkling,Sunnybrook Health Sciences Centre,2,type1
 Inkling,Lookout,1,type0
-Inkling,Xtreme Labs,3,type0
-Inkling,Minted,-1,type1s
-Inkling,Sony,3,type0
-Inkling,Twitter,-1,type1s
-Inkling,Trapeze Group,4,type0
+Inkling,Xtreme Labs,3,type1
+Inkling,Minted,-1,type0
+Inkling,Sony,3,type1
+Inkling,Twitter,-1,type0
+Inkling,Trapeze Group,4,type2
 Inkling,A Thinking Ape,-2,type1s
-Inkling,FreshBooks,3,type0
-Inkling,SugarCRM,2,type0
-A Thinking Ape,IBM,3,type0
+Inkling,FreshBooks,3,type1
+Inkling,SugarCRM,2,type1
+A Thinking Ape,IBM,3,type1
 A Thinking Ape,Google,-7,type2s
 A Thinking Ape,Microsoft,-7,type2s
 A Thinking Ape,Amazon,-3,type1s
-A Thinking Ape,Facebook,-4,type1s
-A Thinking Ape,SAP,2,type0
-A Thinking Ape,Pivotal Labs,2,type0
-A Thinking Ape,LinkedIn,-5,type1s
+A Thinking Ape,Facebook,-4,type2s
+A Thinking Ape,SAP,2,type1
+A Thinking Ape,Pivotal Labs,2,type1
+A Thinking Ape,LinkedIn,-5,type2s
 A Thinking Ape,Genesys,1,type0
-A Thinking Ape,Yelp,-1,type1s
+A Thinking Ape,Yelp,-1,type0
 A Thinking Ape,OpenText,1,type0
-A Thinking Ape,Sybase,3,type0
-A Thinking Ape,Scotiabank,5,type1
-A Thinking Ape,Christie Digital Systems,3,type0
-A Thinking Ape,Fixmo,8,type1
-A Thinking Ape,Minted,-1,type1s
+A Thinking Ape,Sybase,3,type1
+A Thinking Ape,Scotiabank,5,type2
+A Thinking Ape,Christie Digital Systems,3,type1
+A Thinking Ape,Fixmo,8,type2
+A Thinking Ape,Minted,-1,type0
 A Thinking Ape,Wattpad,1,type0
-A Thinking Ape,A9.com,-1,type1s
-A Thinking Ape,Inkling,2,type0
+A Thinking Ape,A9.com,-1,type0
+A Thinking Ape,Inkling,2,type1
 A Thinking Ape,Snapchat,-14,type3s
 A Thinking Ape,Pinterest,-3,type1s
-"Enflick, Inc.",BlackBerry,4,type0
+"Enflick, Inc.",BlackBerry,4,type2
 "Enflick, Inc.",Google,-2,type1s
-"Enflick, Inc.",Microsoft,-5,type1s
-"Enflick, Inc.",Amazon,-1,type1s
-"Enflick, Inc.",SAP,5,type1
+"Enflick, Inc.",Microsoft,-5,type2s
+"Enflick, Inc.",Amazon,-1,type0
+"Enflick, Inc.",SAP,5,type2
 "Enflick, Inc.",Pivotal Labs,1,type0
-"Enflick, Inc.",Zynga,-1,type1s
+"Enflick, Inc.",Zynga,-1,type0
 "Enflick, Inc.",Bloomberg,-2,type1s
-"Enflick, Inc.",Lookout,-1,type1s
-"Enflick, Inc.",Xtreme Labs,2,type0
-"Enflick, Inc.",Oracle,2,type0
-"Enflick, Inc.",Hearsay Social,-1,type1s
-"Enflick, Inc.",SugarCRM,6,type1
-Morgan Stanley,BlackBerry,2,type0
+"Enflick, Inc.",Lookout,-1,type0
+"Enflick, Inc.",Xtreme Labs,2,type1
+"Enflick, Inc.",Oracle,2,type1
+"Enflick, Inc.",Hearsay Social,-1,type0
+"Enflick, Inc.",SugarCRM,6,type2
+Morgan Stanley,BlackBerry,2,type1
 Morgan Stanley,IBM,-6,type2s
 Morgan Stanley,Google,-3,type1s
-Morgan Stanley,Facebook,-1,type1s
-Morgan Stanley,SAP,2,type0
+Morgan Stanley,Facebook,-1,type0
+Morgan Stanley,SAP,2,type1
 Morgan Stanley,LinkedIn,-3,type1s
-Morgan Stanley,AMD,2,type0
-Morgan Stanley,Sybase,2,type0
+Morgan Stanley,AMD,2,type1
+Morgan Stanley,Sybase,2,type1
 Morgan Stanley,Sun Life Financial,1,type0
-Morgan Stanley,Sunnybrook Health Sciences Centre,2,type0
+Morgan Stanley,Sunnybrook Health Sciences Centre,2,type1
 Morgan Stanley,Minted,-2,type1s
-Morgan Stanley,Kobo Inc.,7,type1
-Morgan Stanley,Bazaarvoice,-1,type1s
+Morgan Stanley,Kobo Inc.,7,type2
+Morgan Stanley,Bazaarvoice,-1,type0
 Morgan Stanley,Cisco Systems,1,type0
-Morgan Stanley,Symcor,-1,type1s
+Morgan Stanley,Symcor,-1,type0
 Morgan Stanley,Pinterest,-3,type1s
 JSI Telecom,BlackBerry,1,type0
 JSI Telecom,Desire2Learn,-2,type1s
-JSI Telecom,TD,-1,type1s
-JSI Telecom,Autodesk,-5,type1s
+JSI Telecom,TD,-1,type0
+JSI Telecom,Autodesk,-5,type2s
 JSI Telecom,Sun Life Financial,-2,type1s
-JSI Telecom,Scotiabank,3,type0
+JSI Telecom,Scotiabank,3,type1
 JSI Telecom,PointClickCare,1,type0
-JSI Telecom,NCR Corporation,-1,type1s
+JSI Telecom,NCR Corporation,-1,type0
 JSI Telecom,Palantir Technologies,-16,type4s
 JSI Telecom,TD Securities,-2,type1s
-JSI Telecom,Trapeze Group,-4,type1s
-JSI Telecom,Alcatel-Lucent,-1,type1s
+JSI Telecom,Trapeze Group,-4,type2s
+JSI Telecom,Alcatel-Lucent,-1,type0
 JSI Telecom,Bazaarvoice,-2,type1s
 JSI Telecom,Ultimate Software,-3,type1s
-JSI Telecom,Kumon,5,type1
-Snapchat,IBM,18,type3
+JSI Telecom,Kumon,5,type2
+Snapchat,IBM,18,type4
 Snapchat,Google,1,type0
-Snapchat,Amazon,5,type1
-Snapchat,Facebook,6,type1
-Snapchat,NexJ Systems,7,type1
-Snapchat,Genesys,3,type0
+Snapchat,Amazon,5,type2
+Snapchat,Facebook,6,type2
+Snapchat,NexJ Systems,7,type2
+Snapchat,Genesys,3,type1
 Snapchat,Yelp,1,type0
-Snapchat,Bloomberg,2,type0
+Snapchat,Bloomberg,2,type1
 Snapchat,Blue Coat Systems,1,type0
-Snapchat,Sybase,4,type0
+Snapchat,Sybase,4,type2
 Snapchat,NVIDIA,1,type0
 Snapchat,Coursera,1,type0
-Snapchat,Palantir Technologies,-1,type1s
-Snapchat,Trapeze Group,9,type1
-Snapchat,A Thinking Ape,14,type2
-Snapchat,Cisco Systems,3,type0
+Snapchat,Palantir Technologies,-1,type0
+Snapchat,Trapeze Group,9,type3
+Snapchat,A Thinking Ape,14,type3
+Snapchat,Cisco Systems,3,type1
 Achievers,BlackBerry,15,type3
-Achievers,IBM,-4,type1s
+Achievers,IBM,-4,type2s
 Achievers,Microsoft,-2,type1s
-Achievers,Facebook,-4,type1s
-Achievers,Agriculture and Agri-Food Canada,5,type1
+Achievers,Facebook,-4,type2s
+Achievers,Agriculture and Agri-Food Canada,5,type2
 Achievers,Kobo Inc.,1,type0
 Achievers,NCR Corporation,1,type0
 Achievers,RBC,1,type0
 CGI,BlackBerry,-2,type1s
-CGI,IBM,-5,type1s
+CGI,IBM,-5,type2s
 CGI,Amazon,-6,type2s
 CGI,SAP,-6,type2s
 CGI,TD,-3,type1s
-CGI,Zynga,5,type1
+CGI,Zynga,5,type2
 CGI,Scotiabank,1,type0
 CGI,NVIDIA,-3,type1s
-Cisco Systems,BlackBerry,2,type0
+Cisco Systems,BlackBerry,2,type1
 Cisco Systems,Google,-2,type1s
-Cisco Systems,Microsoft,-4,type1s
+Cisco Systems,Microsoft,-4,type2s
 Cisco Systems,Amazon,-6,type2s
 Cisco Systems,Facebook,-3,type1s
-Cisco Systems,LinkedIn,-4,type1s
-Cisco Systems,Autodesk,-1,type1s
-Cisco Systems,Oracle,2,type0
-Cisco Systems,Morgan Stanley,-1,type1s
+Cisco Systems,LinkedIn,-4,type2s
+Cisco Systems,Autodesk,-1,type0
+Cisco Systems,Oracle,2,type1
+Cisco Systems,Morgan Stanley,-1,type0
 Cisco Systems,Snapchat,-3,type1s
-Cisco Systems,Arista Networks,-1,type1s
+Cisco Systems,Arista Networks,-1,type0
 Ericsson,BlackBerry,1,type0
 Ericsson,Amazon,-3,type1s
 Ericsson,Desire2Learn,-6,type2s
 Ericsson,Autodesk,1,type0
 Ericsson,Apple,-2,type1s
-Ericsson,OpenText,3,type0
+Ericsson,OpenText,3,type1
 Ericsson,Sybase,1,type0
 Ericsson,Sun Life Financial,1,type0
-Ericsson,Rogers Communications,3,type0
+Ericsson,Rogers Communications,3,type1
 Ericsson,Citi,-3,type1s
-Ericsson,Alcatel-Lucent,2,type0
-Kaleidescape,BlackBerry,11,type2
-Kaleidescape,Microsoft,-5,type1s
+Ericsson,Alcatel-Lucent,2,type1
+Kaleidescape,BlackBerry,11,type3
+Kaleidescape,Microsoft,-5,type2s
 Kaleidescape,SAP,-2,type1s
 Kaleidescape,LinkedIn,-3,type1s
-Kaleidescape,Apple,-1,type1s
-Kaleidescape,Bloomberg,-1,type1s
-Kaleidescape,Blue Coat Systems,6,type1
-Kaleidescape,Lookout,-1,type1s
+Kaleidescape,Apple,-1,type0
+Kaleidescape,Bloomberg,-1,type0
+Kaleidescape,Blue Coat Systems,6,type2
+Kaleidescape,Lookout,-1,type0
 Kaleidescape,Christie Digital Systems,-2,type1s
 Kaleidescape,Kobo Inc.,1,type0
 Kaleidescape,Manulife Financial,-6,type2s
 Kaleidescape,Sony,-2,type1s
 Kaleidescape,A9.com,-2,type1s
 Kaleidescape,Environment Canada,1,type0
-Tagged,BlackBerry,2,type0
+Tagged,BlackBerry,2,type1
 Tagged,IBM,1,type0
 Tagged,Google,-3,type1s
 Tagged,Microsoft,-2,type1s
 Tagged,Amazon,-3,type1s
 Tagged,Desire2Learn,1,type0
 Tagged,Pivotal Labs,1,type0
-Tagged,LinkedIn,-4,type1s
+Tagged,LinkedIn,-4,type2s
 Tagged,Zynga,-2,type1s
 Tagged,OANDA,1,type0
-Tagged,Yelp,-4,type1s
-Tagged,CIBC,2,type0
-Tagged,DBRS,2,type0
+Tagged,Yelp,-4,type2s
+Tagged,CIBC,2,type1
+Tagged,DBRS,2,type1
 Tagged,Minted,-2,type1s
-Tagged,NCR Corporation,3,type0
-Tagged,Palantir Technologies,-1,type1s
+Tagged,NCR Corporation,3,type1
+Tagged,Palantir Technologies,-1,type0
 Tagged,Hearsay Social,-2,type1s
 TTC,BlackBerry,-2,type1s
-TTC,IBM,-1,type1s
+TTC,IBM,-1,type0
 TTC,Microsoft,-2,type1s
-TTC,SAP,-1,type1s
-TTC,Desire2Learn,-1,type1s
+TTC,SAP,-1,type0
+TTC,Desire2Learn,-1,type0
 TTC,NexJ Systems,1,type0
-TTC,AMD,3,type0
+TTC,AMD,3,type1
 TTC,Ontario Teachers' Pension Plan,1,type0
-TTC,Scotiabank,-9,type2s
+TTC,Scotiabank,-9,type3s
 TTC,Minted,-2,type1s
 TTC,Manulife Financial,-7,type2s
 TTC,Evertz,-7,type2s
-EMC,IBM,5,type1
+EMC,IBM,5,type2
 EMC,Facebook,-11,type3s
-EMC,Autodesk,-1,type1s
+EMC,Autodesk,-1,type0
 EMC,Lookout,-2,type1s
 EMC,DBRS,1,type0
-EMC,Citi,2,type0
-EMC,NVIDIA,-5,type1s
+EMC,Citi,2,type1
+EMC,NVIDIA,-5,type2s
 EMC,Oracle,-2,type1s
-Symcor,BlackBerry,3,type0
-Symcor,IBM,-9,type2s
+Symcor,BlackBerry,3,type1
+Symcor,IBM,-9,type3s
 Symcor,Facebook,-2,type1s
-Symcor,Pivotal Labs,-1,type1s
-Symcor,NexJ Systems,2,type0
+Symcor,Pivotal Labs,-1,type0
+Symcor,NexJ Systems,2,type1
 Symcor,TD,-2,type1s
-Symcor,Genesys,-1,type1s
-Symcor,Sun Life Financial,-1,type1s
+Symcor,Genesys,-1,type0
+Symcor,Sun Life Financial,-1,type0
 Symcor,Agriculture and Agri-Food Canada,1,type0
 Symcor,PointClickCare,1,type0
-Symcor,Citi,3,type0
-Symcor,NCR Corporation,-1,type1s
+Symcor,Citi,3,type1
+Symcor,NCR Corporation,-1,type0
 Symcor,RBC,1,type0
 Symcor,Environment Canada,1,type0
 Symcor,Morgan Stanley,1,type0
-Symcor,Pinterest,-4,type1s
-Arista Networks,BlackBerry,3,type0
-Arista Networks,Amazon,-1,type1s
-Arista Networks,Facebook,-1,type1s
-Arista Networks,Pivotal Labs,3,type0
-Arista Networks,LinkedIn,-1,type1s
-Arista Networks,CIBC,4,type0
-Arista Networks,Bloomberg,-1,type1s
-Arista Networks,AMD,2,type0
-Arista Networks,Kobo Inc.,7,type1
-Arista Networks,Wattpad,3,type0
+Symcor,Pinterest,-4,type2s
+Arista Networks,BlackBerry,3,type1
+Arista Networks,Amazon,-1,type0
+Arista Networks,Facebook,-1,type0
+Arista Networks,Pivotal Labs,3,type1
+Arista Networks,LinkedIn,-1,type0
+Arista Networks,CIBC,4,type2
+Arista Networks,Bloomberg,-1,type0
+Arista Networks,AMD,2,type1
+Arista Networks,Kobo Inc.,7,type2
+Arista Networks,Wattpad,3,type1
 Arista Networks,A9.com,-3,type1s
 Arista Networks,Cisco Systems,1,type0
 Digiflare,BlackBerry,1,type0
-Digiflare,SAP,2,type0
-Digiflare,Pivotal Labs,6,type1
+Digiflare,SAP,2,type1
+Digiflare,Pivotal Labs,6,type2
 Digiflare,NexJ Systems,1,type0
-Digiflare,TD,-1,type1s
+Digiflare,TD,-1,type0
 Digiflare,OANDA,1,type0
-Digiflare,CIBC,2,type0
-Digiflare,Sun Life Financial,3,type0
-Digiflare,Fixmo,5,type1
-Digiflare,Kobo Inc.,3,type0
+Digiflare,CIBC,2,type1
+Digiflare,Sun Life Financial,3,type1
+Digiflare,Fixmo,5,type2
+Digiflare,Kobo Inc.,3,type1
 Digiflare,Wattpad,1,type0
 FreshBooks,BlackBerry,1,type0
-FreshBooks,IBM,2,type0
-FreshBooks,Microsoft,-1,type1s
+FreshBooks,IBM,2,type1
+FreshBooks,Microsoft,-1,type0
 FreshBooks,Amazon,-3,type1s
-FreshBooks,SAP,2,type0
+FreshBooks,SAP,2,type1
 FreshBooks,OANDA,1,type0
-FreshBooks,Sybase,3,type0
+FreshBooks,Sybase,3,type1
 FreshBooks,Lookout,1,type0
-FreshBooks,DBRS,3,type0
+FreshBooks,DBRS,3,type1
 FreshBooks,Wattpad,1,type0
-FreshBooks,RBC,4,type0
-FreshBooks,Altera,4,type0
+FreshBooks,RBC,4,type2
+FreshBooks,Altera,4,type2
 FreshBooks,Inkling,-3,type1s
-Hearsay Social,Google,-1,type1s
-Hearsay Social,Microsoft,-1,type1s
+Hearsay Social,Google,-1,type0
+Hearsay Social,Microsoft,-1,type0
 Hearsay Social,Amazon,-3,type1s
-Hearsay Social,Pivotal Labs,3,type0
-Hearsay Social,TD,10,type2
-Hearsay Social,Zynga,5,type1
-Hearsay Social,Bloomberg,-1,type1s
-Hearsay Social,Xtreme Labs,7,type1
-Hearsay Social,Bazaarvoice,2,type0
+Hearsay Social,Pivotal Labs,3,type1
+Hearsay Social,TD,10,type3
+Hearsay Social,Zynga,5,type2
+Hearsay Social,Bloomberg,-1,type0
+Hearsay Social,Xtreme Labs,7,type2
+Hearsay Social,Bazaarvoice,2,type1
 Hearsay Social,"Enflick, Inc.",1,type0
-Hearsay Social,Tagged,2,type0
-Kumon,BlackBerry,-1,type1s
-Kumon,IBM,-9,type2s
-Kumon,Google,-9,type2s
-Kumon,Microsoft,-4,type1s
-Kumon,Facebook,-5,type1s
+Hearsay Social,Tagged,2,type1
+Kumon,BlackBerry,-1,type0
+Kumon,IBM,-9,type3s
+Kumon,Google,-9,type3s
+Kumon,Microsoft,-4,type2s
+Kumon,Facebook,-5,type2s
 Kumon,Pivotal Labs,-8,type2s
-Kumon,NexJ Systems,-4,type1s
+Kumon,NexJ Systems,-4,type2s
 Kumon,LinkedIn,-7,type2s
-Kumon,Zynga,-4,type1s
+Kumon,Zynga,-4,type2s
 Kumon,Rogers Communications,-2,type1s
 Kumon,Wattpad,-2,type1s
-Kumon,Coursera,-4,type1s
-Kumon,SMART Technologies,-5,type1s
+Kumon,Coursera,-4,type2s
+Kumon,SMART Technologies,-5,type2s
 Kumon,Alcatel-Lucent,-3,type1s
-Kumon,Ultimate Software,-4,type1s
+Kumon,Ultimate Software,-4,type2s
 Kumon,Altera,-2,type1s
-Kumon,JSI Telecom,-5,type1s
-Pinterest,BlackBerry,2,type0
-Pinterest,IBM,2,type0
-Pinterest,Google,4,type0
-Pinterest,Microsoft,4,type0
-Pinterest,Amazon,3,type0
-Pinterest,Facebook,-5,type1s
+Kumon,JSI Telecom,-5,type2s
+Pinterest,BlackBerry,2,type1
+Pinterest,IBM,2,type1
+Pinterest,Google,4,type2
+Pinterest,Microsoft,4,type2
+Pinterest,Amazon,3,type1
+Pinterest,Facebook,-5,type2s
 Pinterest,SAP,1,type0
-Pinterest,Pivotal Labs,8,type1
-Pinterest,NexJ Systems,4,type0
+Pinterest,Pivotal Labs,8,type2
+Pinterest,NexJ Systems,4,type2
 Pinterest,Bloomberg,1,type0
-Pinterest,Twitter,-1,type1s
-Pinterest,Trapeze Group,4,type0
-Pinterest,A Thinking Ape,3,type0
-Pinterest,Morgan Stanley,3,type0
-Pinterest,Symcor,4,type0
+Pinterest,Twitter,-1,type0
+Pinterest,Trapeze Group,4,type2
+Pinterest,A Thinking Ape,3,type1
+Pinterest,Morgan Stanley,3,type1
+Pinterest,Symcor,4,type2
 SugarCRM,BlackBerry,-2,type1s
-SugarCRM,IBM,5,type1
+SugarCRM,IBM,5,type2
 SugarCRM,Google,-3,type1s
-SugarCRM,Microsoft,-5,type1s
+SugarCRM,Microsoft,-5,type2s
 SugarCRM,Amazon,-12,type3s
-SugarCRM,Facebook,-5,type1s
+SugarCRM,Facebook,-5,type2s
 SugarCRM,Desire2Learn,1,type0
 SugarCRM,LinkedIn,-3,type1s
 SugarCRM,CIBC,1,type0
-SugarCRM,Citi,2,type0
-SugarCRM,Manulife Financial,2,type0
+SugarCRM,Citi,2,type1
+SugarCRM,Manulife Financial,2,type1
 SugarCRM,Oracle,1,type0
-SugarCRM,Bazaarvoice,3,type0
+SugarCRM,Bazaarvoice,3,type1
 SugarCRM,Inkling,-2,type1s
 SugarCRM,"Enflick, Inc.",-6,type2s
-Thalmic Labs,BlackBerry,12,type2
+Thalmic Labs,BlackBerry,12,type3
 Thalmic Labs,Google,1,type0
-Thalmic Labs,Amazon,-1,type1s
-Thalmic Labs,Facebook,3,type0
-Thalmic Labs,Pivotal Labs,2,type0
+Thalmic Labs,Amazon,-1,type0
+Thalmic Labs,Facebook,3,type1
+Thalmic Labs,Pivotal Labs,2,type1
 Thalmic Labs,Zynga,1,type0
-Thalmic Labs,Apple,-1,type1s
+Thalmic Labs,Apple,-1,type0
 Thalmic Labs,OANDA,1,type0
-Thalmic Labs,AMD,3,type0
+Thalmic Labs,AMD,3,type1
 Thalmic Labs,Christie Digital Systems,1,type0
-Thalmic Labs,DBRS,-1,type1s
+Thalmic Labs,DBRS,-1,type0
 Thalmic Labs,Rogers Communications,1,type0
-Thalmic Labs,NVIDIA,-1,type1s
+Thalmic Labs,NVIDIA,-1,type0

@@ -101,12 +101,14 @@
                         2013 (inclusive) and did at least 2 internships with industry being Computer Software or Internet are considered.
                         This data was collected in August 2015 and contains 2392 students."
                     </p>
+                    <br>
                     <h4 class="section_title">Data Preparation</h4>
                     <p style="text-align: left;">
                         The dataset was saved in a text file. I used readLines() in R to parse it into a dataframe and
                         gsub() to remove random whitespace and confusing substrings. Then, I looked at what the dataset contains.
                     </p>
                     <script src="https://gist.github.com/yzhang0/4e613e01da50400f447d4de0bd287962.js"></script>
+                    <br>
                     <h4 class="section_title">Data Exploration</h4>
                     <p style="text-align: left;">
                         First, we need to understand our data. Based on the code snippet above, it seems a lot of students have not
@@ -123,9 +125,28 @@
                     </p>
                     <script src="https://gist.github.com/yzhang0/5e14ca47cbf9218dd9d8b7091d551160.js"></script>
                     <img src="../img/graph2.jpeg">
+                    <br>
+                    <br>
                     <h4 class="section_title">Data Visualization</h4>
                     <p style="text-align: left;">
-                        Next: D3! Since this post is getting quite long, I created a <a href="internships2.html" style="color:#ff5500;">part two</a>.
+                    Next: D3! I used this <a href="http://bl.ocks.org/ccmcc/5182685" style="color:#ff5500;">tutorial</a> by CCMCC
+                    to understand how the nodes and edges in a force layout should be generated using D3. Then, based on previous
+                    knowledge and help on Stack Overflow, I slowly built my project.
+                    </p>
+                    <br>
+                    <img src="../img/internship_s1.jpeg">
+                    <p style="text-align: left;">First draft in green!</p>
+                    <img src="../img/internship_s2.jpeg">
+                    <p style="text-align: left;">I then realized the chart looks a lot better in black.</p>
+                    <img src="../img/internship_s3.png">
+                    <p style="text-align: left;">
+                    Added an interactive dashboard of the 5 companies who hired the most coop students from this company
+                    and the 5 companies who provided the largest number of interns to the company.
+                    </p>
+                    <img src="../img/internship_s4.png">
+                    <p style="text-align: left;">And to make it interesting, I added a legend to go with this dashboard.</p>
+                    <br>
+                    <a href="internships3.html" style="color:#ff5500;">Click here</a> for draft 1.
                     </p>
                 </div>
             </div>
