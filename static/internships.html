@@ -10,7 +10,7 @@ permalink: internships.html
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2">
-                    <h2 class="section-heading">Company ranking at UW for Computer Sciences</h2>
+                    <h2 class="section-heading">UW COOP Placement for Students who Started in 2010 to 2013</h2>
                     <hr class="light">
                     <p>
                         [<a href="internships2.html" style="color:#ff5500;">Click here for the final chart</a>]
@@ -24,6 +24,10 @@ permalink: internships.html
                     </p>
                     <h4 class="section_title">Data Scraping</h4>
                     <p style="text-align: left;">
+                        Determine which tech companies are the most popular and which tech company internships are the most desired for university of Waterloo students.
+                    </p>
+                    <h4 class="section_title">Data Scraping</h4>
+                    <p style="text-align: left;">
                         I always wanted to use an API for my data visualization projects. After talking to a few people,
                         it seems like Python libraries such as Beautiful Soup and the Postman application are the most common
                         ways to call an API and build a dataset. I really like this <a href="http://vlyubin.pythonanywhere.com/waterloo_raw" style="color:#ff5500;">
@@ -34,7 +38,8 @@ permalink: internships.html
                     <br>
                     <p style="text-align: left;">
                         First, some information about the dataset. In Vlyubin's own words, "Only students who started in 2010 to
-                        2013 (inclusive) and did at least 2 internships with industry being Computer Software or Internet are considered.
+                        2013 (inclusive) and did at least 2 internships with industry being Computer Software or Internet at
+                        university of Waterloo are considered.
                         This data was collected in August 2015 and contains 2392 students."
                     </p>
                     <br>
@@ -73,22 +78,26 @@ permalink: internships.html
                     <img src="../img/internship_s1.jpeg">
                     <p style="text-align: left;">
                     First draft in green! The nodes represent how many students worked at this company and the edges represent where else
-                    some of those students worked at.
+                    some of those students worked at. To prevent overloading the chart with information, I decided to only keep companies
+                    which hired more than 15 students: there was 86 of them.
                     </p>
                     <img src="../img/internship_s2.jpeg">
                     <p style="text-align: left;">
-                    I then realized the chart looks a lot better in black. I also modified the size of the nodes to something less sparse.
+                    I then realized the chart looks a lot better in black. I also modified the size of the nodes to something easier to click.
                     </p>
                     <img src="../img/internship_s3.png">
                     <p style="text-align: left;">
-                    Added an interactive dashboard on the right of the 5 companies who hired the most coop students from this company
-                    (represented by positive rate) and the 5 companies who provided the largest number of interns to the company
-                    (represented by negative rate). If Google hired a student who worked at IBM two terms ago, the rate of IBM when
+                    I added an interactive table on the right. For each click on a company, it shows the 5 companies that hired the most coop students from it
+                    (represented by positive rate) and the 5 companies who provided the largest number of interns to it
+                    (represented by negative rate). For example, if Google hired a student who worked at IBM two terms ago, the rate of IBM when
                     clicked on Google will increase by 2.
                     And to make it interesting, I added some colors to go with this dashboard. Here are how these colors are categorized.
-                    <script src="https://gist.github.com/yzhang0/e0f681adbfa41967147e7f965c9de4bc.js"></script>
-                    <img src="../img/internship_s4.png">
-                    </p>
+                    <table style="width:100%">
+                        <tr>
+                          <td style="width:30%"><img src="../img/internship_s4.png"></td>
+                          <td style="width:70%" ><img src="../img/internship_legend.png"></td>
+                        </tr>
+                    </table>
                     <br>
                     <a href="internships2.html" style="color:#ff5500;">Click here for the data visualization!</a>
                     </p>

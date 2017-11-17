@@ -64,7 +64,7 @@ d3.csv(nodepath, function(nodes) {
             d3.select("#force_table").selectAll("*").remove();
             d3.select("#force_table")
               .append("text")
-              .text(d.name)
+              .text(d.name + ": " + d.freq + " interns")
               .attr("style", "font-family: Courier");
 
             data_table = [];

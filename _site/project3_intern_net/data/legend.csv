@@ -1,0 +1,12 @@
+type, range of rate, color
+type5, 21:70, even darker pink
+type4, 16:20, darker pink
+type3, 9:15, pink
+type2, 4:8, lighter pink
+type1, 2:3, even lighter pink
+type0, -1:1, blue
+type1s, -3:-2, even lighter green
+type2s, -8:-4, lighter green
+type2s, -15:-9, green
+type4s, -20:-16, darker green
+type5s, -44:-21, even darker green

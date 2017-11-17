@@ -1,0 +1,39 @@
+---
+layout: default
+permalink: test.html
+---
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Learning to use color legend from d3.legend</title>
+
+    <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/d3-legend/1.1.0/d3-legend.js"></script>
+  </head>
+  <body>
+    <svg width="960" height="500"></svg>
+    <script>
+      var svg = d3.select("svg");
+      var mycolors = ['#33910e', '#3ca910', '#44c113', '#4dd915', '#56f218', '#00ff00', '#3dece7', '#e500b9', '#ce00a6', '#b70094', '#a00081', '#89006f'];
+      // Color legend.
+      var colorScale = d3.scale.quantize()
+        .domain([ 1, 12 ])
+        .range(mycolors);
+
+      var colorLegend = d3.legend.color()
+        .labelFormat(d3.format(".0f"))
+        .scale(colorScale)
+        .shapePadding(5)
+        .shapeWidth(50)
+        .shapeHeight(20)
+        .labelOffset(12);
+
+      svg.append("g")
+        .attr("transform", "translate(352, 60)")
+        .call(colorLegend);
+
+    </script>
+  </body>
+</html>
