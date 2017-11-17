@@ -128,29 +128,27 @@ d3.csv(nodepath, function(nodes) {
       }
 
       function getColor(type) {
-            if (type == "type5") {
+            if (type == "type5s") {
               return '#33910e';
-            } else if (type == "type4") {
+            } else if (type == "type4s") {
               return '#3ca910';
-            } else if (type == "type4") {
-              return '#44c113';
-            } else if (type == "type3") {
+            } else if (type == "type3s") {
               return '#4dd915';
-            } else if (type == "type2") {
+            } else if (type == "type2s") {
               return '#56f218';
-            } else if (type == "type1") {
+            } else if (type == "type1s") {
               return '#00ff00';
             } else if (type == "type0") {
               return '#3dece7';
-            } else if (type == "type1s") {
+            } else if (type == "type1") {
               return '#e500b9';
-            } else if (type == "type2s") {
+            } else if (type == "type2") {
               return '#ce00a6';
-            } else if (type == "type3s") {
+            } else if (type == "type3") {
               return '#b70094';
-            } else if (type == "type4s") {
+            } else if (type == "type4") {
               return '#a00081';
-            } else if (type == "type5s") {
+            } else if (type == "type5") {
               return '#89006f';
             }
       }
