@@ -556,12 +556,12 @@ img::-moz-selection {
 }
 
 
-.posts2 {
-  margin: 20px 0px 0px 0px;
+.subposts {
+  margin: 10px 0px 0px 30px;
 }
 
-.posts2 li {
-  margin: 10px;
+.subposts li {
+  margin: 5px;
 }
 
 background-size: cover;
