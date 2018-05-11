@@ -27,18 +27,35 @@ path {
 </style>
 <body>
 
+<ul style="list-style-type: none; white-space:nowrap;">
+  <li style="display:inline-block;">
+    <input name="updateButton"
+           type="button"
+           value="Celcius"
+           onclick="updateData('C')" />
+  </li>
+  <li style="display:inline-block;">
+    <input name="updateButton"
+           type="button"
+           value="Fahrenheit"
+           onclick="updateData('F')" />
+  </li>
+</ul>
+
 <!-- load the d3.js library -->
 <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
 
 <script>
 
 // Set the dimensions of the canvas / graph
+var year = 2017;
+var legendwidth = 200;
 var margin = {top: 30, right: 20, bottom: 70, left: 50},
-    width = 900 - margin.left - margin.right,
+    width = 1200 - margin.left - margin.right,
     height = 600 - margin.top - margin.bottom;
 
 // Parse the date / time
-var parseDate = d3.time.format("%d %b").parse;
+var parseDate = d3.time.format("%Y %d %b").parse;
 
 // Set the ranges
 var x = d3.time.scale().range([0, width]);
@@ -46,89 +63,114 @@ var y = d3.scale.linear().range([height, 0]);
 
 // Define the axes
 var xAxis = d3.svg.axis().scale(x)
-    .orient("bottom").ticks(5);
+    .orient("bottom").ticks(12);
 
 var yAxis = d3.svg.axis().scale(y)
-    .orient("left").ticks(5);
-
-// Define the line
-var templine = d3.svg.line()
-    .x(function(d) { return x(d.date); })
-    .y(function(d) { return y(d.fahrenheit); });
+    .orient("left").ticks(20);
 
 // Adds the svg canvas
 var svg = d3.select("body")
     .append("svg")
-        .attr("width", width + margin.left + margin.right)
+        .attr("width", width + margin.left + margin.right + legendwidth)
         .attr("height", height + margin.top + margin.bottom)
     .append("g")
         .attr("transform",
               "translate(" + margin.left + "," + margin.top + ")");
 
-// Get the data
-d3.csv("../project4_weather/data/All.csv", function(error, data) {
-    data.forEach(function(d) {
-    d.date = parseDate(d.date);
-    d.fahrenheit = +d.fahrenheit;
-    });
+function toCelsius(unit, d) {
+  if (unit == 'C') {
+    return (d-32)*5/9;
+  } else {
+    return d;
+  }
+}
 
-    // Scale the range of the data
-    x.domain(d3.extent(data, function(d) { return d.date; }));
-    y.domain([0, d3.max(data, function(d) { return d.fahrenheit; })]);
+function updateData(unit) {
+  svg.selectAll("*").remove();
+  d3.csv("../project4_weather/data/All.csv", function(error, data) {
+      data.forEach(function(d) {
+      d.date = parseDate(year + " " + d.date);
+      d.fahrenheit = toCelsius(unit, +d.fahrenheit);
+      });
 
-    // Nest the entries by symbol
-    var dataNest = d3.nest()
-        .key(function(d) {return d.city;})
-        .entries(data);
+      // Scale the range of the data
+      x.domain(d3.extent(data, function(d) { return d.date; }));
+      y.domain([d3.min(data, function(d) { return +d.fahrenheit; }), d3.max(data, function(d) { return +d.fahrenheit; })]);
 
-    var color = d3.scale.category20();   // set the colour scale
+      // Nest the entries by symbol
+      var dataNest = d3.nest()
+          .key(function(d) {return d.city;})
+          .entries(data);
 
-    legendSpace = width/dataNest.length; // spacing for the legend
+      // Define the line
+      var templine = d3.svg.line()
+          .x(function(d) {
+            return x(d.date); })
+          .y(function(d) {
+            console.log(d)
+            return y(+d.fahrenheit); });
 
-    // Loop through each symbol / key
-    dataNest.forEach(function(d,i) {
+      var color = d3.scale.category20();   // set the colour scale
 
-        svg.append("path")
-            .attr("class", "line")
-            .style("stroke", function() { // Add the colours dynamically
-                return d.color = color(d.key); })
-            .attr("id", 'tag'+d.key.replace(/\s+/g, '')) // assign ID
-            .attr("d", templine(d.values));
+      legendSpace = height/dataNest.length; // spacing for the legend
 
-        // Add the Legend
-        svg.append("text")
-            .attr("x", (legendSpace/2)+i*legendSpace)  // space legend
-            .attr("y", height + (margin.bottom/2)+ 5)
-            .attr("class", "legend")    // style the legend
-            .style("fill", function() { // Add the colours dynamically
-                return d.color = color(d.key); })
-            .on("click", function(){
-                // Determine if current line is visible
-                var active   = d.active ? false : true,
-                newOpacity = active ? 0 : 1;
-                // Hide or show the elements based on the ID
-                d3.select("#tag"+d.key.replace(/\s+/g, ''))
-                    .transition().duration(100)
-                    .style("opacity", newOpacity);
-                // Update whether or not the elements are active
-                d.active = active;
-                })
-            .text(d.key);
+      // Loop through each symbol / key
+      dataNest.forEach(function(d,i) {
+          var initOpacity = 0;
+          svg.append("path")
+              .attr("class", "line")
+              .style("stroke", function() { // Add the colours dynamically
+                  return d.color = color(d.key); })
+              .style("opacity", initOpacity)
+              .attr("id", 'tag'+d.key.replace(/\s+/g, '')) // assign ID
+              .attr("d", templine(d.values));
+          // Add the Legend
+          svg.append("text")
+              .attr("x",  width + margin.left) // space legend
+              .attr("y", (legendSpace/2)+i*legendSpace)
+              .attr("class", "legend")    // style the legend
+              .style("fill", function() { // Add the colours dynamically
+                  return d.color = color(d.key); })
+              .on("click", function(){
+                  // Determine if current line is visible
+                  var active   = d.active || initOpacity == 0 ? false : true,
+                  newOpacity = active ? 0 : 1;
+                  initOpacity = 1;
+                  // Hide or show the elements based on the ID
+                  d3.select("#tag"+d.key.replace(/\s+/g, ''))
+                      .transition().duration(100)
+                      .style("opacity", newOpacity);
+                  // Update whether or not the elements are active
+                  d.active = active;
+                  })
+              .text(d.key);
 
-    });
+      });
 
-    // Add the X Axis
-    svg.append("g")
-        .attr("class", "x axis")
-        .attr("transform", "translate(0," + height + ")")
-        .call(xAxis);
+      // Add the X Axis
+      svg.append("g")
+          .attr("class", "x axis")
+          .attr("transform", "translate(0," + height + ")")
+          .call(xAxis);
 
-    // Add the Y Axis
-    svg.append("g")
-        .attr("class", "y axis")
-        .call(yAxis);
+      // Add the Y Axis
+      svg.append("g")
+          .attr("class", "y axis")
+          .call(yAxis);
 
-});
+      svg.append("text")
+        .attr("transform", "rotate(-90)")
+        .attr("y", 0 - margin.left)
+        .attr("x",0 - (height / 2))
+        .attr("dy", "1em")
+        .style("text-anchor", "middle")
+        .text(unit == 'F' ? "Fahrenheit" : "Celsius");
+
+  });
+
+}
+
+updateData('F')
 
 </script>
 </body>
