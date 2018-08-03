@@ -52,8 +52,9 @@
             </button>
         </div>
 
-        <div id="bs-example-navbar-collapse-1">
-            <ul class="nav navbar-nav navbar-right">
+        <div class="collapse navbar-collapse noPadding" id="bs-example-navbar-collapse-1">
+            <div class="navbar-right menustyle">
+                <ul class="nav navbar-nav navbar-right">
                 <li>
                     <a href="index.html">Home</a>
                 </li>
@@ -69,8 +70,10 @@
                 <li>
                     <a href="/resume.pdf">Resume</a>
                 </li>
-            </ul>
+                </ul>
+            </div>
         </div>
+
     </div>
 </nav>
 
@@ -80,19 +83,17 @@
 <div class="container gallery-container">
     <div class="tz-gallery">
         <div class="row">
-
             <div class="col-sm-6 col-md-4">
                 <div class="thumbnail">
-                    <a href="allmangas.html">
-                        <img src="../img/mangaschart_tumbnail.png" alt="Park">
+                    <a class="lightbox" href="../files/runningman.pdf">
+                        <img src="../img/runningman.png" alt="Tunnel">
                     </a>
                     <div class="caption">
-                        <h3 class="section-heading" style="color:#CC6699;">Best Selling Mangas between 1948 to 2012</h3>
-                        <p>Performed data scraping on the 124 best selling mangas between 1948 to 2012 using BeautifulSoup in Python.<br>
-                           Built a simple scatter plot using D3.js.<br>
-                           Built an interactive bubble chart with D3.js with external img from Mangapark.<br>
+                        <h3 class="section-heading" style="color:#CC6699;">Infographic of Korean show Running Man</h3>
+                        <p>
+                            In summer 2018, I got obsessed with the Korean variety show and global sensation Running Man. Here is a a closer look at it's popularity over its 8 year run. (<a href="runningman.html">interactive charts here</a>).
                         </p>
-                        <p style="color:#CC6699;">#Python #D3.js</p>
+                        <p style="color:#CC6699;">#Illustrator #Flourish</p>
                     </div>
                 </div>
             </div>
@@ -122,10 +123,25 @@
                     <div class="caption">
                         <h3 class="section-heading" style="color:#CC6699;">ChamberCrawler3000 Linux Game</h3>
                         <p>
-                          Project completed for CS246: Object Oriented Programming course at University of Waterloo in 2017.<br>
+                          Project completed for CS246: Object Oriented Programming course at University of Waterloo in 2017. Code and project not available.<br>
                           Teammates: Ben Koczwara and Amy Sun.
                         </p>
                         <p style="color:#CC6699;">#C++ #OOP</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-sm-6 col-md-4">
+                <div class="thumbnail">
+                    <a href="allmangas.html">
+                        <img src="../img/mangaschart_tumbnail.png" alt="Park">
+                    </a>
+                    <div class="caption">
+                        <h3 class="section-heading" style="color:#CC6699;">Best Selling Mangas between 1948 to 2012</h3>
+                        <p>Performed data scraping on the 124 best selling mangas between 1948 to 2012 using BeautifulSoup in Python.<br>
+                           Built a simple scatter plot using D3.js.<br>
+                           Built an interactive bubble chart with D3.js with external img from Mangapark.<br>
+                        </p>
+                        <p style="color:#CC6699;">#Python #D3.js</p>
                     </div>
                 </div>
             </div>
@@ -146,22 +162,7 @@
                     </div>
                 </div>
             </div>
-            <div class="col-sm-6 col-md-4">
-                <div class="thumbnail">
-                    <a class="lightbox" href="../files/runningman.pdf">
-                        <img src="../img/runningman.png" alt="Tunnel">
-                    </a>
-                    <div class="caption">
-                        <h3 class="section-heading" style="color:#CC6699;">Infographic of Korean show Running Man</h3>
-                        <p>
-                            I have always been impressed by Albert Cairo's compelling data visualizations and infographics.
-                            In summer 2018, I took his online course "Data Visualization for Storytelling and Discovery" and his
-                            Illustrator workshop. (<a href="runningman.html">interactive charts here</a>).
-                        </p>
-                        <p style="color:#CC6699;">#Illustrator #Flourish</p>
-                    </div>
-                </div>
-            </div>
+
         </div>
 
     </div>
@@ -189,7 +190,7 @@
                     <p><a href="https://twitter.com/8519Loukyo"><i class="fa fa-2x fa-twitter" aria-hidden="true"></i></a></p>
                 </li>
             </ul>
-            <p class="footer_text">&copy; 2017 <a href="index.html">Yuan Zhang</a></p>
+            <p class="footer_text">&copy; 2018 <a href="index.html">Yuan Zhang</a></p>
         </div>
 
     <!-- Bootstrap Core JavaScript -->
