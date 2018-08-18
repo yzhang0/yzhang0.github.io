@@ -216,6 +216,10 @@ aside {
     }
 }
 
+.navbar-nav > li > a.nav_last_element {
+  padding-right: 30px;
+}
+
 header {
     min-height: auto;
     -webkit-background-size: cover;
@@ -553,6 +557,11 @@ img::-moz-selection {
 
 .posts {
   margin: 70px 0px 0px 30px;
+}
+
+h2.posts {
+  font-family: Kaushan Script;
+  font-size: 40px;
 }
 
 .posts2 li {
