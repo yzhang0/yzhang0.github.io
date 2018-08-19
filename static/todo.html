@@ -1,0 +1,72 @@
+---
+layout: default
+permalink: todo.html
+---
+
+{% include nav.html %}
+
+<h2 class="posts">What Yuan Want</h2>
+<p class="subposts colors">
+  Things I want to do that are not related to programming. As I am getting more stressed about studying,
+  I realized my quality of life went down. I have became more reckless and impatient. I want to dedicate at least 25% of my free time
+  working on goals in this list.
+</p>
+<p  class="subposts">(P.S. refresh page for new color mapping!)</p>
+<h4 class="subposts colors" style="font-family: Chivo;">Learning</h4>
+<ul class="subposts">
+  <li>Understand how stocks work in America and internationally.</li>
+  <li>Be able to read Weibo posts without depending on a Chinese translator.</li>
+  <li>Read Harry Potter Saga in Chinese.</li>
+  <li>Read Tiny Times Saga in Chinese.</li>
+</ul>
+<h4 class="subposts colors" style="font-family: Chivo;">Creating</h4>
+<ul class="subposts">
+  <li>Provide English sub for 5 favorite songs by HK artists Wakin Chau/Richie Ren/Jonathan Lee (for more people to enjoy their talent).</li>
+  <li>Learn how to draw digital art and coloring using an Ipad.</li>
+  <li>Create a Youtube Channel to rant and share my thoughts.</li>
+</ul>
+<h4 class="subposts colors" style="font-family: Chivo;">Stay Active</h4>
+<ul class="subposts">
+  <li>Learn 5 different Kpop dances.</li>
+  <li>Dance workout at least 5 days a week.</li>
+  <li>Hold Plank for 2 minutes.</li>
+</ul>
+<h4 class="subposts colors" style="font-family: Chivo;">Writing</h4>
+<ul class="subposts">
+  <li>Write my random thoughts and emotions using an Ipad and organize them every week.</li>
+  <li>Write 3 fictions (about puberty, identity crisis during university, and something else).</li>
+</ul>
+<h4 class="subposts colors" style="font-family: Chivo;">Living</h4>
+<ul class="subposts">
+  <li>Make 5 dishes that take more than 1.5 hour to prepare.</li>
+  <li>Spend more time at art museums and galleries.</li>
+  <li>Absorb artistic content from website outside of Instagram on a daily basis (since it has too much stimulation)</li>
+</ul>
+<h4 class="subposts colors" style="font-family: Chivo;">Relaxing</h4>
+<ul class="subposts">
+  <li>Be able to dream fantasy stories again.</li>
+  <li>Spend a full day without technology.</li>
+  <li>Live in a Victorian/Parisian apartment and call it home.</li>
+  <li>Get a toy poodle.</li>
+</ul>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
+<script type="text/javascript">
+  var rainbow = ['#8dd3c7','#ffffb3','#bebada','#fb8072','#80b1d3','#fdb462','#b3de69','#fccde5','#d9d9d9'];
+  $(".colors").html(function(i, oldHtml) {
+    var arr = oldHtml.split(" ");
+
+
+    $('.colors').each(function () {
+      var oldHtml = $(this).text();
+      var arr = oldHtml.split(" ");
+      var newHtml = "";
+      for (var word = 0; word < arr.length; word++) {
+        var color = rainbow[Math.floor(Math.random() * rainbow.length)];
+        newHtml = newHtml.concat('<span style="background-color:' + color +';">' + arr[word] +'</span> ');
+      }
+      $(this).html(newHtml);
+    });
+  });
+</script>
+
