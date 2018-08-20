@@ -1,4 +1,5 @@
 ---
+layout: default
 permalink: likes.html
 ---
 
@@ -45,11 +46,13 @@ permalink: likes.html
 
 </style>
 <body>
+{% include nav.html %}
+</body>
 <script src="//d3js.org/d3.v3.min.js"></script>
 <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Lobster+Two">
 <script>
 
-var margin = {top: 20, right: 120, bottom: 80, left: 80},
+var margin = {top: 60, right: 120, bottom: 20, left: 80},
     width = 900 - margin.right - margin.left,
     height = 680 - margin.top - margin.bottom;
 
@@ -133,7 +136,7 @@ function update(source) {
       .attr("transform", function(d) { return "translate(" + d.y + "," + d.x + ")"; });
 
   nodeUpdate.select("circle")
-      .attr("r", 8)
+      .attr("r", 4.5)
       .style("fill", function(d) { return d._children ? "lightsteelblue" : "#fff"; });
 
   nodeUpdate.select("text")
