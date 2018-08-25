@@ -61,7 +61,7 @@ permalink: internships3.html
                     smaller number of categories and ultimately increase the performance of the model and prevent overfitting. By adding this step,
                     I was able to remove 260 companies from the total number of unique companies (3560 => 3360).
                     <br>
-                    <img src="../img/internship_s7.png">
+                    <img src="project3_intern_net/img/internship_s7.png">
                     <br>
                     2. I know I can do better though. I remember reading a <a href="http://www.datasketch.es/december/" style="color:#ff5500;">data scraping project</a>
                     by Nadiah where she replaced strings by another if the exact string can be found in it, string that are the same except for up to 2 characters,
@@ -71,13 +71,13 @@ permalink: internships3.html
                     3. Create one data point for each internship excluding the first term. For example, if a student
                     worked at ABC in T1, XXX in T2, and RTC in T3, then he/she would get the following data points:
                     <br>
-                    <img src="../img/internship_s5.png">
+                    <img src="project3_intern_net/img/internship_s5.png">
                     <br>
                     3. Add a few numerical features to the data set to quantify the companies. Here, I am simply checking how many times
                     each company appeared in each term. I decided to count how many 'None' in each term since this information is useful.
                     <br>
                     <br>
-                    <img src="../img/internship_s6.png">
+                    <img src="project3_intern_net/img/internship_s6.png">
                     <br>
                     <br>
                     Now that I have my base features, I realize another problem in the project. There is no way I can give my
@@ -105,15 +105,15 @@ permalink: internships3.html
                     <br>
                     Step 1:
                     <br>
-                    <img src="../img/internship_s9.png">
+                    <img src="project3_intern_net/img/internship_s9.png">
                     <br>
                     Step 2:
                     <br>
-                    <img src="../img/internship_s8.png">
+                    <img src="project3_intern_net/img/internship_s8.png">
                     <br>
                     Step 3:
                     <br>
-                    <img src="../img/internship_s10.png">
+                    <img src="project3_intern_net/img/internship_s10.png">
                     <br>
                     I won't go too much in detail about the scoring system, but the criteria where dependent on location of the head office, difficulty of interviews,
                      how recent is the company, what is the product, how much in revenue, etc. I am aware I used an additive model to calculate the score without looking
@@ -124,25 +124,25 @@ permalink: internships3.html
                     <p style="text-align: left;">
                     Let's do some data visualization!
                     <br>
-                    <img src="../img/internship_s13.png">
+                    <img src="project3_intern_net/img/internship_s13.png">
                     <br>
-                    <img src="../img/internship_s12.png">
+                    <img src="project3_intern_net/img/internship_s12.png">
                     <br>
                     Finally, the scores of all companies, excluding those with no information on Glassdoor, create an almost normal distribution
                     with a mean around 0.60.
                     <br>
-                    <img src="../img/internship_s11.png">
+                    <img src="project3_intern_net/img/internship_s11.png">
                     <br>
                     </p>
                     <h4 class="section_title">Modeling</h4>
                     <p style="text-align: left;">
                     As you have seen in the data preparation part, the current dataset is:
                     <br>
-                    <img src="../img/internship_s15.png">
+                    <img src="project3_intern_net/img/internship_s15.png">
                     <br>
                     I then replaced the names of each company to their corresponding score:
                     <br>
-                    <img src="../img/internship_s16.png">
+                    <img src="project3_intern_net/img/internship_s16.png">
                     <br>
                     Next is the statistical learning step. I first randomized then designated 75% of the data to training and 25% to testing.
                     <br><br>
@@ -152,11 +152,11 @@ permalink: internships3.html
                     average. The MAE calculated on the testing set is 0.1582475127257455 and 0.15327982095644518 on the training set, which suggests there is
                     a very low risk of overfitting. This model is far from perfect but it does show some interesting insights about future internship.
                     <br>
-                    <img src="../img/internship_s17.png">
+                    <img src="project3_intern_net/img/internship_s17.png">
                     <br>
                     Finally, I switched back to the original labels for each entry inside the testing set:
                     <br>
-                    <img src="../img/internship_s18.png">
+                    <img src="project3_intern_net/img/internship_s18.png">
                     <br>
                     </p>
                 </div>

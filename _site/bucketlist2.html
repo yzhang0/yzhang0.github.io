@@ -37,7 +37,20 @@
    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Kaushan+Script">
    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Pacifico">
 
-  <nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
+  <!DOCTYPE html>
+<html>
+<head>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script type="text/javascript" src="https://unpkg.com/default-passive-events"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.38.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.38.0/mapbox-gl.css' rel='stylesheet' />
+    <script src='project5_bucketlist/src/csv2geojson.js'></script>
+    <link rel="stylesheet" href="project5_bucketlist/css/static.css">
+</head>
+<body>
+
+<nav id="mainNav" class="navbar navbar-default navbar-fixed-top">
     <div class="container-fluid pull-right">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
@@ -72,72 +85,86 @@
 </nav>
 
 
-<h2 class="posts">What Yuan Wants</h2>
-<p class="subposts colors">
-  Things I want to do that are not related to programming. As I am getting more stressed about studying,
-  I realized my quality of life went down. I have became more reckless and impatient. I want to dedicate at least 25% of my free time
-  working on goals in this list.
-</p>
-<p  class="subposts">(P.S. refresh page for new color mapping!)</p>
-<h4 class="subposts colors" style="font-family: Chivo;">Learning</h4>
-<ul class="subposts">
-  <li>Understand how stocks work in America and internationally.</li>
-  <li>Be able to read Weibo posts without depending on a Chinese translator.</li>
-  <li>Read Harry Potter Saga in Chinese.</li>
-  <li>Read Tiny Times Saga in Chinese.</li>
-</ul>
-<h4 class="subposts colors" style="font-family: Chivo;">Creating</h4>
-<ul class="subposts">
-  <li>Provide English sub for 5 favorite songs by HK artists Wakin Chau/Richie Ren/Jonathan Lee (for more people to enjoy their talent).</li>
-  <li>Learn how to draw digital art and coloring using an Ipad.</li>
-  <li>Learn how to draw vectors on Sketch (<a href="https://design.tutsplus.com/tutorials/how-to-create-succulent-illustrations-in-adobe-illustrator--cms-27396">tutorial</a> and <a href="https://medium.com/the-100-day-project/100-days-of-vector-illustration-6f2f10209b0b">inspiration</a>).</li>
-  <li>Learn how to draw animation on Illustrator (<a href="https://uxdesign.cc/100-days-of-motion-design-463526af852f">tutorial</a> and inspiration <a href="https://dribbble.com/tiantianxu/tags/100daysofmotion">Part 1</a>, <a href="https://www.pinterest.ca/tiantianxu/ui-motion/">Part 2)</a>.</li>
-  <li>Create a Youtube Channel to rant and share my thoughts.</li>
-</ul>
-<h4 class="subposts colors" style="font-family: Chivo;">Stay Active</h4>
-<ul class="subposts">
-  <li>Learn 5 different Kpop dances.</li>
-  <li>Dance workout at least 5 days a week.</li>
-  <li>Hold Plank for 2 minutes.</li>
-</ul>
-<h4 class="subposts colors" style="font-family: Chivo;">Writing</h4>
-<ul class="subposts">
-  <li>Write my random thoughts and emotions using an Ipad and organize them every week.</li>
-  <li>Write 3 fictions (about puberty, identity crisis during university, and something else).</li>
-</ul>
-<h4 class="subposts colors" style="font-family: Chivo;">Living</h4>
-<ul class="subposts">
-  <li>Learn 5 dishes that take more than 1.5 hour to prepare.</li>
-  <li>Spend more time at art museums and galleries.</li>
-</ul>
-<h4 class="subposts colors" style="font-family: Chivo;">Relaxing</h4>
-<ul class="subposts">
-  <li>Be able to dream fantasy elements again.</li>
-  <li>Spend a full day without technology.</li>
-  <li>Live in a Victorian/Parisian apartment and make it home.</li>
-  <li>Get a toy poodle.</li>
-</ul>
+<div class="posts" id='bucklistmap'></div>
+<script>
+mapboxgl.accessToken = 'pk.eyJ1IjoieXVhbnoyMjk5IiwiYSI6ImNqZ3gzdDFlcTFqZDMyd216OXZnMzNhdXoifQ.-i3J6xqi-dhTgwfZ7nUrLw';
+var map = new mapboxgl.Map({
+        container: 'bucklistmap',
+        zoom: 1.5,
+        center: [2.213749, 46.227638],
+        style: 'mapbox://styles/mapbox/streets-v10'
+        });
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
-<script type="text/javascript">
-  var rainbow = ['#8dd3c7','#ffffb3','#bebada','#fb8072','#80b1d3','#fdb462','#b3de69','#fccde5','#d9d9d9'];
-  $(".colors").html(function(i, oldHtml) {
-    var arr = oldHtml.split(" ");
+function showData(data) {
+    console.log(data);
+    return data;
+}
 
+d3.csv('project5_bucketlist/data/girleatworld.csv', function(error, data) {
+    makeGeoJSON(data);
+});
 
-    $('.colors').each(function () {
-      var oldHtml = $(this).text();
-      var arr = oldHtml.split(" ");
-      var newHtml = "";
-      for (var word = 0; word < arr.length; word++) {
-        var color = rainbow[Math.floor(Math.random() * rainbow.length)];
-        newHtml = newHtml.concat('<span style="background-color:' + color +';">' + arr[word] +'</span> ');
-      }
-      $(this).html(newHtml);
+function makeGeoJSON(csvData) {
+    csv2geojson.csv2geojson(csvData, {
+        latfield: 'lat',
+        lonfield: 'lon',
+        delimiter: ','
+    }, function(err, data) {
+        map.on('load', function () {
+            map.loadImage('project5_bucketlist/img/heart.png', function(error, image) {
+                map.addImage('heart', image);
+                map.addLayer({
+                    'id': 'places',
+                    'type': 'symbol',
+                    'source': {
+                        'type': 'geojson',
+                        'data': data
+                    },
+                    'layout': {
+                        "icon-image": "heart",
+                        "icon-allow-overlap": true,
+                        "icon-size": 0.05
+                    },
+                    'paint': {}
+                });
+            });
+        });
     });
-  });
+}
+
+// When a click event occurs on a feature in the places layer, open a popup at the
+// location of the feature, with description HTML from its properties.
+map.on('click', 'places', function (e) {
+    var coordinates = e.features[0].geometry.coordinates.slice();
+    var description = e.features[0].properties.description;
+
+    // Ensure that if the map is zoomed out such that multiple
+    // copies of the feature are visible, the popup appears
+    // over the copy being pointed to.
+    while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+        coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+    }
+
+    new mapboxgl.Popup()
+        .setLngLat(coordinates)
+        .setHTML(description)
+        .addTo(map);
+});
+
+// Change the cursor to a pointer when the mouse is over the places layer.
+map.on('mouseenter', 'places', function () {
+    map.getCanvas().style.cursor = 'pointer';
+});
+
+// Change it back to a pointer when it leaves.
+map.on('mouseleave', 'places', function () {
+    map.getCanvas().style.cursor = '';
+});
+
 </script>
 
+</body>
+</html>
 
 
         <div class="footer" id="contact">

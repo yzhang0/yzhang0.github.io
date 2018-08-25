@@ -1,0 +1,51 @@
+---
+layout: default
+permalink: bucketlist.html
+---
+
+{% include nav.html %}
+
+
+    <section id="internships">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2 class="section-heading">A Bucket List based on Social Media</h2>
+                    <hr class="light">
+                    <p>
+                        [<a href="bucketlist2.html" style="color:#ff5500;">WORK IN PROGRESS</a>]
+                        <ul>
+                            <li>Data collecting: Instagram and Google Maps API.</li>
+                            <li>Data visualization: Mapbox and D3.</li>
+                            <li>Future Work: Create an interactive app with logging/interaction in React/Django/Postgres.</li>
+                        </ul>
+                    </p>
+                    <h4 class="section_title">Problem Definition</h4>
+                    <p style="text-align: left;">
+                        In the last year, my friends and I have started planning our (most likely over the top) grad trip. Full blown
+                        Otaku experience. Starry night in Alaska. Walk in the streets of Paris. Of course, as a data-driven
+                        person, I wanted to have an empirical approach to the problem. How? By being a typical girl of my generation and
+                        turning to social media for inspiration...
+                    </p>
+                    <h4 class="section_title">Data Collecting</h4>
+                    <p style="text-align: left;">
+                         Instagram was the perfect data source for this project since I was already using it for inspiration for a lot of things. I can choose
+                         accounts such as beautifuldestinations with more than 8000 labeled images, or choose traveling influencers such as taramilktea (yes, this is a job) with around 1000
+                         labeled images each. I chose the second option since it allows more customization and align with future potential enhancements (e.g. allow my friends
+                         to label data under their own username). After more procrastination (I mean, research), I was able to select 8 instagrammers with a wide variety of
+                         traveling experiences I would love to learn more about: taramilktea, girleatworld, skipwithgrace, wearetravelgirls, loic.lagarde, everchanginghorizon,
+                         danielkordan, and adventuresoflilnicki.
+                    </p>
+                    <p style="text-align: left;">
+                         Collecting data was a time consuming process and I tried both pythonanywhere and Heroku run bash to help me.
+                         Unfortunately, pythonanywhere does not let you "requests" from a lot of websites and heroku's console require the session to be open.
+                         I may try Java instead of Python (potentially faster?) or "simulate a simple Map-Reduce model and split the work amongst a bunch of machines - Debarghya Das"
+                         as an additional exercise to this project. Overall, since I was running my code linearly in two servers (no distributed system), it took 4 hours to get all the data.
+                    </p>
+                    <p style="text-align: left;">
+                         Since a lot of travelers use Asian characters to tag their location, I was extremely happy to see Google Maps API allows utf-8 encoding. It made my life so much EASIER.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
