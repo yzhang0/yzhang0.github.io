@@ -121,8 +121,7 @@ function csv2geojson(x, options, callback) {
                     delete parsed[i][lonfield];
                     delete parsed[i][latfield];
                 }
-                parsed[i]['description'] ='<a target="_bank" href="'+ parsed[i].permalink +'">' +
-                                          '<img src="' + parsed[i].image +'"></a><br/>' +
+                parsed[i]['description'] ='<img src="' + parsed[i].image +'"><br/>' +
                                           '<span class="name">User: </span><span class="value">' +
                                           parsed[i].user +
                                           '</span><br/>' +
