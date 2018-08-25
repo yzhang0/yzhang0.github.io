@@ -1,0 +1,102 @@
+---
+layout: default
+permalink: bucketlist2.html
+---
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script type="text/javascript" src="https://unpkg.com/default-passive-events"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.38.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.38.0/mapbox-gl.css' rel='stylesheet' />
+    <script src='project5_bucketlist/src/csv2geojson.js'></script>
+    <link rel="stylesheet" href="project5_bucketlist/css/static.css">
+</head>
+<body>
+
+{% include nav.html %}
+
+<div class="posts" id='bucklistmap'></div>
+<script>
+mapboxgl.accessToken = 'pk.eyJ1IjoieXVhbnoyMjk5IiwiYSI6ImNqZ3gzdDFlcTFqZDMyd216OXZnMzNhdXoifQ.-i3J6xqi-dhTgwfZ7nUrLw';
+var map = new mapboxgl.Map({
+        container: 'bucklistmap',
+        zoom: 1.5,
+        center: [2.213749, 46.227638],
+        style: 'mapbox://styles/mapbox/streets-v10'
+        });
+
+function showData(data) {
+    console.log(data);
+    return data;
+}
+
+d3.csv('project5_bucketlist/data/girleatworld.csv', function(error, data) {
+    makeGeoJSON(data);
+});
+
+function makeGeoJSON(csvData) {
+    csv2geojson.csv2geojson(csvData, {
+        latfield: 'lat',
+        lonfield: 'lon',
+        delimiter: ','
+    }, function(err, data) {
+        map.on('load', function () {
+            map.loadImage('project5_bucketlist/img/heart.png', function(error, image) {
+                map.addImage('heart', image);
+                map.addLayer({
+                    'id': 'places',
+                    'type': 'symbol',
+                    'source': {
+                        'type': 'geojson',
+                        'data': data
+                    },
+                    'layout': {
+                        "icon-image": "heart",
+                        "icon-allow-overlap": true,
+                        "icon-size": 0.05
+                    },
+                    'paint': {}
+                });
+            });
+        });
+    });
+}
+
+// When a click event occurs on a feature in the places layer, open a popup at the
+// location of the feature, with description HTML from its properties.
+map.on('click', 'places', function (e) {
+    var coordinates = e.features[0].geometry.coordinates.slice();
+    var description = e.features[0].properties.description;
+
+    // Ensure that if the map is zoomed out such that multiple
+    // copies of the feature are visible, the popup appears
+    // over the copy being pointed to.
+    while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+        coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+    }
+
+    new mapboxgl.Popup()
+        .setLngLat(coordinates)
+        .setHTML(description)
+        .addTo(map);
+});
+
+// Change the cursor to a pointer when the mouse is over the places layer.
+map.on('mouseenter', 'places', function () {
+    map.getCanvas().style.cursor = 'pointer';
+});
+
+// Change it back to a pointer when it leaves.
+map.on('mouseleave', 'places', function () {
+    map.getCanvas().style.cursor = '';
+});
+
+</script>
+
+</body>
+</html>

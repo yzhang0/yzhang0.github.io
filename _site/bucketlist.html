@@ -72,72 +72,50 @@
 </nav>
 
 
-<h2 class="posts">What Yuan Wants</h2>
-<p class="subposts colors">
-  Things I want to do that are not related to programming. As I am getting more stressed about studying,
-  I realized my quality of life went down. I have became more reckless and impatient. I want to dedicate at least 25% of my free time
-  working on goals in this list.
-</p>
-<p  class="subposts">(P.S. refresh page for new color mapping!)</p>
-<h4 class="subposts colors" style="font-family: Chivo;">Learning</h4>
-<ul class="subposts">
-  <li>Understand how stocks work in America and internationally.</li>
-  <li>Be able to read Weibo posts without depending on a Chinese translator.</li>
-  <li>Read Harry Potter Saga in Chinese.</li>
-  <li>Read Tiny Times Saga in Chinese.</li>
-</ul>
-<h4 class="subposts colors" style="font-family: Chivo;">Creating</h4>
-<ul class="subposts">
-  <li>Provide English sub for 5 favorite songs by HK artists Wakin Chau/Richie Ren/Jonathan Lee (for more people to enjoy their talent).</li>
-  <li>Learn how to draw digital art and coloring using an Ipad.</li>
-  <li>Learn how to draw vectors on Sketch (<a href="https://design.tutsplus.com/tutorials/how-to-create-succulent-illustrations-in-adobe-illustrator--cms-27396">tutorial</a> and <a href="https://medium.com/the-100-day-project/100-days-of-vector-illustration-6f2f10209b0b">inspiration</a>).</li>
-  <li>Learn how to draw animation on Illustrator (<a href="https://uxdesign.cc/100-days-of-motion-design-463526af852f">tutorial</a> and inspiration <a href="https://dribbble.com/tiantianxu/tags/100daysofmotion">Part 1</a>, <a href="https://www.pinterest.ca/tiantianxu/ui-motion/">Part 2)</a>.</li>
-  <li>Create a Youtube Channel to rant and share my thoughts.</li>
-</ul>
-<h4 class="subposts colors" style="font-family: Chivo;">Stay Active</h4>
-<ul class="subposts">
-  <li>Learn 5 different Kpop dances.</li>
-  <li>Dance workout at least 5 days a week.</li>
-  <li>Hold Plank for 2 minutes.</li>
-</ul>
-<h4 class="subposts colors" style="font-family: Chivo;">Writing</h4>
-<ul class="subposts">
-  <li>Write my random thoughts and emotions using an Ipad and organize them every week.</li>
-  <li>Write 3 fictions (about puberty, identity crisis during university, and something else).</li>
-</ul>
-<h4 class="subposts colors" style="font-family: Chivo;">Living</h4>
-<ul class="subposts">
-  <li>Learn 5 dishes that take more than 1.5 hour to prepare.</li>
-  <li>Spend more time at art museums and galleries.</li>
-</ul>
-<h4 class="subposts colors" style="font-family: Chivo;">Relaxing</h4>
-<ul class="subposts">
-  <li>Be able to dream fantasy elements again.</li>
-  <li>Spend a full day without technology.</li>
-  <li>Live in a Victorian/Parisian apartment and make it home.</li>
-  <li>Get a toy poodle.</li>
-</ul>
 
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
-<script type="text/javascript">
-  var rainbow = ['#8dd3c7','#ffffb3','#bebada','#fb8072','#80b1d3','#fdb462','#b3de69','#fccde5','#d9d9d9'];
-  $(".colors").html(function(i, oldHtml) {
-    var arr = oldHtml.split(" ");
-
-
-    $('.colors').each(function () {
-      var oldHtml = $(this).text();
-      var arr = oldHtml.split(" ");
-      var newHtml = "";
-      for (var word = 0; word < arr.length; word++) {
-        var color = rainbow[Math.floor(Math.random() * rainbow.length)];
-        newHtml = newHtml.concat('<span style="background-color:' + color +';">' + arr[word] +'</span> ');
-      }
-      $(this).html(newHtml);
-    });
-  });
-</script>
-
+    <section id="internships">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-lg-offset-2">
+                    <h2 class="section-heading">A Bucket List based on Social Media</h2>
+                    <hr class="light">
+                    <p>
+                        [<a href="bucketlist2.html" style="color:#ff5500;">WORK IN PROGRESS</a>]
+                        <ul>
+                            <li>Data collecting: Instagram and Google Maps API.</li>
+                            <li>Data visualization: Mapbox and D3.</li>
+                            <li>Future Work: Create an interactive app with logging/interaction in React/Django/Postgres.</li>
+                        </ul>
+                    </p>
+                    <h4 class="section_title">Problem Definition</h4>
+                    <p style="text-align: left;">
+                        In the last year, my friends and I have started planning our (most likely over the top) grad trip. Full blown
+                        Otaku experience. Starry night in Alaska. Walk in the streets of Paris. Of course, as a data-driven
+                        person, I wanted to have an empirical approach to the problem. How? By being a typical girl of my generation and
+                        turning to social media for inspiration...
+                    </p>
+                    <h4 class="section_title">Data Collecting</h4>
+                    <p style="text-align: left;">
+                         Instagram was the perfect data source for this project since I was already using it for inspiration for a lot of things. I can choose
+                         accounts such as beautifuldestinations with more than 8000 labeled images, or choose traveling influencers such as taramilktea (yes, this is a job) with around 1000
+                         labeled images each. I chose the second option since it allows more customization and align with future potential enhancements (e.g. allow my friends
+                         to label data under their own username). After more procrastination (I mean, research), I was able to select 8 instagrammers with a wide variety of
+                         traveling experiences I would love to learn more about: taramilktea, girleatworld, skipwithgrace, wearetravelgirls, loic.lagarde, everchanginghorizon,
+                         danielkordan, and adventuresoflilnicki.
+                    </p>
+                    <p style="text-align: left;">
+                         Collecting data was a time consuming process and I tried both pythonanywhere and Heroku run bash to help me.
+                         Unfortunately, pythonanywhere does not let you "requests" from a lot of websites and heroku's console require the session to be open.
+                         I may try Java instead of Python (potentially faster?) or "simulate a simple Map-Reduce model and split the work amongst a bunch of machines - Debarghya Das"
+                         as an additional exercise to this project. Overall, since I was running my code linearly in two servers (no distributed system), it took 4 hours to get all the data.
+                    </p>
+                    <p style="text-align: left;">
+                         Since a lot of travelers use Asian characters to tag their location, I was extremely happy to see Google Maps API allows utf-8 encoding. It made my life so much EASIER.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
         <div class="footer" id="contact">

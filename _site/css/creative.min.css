@@ -93,7 +93,7 @@ p {
 }
 
 .aboutme-bg {
-  background: rgba(255, 255, 255, .6);
+  background: rgba(255, 255, 255, .75);
   height:55%;
 }
 
@@ -103,7 +103,7 @@ p {
 }
 
 .image-added {
-    background: url('../img/mangaschart.jpg') no-repeat center center;
+    background: url('../project2_bubblechart/img/mangaschart.jpg') no-repeat center center;
     position: relative;
     height: 73vh;
 }
