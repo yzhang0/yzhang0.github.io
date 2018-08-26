@@ -128,6 +128,9 @@ function csv2geojson(x, options, callback) {
                                           '<span class="name">Location: </span><span class="value">' +
                                           parsed[i].location +
                                           '</span>';
+                parsed[i]['icon'] = {
+                    "iconUrl": 'project5_bucketlist/img/girleatworld.png'
+                };
                 features.push({
                     type: 'Feature',
                     properties: parsed[i],
