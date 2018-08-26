@@ -43,8 +43,8 @@
     <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
     <script type="text/javascript" src="https://unpkg.com/default-passive-events"></script>
     <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
-    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.38.0/mapbox-gl.js'></script>
-    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.38.0/mapbox-gl.css' rel='stylesheet' />
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.css' rel='stylesheet' />
     <script src='project5_bucketlist/src/csv2geojson.js'></script>
     <link rel="stylesheet" href="project5_bucketlist/css/static.css">
 </head>
@@ -85,14 +85,14 @@
 </nav>
 
 
-<div class="posts" id='bucklistmap'></div>
+<div id='bucklistmap'></div>
 <script>
 mapboxgl.accessToken = 'pk.eyJ1IjoieXVhbnoyMjk5IiwiYSI6ImNqZ3gzdDFlcTFqZDMyd216OXZnMzNhdXoifQ.-i3J6xqi-dhTgwfZ7nUrLw';
 var map = new mapboxgl.Map({
         container: 'bucklistmap',
         zoom: 1.5,
         center: [2.213749, 46.227638],
-        style: 'mapbox://styles/mapbox/streets-v10'
+        style: 'mapbox://styles/mapbox/light-v9'
         });
 
 function showData(data) {
@@ -100,7 +100,7 @@ function showData(data) {
     return data;
 }
 
-d3.csv('project5_bucketlist/data/girleatworld.csv', function(error, data) {
+d3.csv('project5_bucketlist/data/mapbox.csv', function(error, data) {
     makeGeoJSON(data);
 });
 
@@ -111,22 +111,38 @@ function makeGeoJSON(csvData) {
         delimiter: ','
     }, function(err, data) {
         map.on('load', function () {
-            map.loadImage('project5_bucketlist/img/heart.png', function(error, image) {
-                map.addImage('heart', image);
-                map.addLayer({
-                    'id': 'places',
-                    'type': 'symbol',
-                    'source': {
-                        'type': 'geojson',
-                        'data': data
+            map.addControl(new mapboxgl.NavigationControl());
+
+            map.addLayer({
+                'id': 'places',
+                'type': 'circle',
+                'source': {
+                    'type': 'geojson',
+                    'data': showData(data)
+                },
+                'paint': {
+                    // make circles larger as the user zooms from z12 to z22
+                    'circle-radius': {
+                        'base': 3.5,
+                        'stops': [[12, 3.5], [22, 180]]
                     },
-                    'layout': {
-                        "icon-image": "heart",
-                        "icon-allow-overlap": true,
-                        "icon-size": 0.05
-                    },
-                    'paint': {}
-                });
+                    'circle-opacity': 0.8,
+                    // https://www.mapbox.com/mapbox-gl-js/style-spec/#expressions-match
+                    // ['#a6cee3','#1f78b4','#b2df8a','#33a02c','#fb9a99','#e31a1c','#fdbf6f','#ff7f00']
+                    'circle-color': [
+                        'match',
+                        ['get', 'user'],
+                        'taramilktea', '#33a02c',
+                        'girleatworld', '#1f78b4',
+                        'skipwithgrace', '#b2df8a',
+                        'wearetravelgirls', '#a6cee3',
+                        'loic.lagarde','#fb9a99',
+                        'everchanginghorizon','#e31a1c',
+                        'danielkordan','#fdbf6f',
+                        'adventuresoflilnicki','#ff7f00',
+                        /* other */ '#ccc'
+                    ]
+                }
             });
         });
     });
