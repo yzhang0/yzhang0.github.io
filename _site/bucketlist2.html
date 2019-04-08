@@ -46,6 +46,8 @@
     <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.js'></script>
     <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.css' rel='stylesheet' />
     <script src='project5_bucketlist/src/csv2geojson.js'></script>
+    <script src='vendor0/jquery/jquery.min.js'></script>
+    <link rel="stylesheet" href="project5_bucketlist/css/scrollbar.css">
     <link rel="stylesheet" href="project5_bucketlist/css/static.css">
 </head>
 <body>
@@ -96,7 +98,6 @@ var map = new mapboxgl.Map({
         });
 
 function showData(data) {
-    console.log(data);
     return data;
 }
 
@@ -112,7 +113,6 @@ function makeGeoJSON(csvData) {
     }, function(err, data) {
         map.on('load', function () {
             map.addControl(new mapboxgl.NavigationControl());
-
             map.addLayer({
                 'id': 'places',
                 'type': 'circle',
@@ -123,8 +123,8 @@ function makeGeoJSON(csvData) {
                 'paint': {
                     // make circles larger as the user zooms from z12 to z22
                     'circle-radius': {
-                        'base': 3.5,
-                        'stops': [[12, 3.5], [22, 180]]
+                        'base': 5,
+                        'stops': [[12, 5], [22, 180]]
                     },
                     'circle-opacity': 0.8,
                     // https://www.mapbox.com/mapbox-gl-js/style-spec/#expressions-match
@@ -140,7 +140,7 @@ function makeGeoJSON(csvData) {
                         'everchanginghorizon','#e31a1c',
                         'danielkordan','#fdbf6f',
                         'adventuresoflilnicki','#ff7f00',
-                        /* other */ '#ccc'
+                        /* other */ '#33a02c'
                     ]
                 }
             });

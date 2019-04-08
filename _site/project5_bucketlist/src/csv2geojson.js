@@ -9,6 +9,20 @@ function keyCount(o) {
     return (typeof o == 'object') ? Object.keys(o).length : 0;
 }
 
+function genHTML(parsed) {
+    parsed_images = "";
+    images_array = parsed.images.slice(1, -1).split(",");
+    for (var i = 0; i < images_array.length; i++) {
+        console.log(parsed_images);
+        parsed_images = parsed_images + '<img src=' + images_array[i] +'><br/>';
+    }
+    test = '<div class="modal-body">' +
+    parsed_images +
+    'Location:' + parsed.location + '<br/>' +
+    '</div>';
+    return test;
+}
+
 function autoDelimiter(x) {
     var delimiters = [',', ';', '\t', '|'];
     var results = [];
@@ -121,16 +135,7 @@ function csv2geojson(x, options, callback) {
                     delete parsed[i][lonfield];
                     delete parsed[i][latfield];
                 }
-                parsed[i]['description'] ='<img src="' + parsed[i].image +'"><br/>' +
-                                          '<span class="name">User: </span><span class="value">' +
-                                          parsed[i].user +
-                                          '</span><br/>' +
-                                          '<span class="name">Location: </span><span class="value">' +
-                                          parsed[i].location +
-                                          '</span>';
-                parsed[i]['icon'] = {
-                    "iconUrl": 'project5_bucketlist/img/girleatworld.png'
-                };
+                parsed[i]['description'] = genHTML(parsed[i]);
                 features.push({
                     type: 'Feature',
                     properties: parsed[i],

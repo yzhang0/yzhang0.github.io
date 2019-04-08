@@ -12,4 +12,5 @@ img {
 
 .mapboxgl-popup-content {
   max-width: 240px;
+  padding: 0px 0px 0px;
 }
