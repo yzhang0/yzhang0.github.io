@@ -1,0 +1,118 @@
+---
+layout: default
+permalink: travels.html
+---
+
+
+
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script type="text/javascript" src="https://unpkg.com/default-passive-events"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/d3/3.5.6/d3.min.js"></script>
+    <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.js'></script>
+    <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.48.0/mapbox-gl.css' rel='stylesheet' />
+    <script src='project5_bucketlist/src/csv2geojson.js'></script>
+    <script src='vendor0/jquery/jquery.min.js'></script>
+    <link rel="stylesheet" href="project5_bucketlist/css/scrollbar.css">
+    <link rel="stylesheet" href="project5_bucketlist/css/static.css">
+</head>
+<body>
+
+{% include nav.html %}
+
+<div id='bucklistmap'></div>
+<script>
+mapboxgl.accessToken = 'pk.eyJ1IjoieXVhbnoyMjk5IiwiYSI6ImNqZ3gzdDFlcTFqZDMyd216OXZnMzNhdXoifQ.-i3J6xqi-dhTgwfZ7nUrLw';
+var map = new mapboxgl.Map({
+        container: 'bucklistmap',
+        zoom: 1.5,
+        center: [2.213749, 46.227638],
+        style: 'mapbox://styles/mapbox/streets-v8'
+        });
+
+function showData(data) {
+    return data;
+}
+
+d3.csv('', function(error, data) {
+    makeGeoJSON(data);
+});
+
+function makeGeoJSON(csvData) {
+    csv2geojson.csv2geojson(csvData, {
+        latfield: 'lat',
+        lonfield: 'lon',
+        delimiter: ','
+    }, function(err, data) {
+        map.on('load', function () {
+            map.addControl(new mapboxgl.NavigationControl());
+            map.addLayer({
+                'id': 'places',
+                'type': 'circle',
+                'source': {
+                    'type': 'geojson',
+                    'data': showData(data)
+                },
+                'paint': {
+                    // make circles larger as the user zooms from z12 to z22
+                    'circle-radius': {
+                        'base': 5,
+                        'stops': [[12, 5], [22, 180]]
+                    },
+                    'circle-opacity': 0.8,
+                    // https://www.mapbox.com/mapbox-gl-js/style-spec/#expressions-match
+                    // ['#a6cee3','#1f78b4','#b2df8a','#33a02c','#fb9a99','#e31a1c','#fdbf6f','#ff7f00']
+                    'circle-color': [
+                        'match',
+                        ['get', 'user'],
+                        'taramilktea', '#33a02c',
+                        'girleatworld', '#1f78b4',
+                        'skipwithgrace', '#b2df8a',
+                        'wearetravelgirls', '#a6cee3',
+                        'loic.lagarde','#fb9a99',
+                        'everchanginghorizon','#e31a1c',
+                        'danielkordan','#fdbf6f',
+                        'adventuresoflilnicki','#ff7f00',
+                        /* other */ '#33a02c'
+                    ]
+                }
+            });
+        });
+    });
+}
+
+// When a click event occurs on a feature in the places layer, open a popup at the
+// location of the feature, with description HTML from its properties.
+map.on('click', 'places', function (e) {
+    var coordinates = e.features[0].geometry.coordinates.slice();
+    var description = e.features[0].properties.description;
+
+    // Ensure that if the map is zoomed out such that multiple
+    // copies of the feature are visible, the popup appears
+    // over the copy being pointed to.
+    while (Math.abs(e.lngLat.lng - coordinates[0]) > 180) {
+        coordinates[0] += e.lngLat.lng > coordinates[0] ? 360 : -360;
+    }
+
+    new mapboxgl.Popup()
+        .setLngLat(coordinates)
+        .setHTML(description)
+        .addTo(map);
+});
+
+// Change the cursor to a pointer when the mouse is over the places layer.
+map.on('mouseenter', 'places', function () {
+    map.getCanvas().style.cursor = 'pointer';
+});
+
+// Change it back to a pointer when it leaves.
+map.on('mouseleave', 'places', function () {
+    map.getCanvas().style.cursor = '';
+});
+
+</script>
+
+</body>
+</html>
