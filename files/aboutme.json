@@ -2,107 +2,120 @@
  "name": "I LOVE",
  "children": [
   {
-   "name": "Books",
+   "name": "Entertainment",
    "children": [
     {
-     "name": "Manga",
+     "name": "Books",
      "children": [
-      {"name": "7 Seeds", "size": 3938},
-      {"name": "Basara", "size": 3812},
-      {"name": "Monster", "size": 6714},
-      {"name": "20th Centhury Boys", "size": 743},
-      {"name": "Ashita no Osuma", "size": 3938},
-      {"name": "Nana", "size": 3812},
-      {"name": "Orange", "size": 6714},
-      {"name": "Bokura Ga Ita", "size": 743},
-      {"name": "Death Note", "size": 3938},
-      {"name": "One Piece", "size": 3812}
+      {
+       "name": "Manga",
+       "children": [
+        {"name": "7 Seeds", "size": 3938},
+        {"name": "Basara", "size": 3812},
+        {"name": "Monster", "size": 6714},
+        {"name": "20th Centhury Boys", "size": 743},
+        {"name": "Ashita no Osuma", "size": 3938},
+        {"name": "Nana", "size": 3812},
+        {"name": "Orange", "size": 6714},
+        {"name": "Bokura Ga Ita", "size": 743},
+        {"name": "Death Note", "size": 3938},
+        {"name": "One Piece", "size": 3812}
+       ]
+      },
+      {
+       "name": "Literature",
+       "children": [
+        {"name": "Wuthering Heights", "size": 3534},
+        {"name": "Gone with the Wind", "size": 5731},
+        {"name": "Catcher in the Rye", "size": 7840}
+       ]
+      },
+      {
+       "name": "Fiction",
+       "children": [
+        {"name": "Harry Potter", "size": 7074},
+        {"name": "Agatha Christie's novels", "size": 7074}
+       ]
+      }
      ]
     },
     {
-     "name": "Literature",
+     "name": "Movies",
      "children": [
-      {"name": "Wuthering Heights", "size": 3534},
-      {"name": "Gone with the Wind", "size": 5731},
-      {"name": "Catcher in the Rye", "size": 7840}
+      {"name": "The Social Network", "size": 17010},
+      {"name": "Gone Girl", "size": 5842},
+      {"name": "The Dark Knight", "size": 5842}
      ]
     },
     {
-     "name": "Fiction",
+     "name": "Music",
      "children": [
-      {"name": "Harry Potter", "size": 7074}
+      {"name": "Lana Del Rey", "size": 17010},
+      {"name": "The Weeknd", "size": 5842},
+      {"name": "Carly Rae Jepsen", "size": 5842}
      ]
     }
    ]
   },
   {
-   "name": "Instagram",
-   "children": [
-    {
-     "name": "Traveling",
-     "children": [
-      {"name": "taramilktea", "size": 721},
-      {"name": "lichipan", "size": 4294}
-     ]
-    },
-    {
-     "name": "Photography",
-     "children": [
-      {"name": "brandonwoelfel", "size": 721},
-      {"name": "steveroe_", "size": 4294},
-      {"name": "pelle.faust", "size": 9800}
-     ]
-    },
-    {
-     "name": "Lifestyle",
-     "children": [
-      {"name": "emiwong_", "size": 721}
-     ]
-    },
-    {
-     "name": "Cooking",
-     "children": [
-      {"name": "ladyandpups", "size": 721},
-      {"name": "tworedbowls", "size": 4294},
-      {"name": "twiggstudios", "size": 9800}
-     ]
-    },
-    {
-     "name": "Illustration",
-     "children": [
-      {"name": "yunmeiart", "size": 721},
-      {"name": "qinniart", "size": 4294},
-      {"name": "soaesthetic", "size": 9800}
-     ]
-    }
-   ]
-  },
-  {
-   "name": "Youtube",
-   "children": [
-    {
-      "name": "Cooking",
-      "children": [
-        {"name": "Ms Yeah", "size": 0},
-        {"name": "Cat's Kitchen", "size": 0},
-        {"name": "Jun's Kitchen", "size": 0}
-      ]
-    },
-    {
-      "name": "Work Out",
-      "children": [
-        {"name": "Sarahkaypop", "size": 0},
-        {"name": "Kkardio Dance", "size": 0},
-        {"name": "Emi Wong", "size": 0}
-      ]
-    },
-    {
-      "name": "Art",
-      "children": [
-        {"name": "CatCreature", "size": 0}
-      ]
-    }
-   ]
+    "name": "Social media",
+    "children": [
+      {
+       "name": "Instagram",
+       "children": [
+        {
+         "name": "Traveling",
+         "children": [
+          {"name": "taramilktea", "size": 721},
+          {"name": "mollified", "size": 4294}
+         ]
+        },
+        {
+         "name": "Cooking",
+         "children": [
+          {"name": "ladyandpups", "size": 721},
+          {"name": "sophia_roe", "size": 4294},
+          {"name": "frommybowl", "size": 4294}
+         ]
+        },
+        {
+         "name": "Illustration",
+         "children": [
+          {"name": "yunmeiart", "size": 721},
+          {"name": "qinniart", "size": 4294}
+         ]
+        }
+       ]
+      },
+      {
+       "name": "Youtube",
+       "children": [
+        {
+          "name": "Cooking",
+          "children": [
+            {"name": "Ms Yeah", "size": 0},
+            {"name": "Jun's Kitchen", "size": 0},
+            {"name": "HellthyJunkFood", "size": 0}
+          ]
+        },
+        {
+          "name": "Lifestyle",
+          "children": [
+            {"name": "best.dressed", "size": 721},
+            {"name": "CatCreature", "size": 0}
+          ]
+        },
+        {
+          "name": "Health",
+          "children": [
+            {"name": "Emi Wong", "size": 721},
+            {"name": "Alexis Ren", "size": 721},
+            {"name": "Gabriella Whited", "size": 721}
+          ]
+        }
+       ]
+      }
+    ]
   },
   {
    "name": "Cities",
@@ -126,14 +139,22 @@
         {"name": "Thrift Shops", "size": 0},
         {"name": "Colorful houses", "size": 0}
       ]
+    },
+    {
+      "name": "Toronto",
+      "children": [
+        {"name": "Slangs", "size": 0},
+        {"name": "Asian Food", "size": 0}
+      ]
     }
    ]
   },
   {
-   "name": "Life",
+   "name": "Misc.",
    "children": [
     {"name": "Tree", "size": 17010},
-    {"name": "Rocks", "size": 5842},
+    {"name": "Stairs", "size": 5842},
+    {"name": "Mural", "size": 5842},
     {"name": "Toy Poodle", "size": 5842}
    ]
   }
