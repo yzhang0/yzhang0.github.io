@@ -44,7 +44,8 @@ function makeGeoJSON(csvData) {
     csv2geojson.csv2geojson(csvData, {
         latfield: 'lat',
         lonfield: 'lon',
-        delimiter: ','
+        delimiter: ',',
+        type: 'online'
     }, function(err, data) {
         map.on('load', function () {
             map.addControl(new mapboxgl.NavigationControl());

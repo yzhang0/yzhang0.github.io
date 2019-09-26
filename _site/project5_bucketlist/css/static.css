@@ -7,10 +7,11 @@
 }
 
 img {
-  width: 200px;
+  width: 300px;
+  image-orientation: from-image;
 }
 
 .mapboxgl-popup-content {
-  max-width: 240px;
+  max-width: 300px;
   padding: 0px 0px 0px;
 }
