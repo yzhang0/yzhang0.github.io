@@ -9,16 +9,24 @@ function keyCount(o) {
     return (typeof o == 'object') ? Object.keys(o).length : 0;
 }
 
-function genHTML(parsed) {
+function genHTML(parsed, type) {
     parsed_images = "";
-    images_array = parsed.images.slice(1, -1).split(",");
-    for (var i = 0; i < images_array.length; i++) {
-        console.log(parsed_images);
-        parsed_images = parsed_images + '<img src=' + images_array[i] +'><br/>';
+    if (type == "online") {
+      images_array = parsed.images.slice(1, -1).split(",");
+      for (var i = 0; i < images_array.length; i++) {
+          parsed_images = parsed_images + '<img src=' + images_array[i] +'><br/>';
+      }
+    } else {
+      count = parseInt(parsed.count);
+      for (var i = 1; i <= parseInt(parsed.count); i++) {
+        imglink = 'img/map/' + parsed.acronym + '_' + i.toString() +'.jpg';
+        image = '<img src=' + imglink +'><br/>';
+        parsed_images = parsed_images + image;
+      }
     }
     test = '<div class="modal-body">' +
     parsed_images +
-    'Location:' + parsed.location + '<br/>' +
+    'Location: ' + parsed.location.charAt(0).toUpperCase() + parsed.location.slice(1) + '<br/>' +
     '</div>';
     return test;
 }
@@ -135,7 +143,7 @@ function csv2geojson(x, options, callback) {
                     delete parsed[i][lonfield];
                     delete parsed[i][latfield];
                 }
-                parsed[i]['description'] = genHTML(parsed[i]);
+                parsed[i]['description'] = genHTML(parsed[i], options.type);
                 features.push({
                     type: 'Feature',
                     properties: parsed[i],
