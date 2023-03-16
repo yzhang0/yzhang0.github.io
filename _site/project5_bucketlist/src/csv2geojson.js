@@ -22,6 +22,7 @@ function genHTML(parsed, type) {
         imglink = 'img/map2/' + parsed.acronym + '_' + i.toString() +'.jpg';
         image = '<img src=' + imglink +'><br/>';
         parsed_images = parsed_images + image;
+        console.log(image);
       }
     }
     test = '<div class="modal-body">' +
