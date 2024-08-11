@@ -19,9 +19,10 @@ function genHTML(parsed, type) {
     } else {
       count = parseInt(parsed.count);
       for (var i = 1; i <= parseInt(parsed.count); i++) {
-        imglink = 'img/map/' + parsed.acronym + '_' + i.toString() +'.jpg';
+        imglink = 'img/map2/' + parsed.acronym + '_' + i.toString() +'.jpg';
         image = '<img src=' + imglink +'><br/>';
         parsed_images = parsed_images + image;
+        console.log(image);
       }
     }
     test = '<div class="modal-body">' +
